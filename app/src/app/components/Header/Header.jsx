@@ -40,7 +40,7 @@ export default function Header() {
                     text-2xl m-5">
                     <ul className="flex items-center gap-10">
                         <li><Switch /></li>
-                        <li className="p-5 hover:scale-105 hover:text-gray-400 transition w-36"><img className="rounded-full" src="/perfil.jfif" alt="Foto de perfil" /></li>{/* Foto */}
+                        <li className="p-5 hover:scale-105 hover:text-gray-400 transition w-36"><img className="rounded-full" src="/perfil.jfif" alt="Foto de perfil" /></li>
                     </ul>
                 </div>
             </nav>
