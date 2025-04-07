@@ -13,7 +13,7 @@ export default function Header() {
             via-rose-900
             to-background
             w-full
-            inline-flex justify-between items-center
+            inline-flex justify-between items-center 
             ">
 
                 <div className="flex gap-10">
@@ -22,7 +22,7 @@ export default function Header() {
 
                     <div className="flex items-center 
                     justify-center gap-10 
-                    text-2xl">
+                    text-2xl ">
 
                         <ul 
                         className="flex items-center 
