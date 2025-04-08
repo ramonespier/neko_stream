@@ -2,6 +2,11 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
+import Promocao from "./components/Promocao/Promocao";
+import Slide from "./components/Slides/Slides";
+import Card from "./components/Card/Card";
+import Planos from './components/Planos/Planos'
+
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -25,6 +30,10 @@ export default function RootLayout({ children }) {
         className={`${geistSans.variable} ${geistMono.variable} antialiased h-screen`}
       >
         <Header />
+        <Promocao/>
+        <Slide/>
+        <Planos/>
+   
         {children}
         <Footer />
 
