@@ -2,6 +2,7 @@
 
 import Switch from "../BotaoTema/Botao"
 import './header.css'
+import Dropdown from "../Dropdown/dropdown"
 
 export default function Header() {
     return (
@@ -18,7 +19,12 @@ export default function Header() {
 
                 <div className="flex gap-10">
 
-                    <span><img src="/neko_dark.png" className="w-40 ml-5" alt="Logotipo Neko Stream" /></span>
+
+                    <span><img src="/neko_dark.png" alt="Logotipo Neko Stream"
+                    className="w-40 ml-5 absolute top-5"  
+                    /></span>
+
+                    <div className="w-40"></div> {/* espaço apenas para ajeitar distância equivalente */}
 
                     <div className="flex items-center 
                     justify-center gap-10 
@@ -33,6 +39,8 @@ export default function Header() {
                         </ul>
                     </div>
                 </div>
+
+                <Dropdown/>
 
                 <div
                     className="flex items-center 
