@@ -25,7 +25,6 @@ export default function Promocao() {
                     <button type="button" className="uppercase p-5 cursor-pointer  bg-rose-900 rounded-xl hover:opacity-85 hover:text-black duration-300 w-90    font-bold">Experimente 7 dias grátis</button>
                     </div>
 
-                    <p className="text-rose-600 font-extrabold text-[20px]">Comparar todos os planos abaixo &darr;</p>
                 </div>
 
                 <div className="flex justify-center mt-5"></div>
@@ -35,6 +34,8 @@ export default function Promocao() {
                     ))}
                 </div>
             </div>
+            <p className="text-rose-600 font-extrabold text-[20px] flex justify-center">Comparar todos os planos abaixo &darr;</p>
+
             {/* fim div pai */}
 
 
