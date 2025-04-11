@@ -30,7 +30,7 @@ export default function Promocao() {
                 <div className="flex justify-center mt-5"></div>
                 <div className="animes flex w-[60%] h-[450px]">
                     {animes.map((anime) => (
-                        <img src={anime.img} className="w-0 grow-100 object-cover duration-300 ease-out opacity-40 rounded-2xl m-[1%] hover:w-[117px] hover:opacity-100 hover:contrats-[120%]" ></img>
+                        <img key={anime.id} src={anime.img} className="w-0 grow-100 object-cover duration-300 ease-out opacity-40 rounded-2xl m-[1%] hover:w-[117px] hover:opacity-100 hover:contrats-[120%]" ></img>
                     ))}
                 </div>
             </div>
