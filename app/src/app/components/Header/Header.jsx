@@ -8,7 +8,7 @@ export default function Header() {
     return (
         <header>
             <nav
-            className="
+                className="
             bg-gradient-to-b
             from-rose-600
             via-rose-900
@@ -21,18 +21,21 @@ export default function Header() {
 
 
                     <span><img src="/neko_dark.png" alt="Logotipo Neko Stream"
-                    className="w-40 ml-5 absolute top-5"  
+                        className="lg:w-40 md:w-40 w-32 ml-5 absolute top-5"
                     /></span>
 
-                    <div className="w-40"></div> {/* espaço apenas para ajeitar distância equivalente */}
+                    <div className="w-40 h-40"></div> {/* espaço apenas para ajeitar distância equivalente */}
 
                     <div className="flex items-center 
-                    justify-center gap-10 
+                    justify-center gap-10
                     text-2xl ">
 
-                        <ul 
-                        className="flex items-center 
+                        <ul
+                            className="lg:flex md:flex
+                        hidden items-center
                         justify-center gap-10
+                        
+                        
                         ">
                             <li className="p-5 hover:scale-105 hover:text-gray-400 transition"><a href="#">Catálogo</a></li>
                             <li className="p-5 hover:scale-105 hover:text-gray-400 transition"><a href="#">Watchlist</a></li>
@@ -40,13 +43,13 @@ export default function Header() {
                     </div>
                 </div>
 
-                <Dropdown/>
 
                 <div
-                    className="flex items-center 
+                    className=" items-center 
                     gap-10
                     text-2xl m-5">
-                    <ul className="flex items-center gap-10">
+                    <Dropdown />
+                    <ul className="hidden lg:flex md:flex tems-center gap-10">
                         <li className="p-5 hover:scale-105 hover:text-gray-400 transition w-36"><img className="rounded-full" src="/perfil.jfif" alt="Foto de perfil" /></li>
                     </ul>
                 </div>
