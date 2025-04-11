@@ -3,9 +3,9 @@ import "./globals.css";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import Promocao from "./components/Promocao/Promocao";
-import Slide from "./components/Slides/Slides";
-import Card from "./components/Card/Card";
+import Card from "./components/Card/CardVip1";
 import Planos from './components/Planos/Planos'
+import Banners from "./components/Banners-Promocionais/Banners";
 
 
 const geistSans = Geist({
@@ -31,9 +31,8 @@ export default function RootLayout({ children }) {
       >
         <Header />
         <Promocao/>
-        <Slide/>
         <Planos/>
-   
+    <Banners/>
         {children}
         <Footer />
 
