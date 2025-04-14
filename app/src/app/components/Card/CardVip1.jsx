@@ -4,9 +4,8 @@ export default function CardVip1() {
   return (
     <>
 
-      <div className="card w-80 lg:w-[400] bg-rose-900 text-white p-8 rounded-xl border-2 mt-8 relative">
+      <div className="card w-85 lg:w-[400] bg-rose-900 text-white p-8 rounded-xl border-2 mt-8 relative">
         <div className="list flex flex-col items-center gap-5">
-        <div><img src="./neko-vip.png" className="w-20 absolute left-0 top-0 " alt="" /></div>
           <div className="titulo font-extrabold text-3xl"><h2>FAN</h2></div>
           <div className="price text-3xl font-extrabold underline underline-offset-8">R$ 10,99/mês</div>
           <div className="button text-[16px] font-bold bg-rose-700 hover:bg-rose-950 duration-200 ease-in rounded-lg p-2"><button type="button">Comece um teste grátis de 7 dias</button></div>
