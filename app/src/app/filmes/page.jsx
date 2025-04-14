@@ -1,10 +1,11 @@
 import Menu from '../components/MenuFilmes/MenuFilmes.jsx';
 import Carosel from '../components/CaroselFilmes/page.jsx';
+import Episodios from "../components/episodios/page.jsx"
 export default function pageFilmes() {
     return (
         <>
 
-            <body className='bg-black'>
+            <div className='bg-black'>
                 <section className="grid grid-cols-12 mt-30 mb-50"> {/*Inicio body grid*/}
                     <div className='col-span-3'>
                         <Menu/>
@@ -17,11 +18,11 @@ export default function pageFilmes() {
                         </div>
 
                         <div> {/** episodeos */}
-
+                            <Episodios/>
                         </div>
                     </div>
                 </section>{/*Fim body grid*/}
-            </body>
+            </div>
         </>
     )
 }

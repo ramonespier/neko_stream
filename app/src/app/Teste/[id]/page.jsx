@@ -1,5 +1,5 @@
-export default function Teste({ params }) {
-    const { id } = params; // Obtém o ID dinâmico da URL
+export default async function Teste({ params }) {
+    const {id} = await params; // Obtém o ID dinâmico da URL
 
     return (
         <div>
