@@ -1,8 +1,8 @@
 export default function Banners() {
 
     return (
-        <div className="grid grid-cols-5 font-extrabold gap-20 mt-10">
-            <div className="col-start-2">
+        <div className="grid grid-rows-3 grid-cols-1 font-extrabold gap-20 mt-10 lg:grid-rows-1 lg:grid-cols-5">
+            <div className="lg:col-start-2">
                 <div className="text-center">
                 <img src="./namo.png" className=""></img>
                 <p>Assista onde quiser</p>
@@ -10,13 +10,13 @@ export default function Banners() {
                 </div>
             </div>
            
-            <div className="col-start-3">
+            <div>
                 <img src="./test.png" alt="" />
             <p>Baixe para assistir quando e onde quiser</p>
             <p>Assista offline no app Prime Video ao baixar títulos em seu iPhone, iPad, tablet ou dispositivo Android.</p>
             </div>
 
-            <div className="col-start-4">
+            <div >
             <img src="./test.png" alt="" />
 
             <p>Economia de dados</p>
