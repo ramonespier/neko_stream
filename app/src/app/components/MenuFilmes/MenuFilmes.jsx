@@ -158,7 +158,7 @@ export default function menuFilmes() {
                             </div>
 
                             <div>
-                            <a href="./Teste">Teste</a> {/** APAGAR */}
+                            <a href="./teste">Teste</a> {/** APAGAR */}
                                 <button></button>
                             </div>
 
