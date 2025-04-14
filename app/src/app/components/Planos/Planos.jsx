@@ -15,7 +15,7 @@ export default function Planos() {
   const [planoSelecionado, setPlanoSelecionado] = useState(0);
 
   return (
-    <div className="md:hidden flex flex-col items-center gap-6 p-6">
+    <div className="lg:hidden flex flex-col items-center gap-6 p-6">
       {/* Botões para trocar de plano */}
       <div className="flex gap-4">
         {cards.map((card, index) => (
@@ -34,7 +34,7 @@ export default function Planos() {
       </div>
 
       {/* Card atual */}
-      <div className="w-full max-w-md">{cards[planoSelecionado].componente}</div>
+      <div className="w-full max-w-md flex justify-center items-center">{cards[planoSelecionado].componente}</div>
     </div>
   );
 }

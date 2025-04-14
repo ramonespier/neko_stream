@@ -10,7 +10,7 @@ export default function CardVip3() {
           <div className="detalhes font-mono"><p>Assista a todo o acervo da Crunchyroll, sem propagandas, com novos episódios logo após o lançamento no Japão.*</p></div>
           <div className="flex flex-col">
             <span className="uppercase text-[12px]">——— plus ———</span>
-            <span className="text-[13px]">✔ Assista em até 1 tela</span>
+            <span className="text-[13px]">✔ Assista em até 4 telas</span>
             <span className="text-[13px]">✔ Offline viewing</span>
             <span className="text-[13px]">✔ Acesse a Neko Game Vault, um catálogo de jogos gratuitos</span>
             <span className="text-[13px]">✔ 16% de desconto na mensalidade (cobrado anualmente)</span>
