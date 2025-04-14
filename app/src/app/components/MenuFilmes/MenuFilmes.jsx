@@ -174,9 +174,3 @@ export default function menuFilmes() {
 }
 // FUNC faltas = Detalhes, Lista de Desejos, Curtir
 
-
-//copilot eu tenho um catalogo de filme e ao clicar em um nome
-// eu quero ser redirecionado a uma pagina especifica desse
-// filme, porem caso clique em outro que acessar a mesma pagina
-// somente com os indeces e conteudos trocados qual é a mlehor
-// forma de fazer isso?
