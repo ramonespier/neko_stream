@@ -30,9 +30,6 @@ export default function RootLayout({ children }) {
         className={`${geistSans.variable} ${geistMono.variable} antialiased h-screen`}
       >
         <Header />
-        <Promocao/>
-        <Planos/>
-    <Banners/>
         {children}
         <Footer />
 
