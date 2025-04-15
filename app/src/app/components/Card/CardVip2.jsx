@@ -1,4 +1,4 @@
-export default function CardVip1() {
+export default function CardVip2() {
   return (
     <>
     
