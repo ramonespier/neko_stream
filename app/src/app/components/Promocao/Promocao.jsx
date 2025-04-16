@@ -14,16 +14,16 @@ export default function Promocao() {
                             grid-rows-1 grid-cols-1
                             lg:grid-cols-2 
                             md:grid-cols-1 
-                            m-5">
+                            ">
 
                 <div className="flex flex-col items-center
                                 row-start-1 col-start-1 
                                 lg:row-start-1 lg:col-start-1 
                                 md:row-start-1 md:col-start-1 
-                                gap-2.5 m-5">
+                                gap-2.5">
 
-                    <h1 className="px-3 text- font-extrabold text-3xl w-svw md:w-md">Melhore sua experiência com o premium!</h1>
-                    <p className="px-3 break-words text-justify font-bold text-gray-300 w-svw md:w-md">Assista a animes e séries sem anúncios e aproveite a entrega rápida e gratuita em diversos produtos. Não perca essa oportunidade de mergulhar no universo dos animes com a melhor qualidade! Aproveite também a entrega rápida e gratuita em diversos produtos."
+                    <h1 className="px-8 md:px-3 text- font-extrabold text-3xl w-svw md:w-md">Melhore sua experiência com o premium!</h1>
+                    <p className="px-8 md:px-3 break-words text-justify font-bold text-gray-300 w-svw md:w-md">Assista a animes e séries sem anúncios e aproveite a entrega rápida e gratuita em diversos produtos. Não perca essa oportunidade de mergulhar no universo dos animes com a melhor qualidade! Aproveite também a entrega rápida e gratuita em diversos produtos."
 
                         Agora está mais simples, mantendo o foco nas vantagens de assistir sem anúncios e na entrega.</p>
 
@@ -60,7 +60,7 @@ export default function Promocao() {
                 </div>
             </div>
 
-            <p className="text-rose-600 font-extrabold text-[20px] flex justify-center">Comparar todos os planos abaixo &darr;</p>
+            <p className="text-rose-600 font-extrabold text-[20px] flex justify-center">Escolha Seu VIP &darr;</p>
 
             {/* fim div pai */}
 

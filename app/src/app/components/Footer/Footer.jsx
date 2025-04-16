@@ -15,7 +15,7 @@ export default function Footer() {
                 <div
                     className="
                     flex justify-center items-end
-                    p-5
+                    p-5 text-center
                     ">
                     <span>&copy;Neko Stream 2025. Todos os direitos reservados.</span>
                 </div>

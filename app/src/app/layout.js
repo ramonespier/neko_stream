@@ -2,10 +2,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
-import Promocao from "./components/Promocao/Promocao";
-import Card from "./components/Card/CardVip1";
-import Planos from './components/Planos/Planos'
-import Banners from "./components/Banners-Promocionais/Banners";
+
 
 
 const geistSans = Geist({

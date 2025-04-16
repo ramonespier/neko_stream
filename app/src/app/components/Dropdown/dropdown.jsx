@@ -20,10 +20,10 @@ import {
           <button
             onClick={() => setOpen((pv) => !pv)}
             className="flex items-center justify-center 
-            gap-2 px-4 py-4 rounded-md 
+            gap-2 px-4 py-4 rounded-full 
             border border-white/50 
             text-indigo-50 bg-rose-950/50
-            hover:bg-rose-950 transition-colors w-12
+            hover:bg-rose-950 transition-colors w-14
             lg:hidden
             md:hidden"
           >
