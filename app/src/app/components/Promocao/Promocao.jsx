@@ -60,7 +60,7 @@ export default function Promocao() {
                 </div>
             </div>
 
-            <p className="text-rose-600 font-extrabold text-[20px] flex justify-center">Escolha Seu VIP &darr;</p>
+            <p className="text-rose-600 font-extrabold text-[25px] flex justify-center">Escolha Seu VIP &darr;</p>
 
             {/* fim div pai */}
 
