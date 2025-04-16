@@ -1,19 +1,39 @@
 {
     "titulos": [
-        {
-            "nome": "teste1", 
-            "age":1, 
-            "episodeos": [
-                {"titulo":"titulo1", "descr": "desc"},
-                {"titulo":"titulo12", "descr": "desc22"}
-        ]},
+
+            {
+                "nome": "Demon Slayer: Kimetsu no Yaiba", 
+                "age": 2019, 
+                "episodios": [
+                    {
+                        "titulo": "Crueldade",
+                        "descr": "Tanjiro Kamado retorna para casa e descobre que sua família foi brutalmente assassinada por demônios. Apenas sua irmã Nezuko sobrevive, mas transformada em um demônio.",
+                        "img": "https://wallpaperaccess.com/full/9457789.png"
+                    },
+                    {
+                        "titulo": "Treinamento Final",
+                        "descr": "Tanjiro e seus amigos passam por um intenso treinamento para aprimorar suas habilidades antes de enfrentar ameaças ainda maiores no mundo dos demônios.",
+                        "img": "https://wallpaperaccess.com/full/9457789.png"
+                    },
+                    {
+                        "titulo": "Lua Superior Entra em Ação",
+                        "descr": "As Luas Superiores começam a se mover, revelando o verdadeiro poder dos demônios e colocando os Caçadores de Demônios em risco.",
+                        "img": "https://wallpaperaccess.com/full/9457789.png"
+                    }
+                ]
+            },
 
         {
             "nome": "teste13", 
             "age":13, 
-            "episodeos": [
-                {"titulo":"titulo133", "descr": "desc33"},
-                {"titulo":"titulo1233", "descr": "desc223"}
+            "episodios": [
+                {"titulo":"titulo2", "descr": "desc2"},
+                {"titulo":"titulos2", "descr": "desc2"},
+                {"titulo":"titulos2", "descr": "desc2"},
+                {"titulo":"titulos2", "descr": "desc2"},
+                {"titulo":"titulos2", "descr": "desc2"},
+                {"titulo":"titulos2", "descr": "desc2"},
+                {"titulo":"titulos2", "descr": "desc2"}
         ]}
 
     ]

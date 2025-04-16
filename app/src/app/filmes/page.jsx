@@ -1,6 +1,6 @@
 import Menu from '../components/MenuFilmes/MenuFilmes.jsx';
 import Carosel from '../components/CaroselFilmes/page.jsx';
-import Episodios from "../components/episodios/page.jsx"
+import Episodios from "../components/Episodios/Episodios.jsx"
 export default function pageFilmes() {
     return (
         <>
