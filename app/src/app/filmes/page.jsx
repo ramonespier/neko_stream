@@ -1,5 +1,5 @@
 import Menu from '../components/MenuFilmes/MenuFilmes.jsx';
-import Carosel from '../components/CaroselFilmes/page.jsx';
+import Carosel from '../components/CaroselFilmes/Carossel.jsx';
 import Episodios from "../components/Episodios/Episodios.jsx"
 export default function pageFilmes() {
     return (
@@ -12,12 +12,14 @@ export default function pageFilmes() {
                     </div>
                     
                     {/* -------------------------------------------------------- */}
-                    <div className="col-span-9 bg-green-200" >{/*Menu  */}
-                        <div className='w-full bg-red-500 px-40'> {/** Carrosel */}
+                    <div className="col-span-9 bg-neutral-800 rounded-l-lg" >{/*Menu  */}
+                        <div className='bg-stone-900 py-7 rounded-tl-lg'>
+                        <div className='w-full bg-neutral-800 px-40'> {/** Carrosel */}
                             <Carosel/>
                         </div>
+                        </div>
 
-                        <div> {/** episodeos */}
+                        <div className=''> {/** episodeos */}
                             <Episodios/>
                         </div>
                     </div>
