@@ -18,8 +18,8 @@ export default function episodiosFunc() {
                     <h1 className="text-center text-4xl my-5 underline decoration-red-500 decoration-4">Episodios</h1>
                     <div className="grid grid-cols-4 gap-5 pb-10">
                         {data2.episodios.map((item) => (
-                            <div key={item.titulo} className=" border-1 flex flex-col items-end h-35 relative">
-                                <button className="z-20 absolute " onClick={() => changeStatus(item.titulo)}>a</button>
+                            <div key={item.titulo} className=" border-1 flex flex-col items-end h-35 relative hover:scale-105">
+                                <button className="z-20 absolute p-1 " onClick={() => changeStatus(item.titulo)}><img src='./icon/info.png' alt='fechar' className="w-5 cursor-pointer hover:scale-110"/></button>
 
                                 <div className={` ${activeItem === item.titulo ? 'fixed' : 'hidden'} w-full flex flex-col items-center relative z-10 h-full px-1 border border-1 rounded`}style={{ backgroundColor: "rgba(0, 0, 0, 0.5)" }}>
                                     <p className="relative">{item.titulo}</p>

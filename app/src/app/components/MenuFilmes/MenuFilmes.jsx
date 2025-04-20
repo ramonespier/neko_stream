@@ -44,11 +44,11 @@ export default function menuFilmes() {
         <>
             <section className=" bg-black p-5 ">{/*Inico section menu*/}
                 <div className="w-full mr-5 bg-neutral-800 border-3 border-neutral-500 shadow-rose-css rounded-lg"> {/*div central menu*/}
-                    <div className="font-bold text-4xl bg-neutral-800 text-red-500 rounded-t-sm ">{/*titulo menu*/}
-                        <h1 className="text-center">Kimetsu no yaba, demon slayer</h1>
+                    <div className="font-bold xl:text-4xl lg:text-3xl md:text-2xl sm:text-5xl text-4xl bg-neutral-800 text-red-500 rounded-t-sm ">{/*titulo menu*/}
+                        <h1 className="text-center">Machigatteiru no yaba, demon slayer</h1>
                     </div>
                     <div className="bg-neutral-800">
-                        <div className={`${isExpanded ? "h-auto" : "h-[50px]"} overflow-hidden transition-all bg-neutral-800 pt-4 px-4 `}>
+                        <div className={`${isExpanded ? "h-auto" : "h-[50px]"} overflow-hidden transition-all bg-neutral-800 pt-4 px-4 roboto text-justify `}>
                             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia suscipit dignissimos modi recusandae?
                             Ad iste ratione sunt odit itaque at tempore
                             expedita dicta deserunt eius, cum impedit reprehenderit dignissimos illum?.
@@ -64,11 +64,11 @@ export default function menuFilmes() {
 
                     <div>
 
-                        <div className="grid grid-flex-row text-black bg-neutral-800 text-white pl-2 gap-1">
-                            <div className="text-3xl"> {/**assistir */}
-                                <button className=" cursor-pointer hover:scale-105 hover:text-stone-500">Asistir</button>
+                        <div className="grid grid-flex-row text-black bg-neutral-800 text-white pl-2 gap-1 justify-center md:justify-start">
+                            <div className="text-4xl flex sm:justify-center md:text-3xl"> {/**assistir */}
+                                <button className="  cursor-pointer hover:scale-105 hover:text-stone-500">Asistir</button>
                             </div>
-                            <div className="text-3xl">{/*Detalhes */}
+                            <div className="text-4xl flex justify-center md:flex md:justify-start md:text-3xl">{/*Detalhes */}
                                 <button onClick={exibirPopUp} className=" cursor-pointer hover:scale-105 hover:text-stone-500">Detalhes</button>
 
                                 <div className={`${popUpDetalhes ? 'hidden' : 'fixed'} bg-neutral-800 rounded-lg border-4 border-neutral-500  top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-1/2 z-50  `}> {/**PopUp detalhes */}
@@ -121,33 +121,39 @@ export default function menuFilmes() {
                                         </div>
                                     </div>
                                     <div>
-                                        <p className="text-base mt-2 px-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cupiditate earum dolor neque dolorum nesciunt necessitatibus
+                                        <p className="text-lg mt-2 px-3 roboto mb-3 ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cupiditate earum dolor neque dolorum nesciunt necessitatibus
                                             totam sint voluptas, rem accusantium laudantium esse fugit dolores atque ratione velit nam voluptatem!</p>
                                     </div>
-                                    <div>
+                                    <div className="flex gap-3 text-lg pl-3">
                                         <p className="">
-                                            dublagem: a1, a2, a3
+                                            dublagem:
+                                        </p>
+                                        <p className="roboto">
+                                            aasdas
                                         </p>
                                     </div>
-                                    <div>
+                                    <div className="flex gap-3 text-lg pl-3">
                                         <p className="">
-                                            legenda: b1, b2, b3
+                                            legenda:
+                                        </p>
+                                        <p className="roboto">
+                                            b1, b2, b3
                                         </p>
                                     </div>
                                 </div>
 
 
                             </div>
-                            <div className="text-3xl flex">{/**Desejos */}
+                            <div className="text-4xl flex sm:justify-center md:text-3xl">{/**Desejos */}
 
-                                <button onClick={watchList} className=" cursor-pointer hover:scale-105 hover:text-stone-500">Lista de desejos</button>
+                                <button onClick={watchList} className=" cursor-pointer hover:scale-105 hover:text-stone-500">Watchlist</button>
                                 {/* <img src={exibirWatchList} alt="icon_watch_list" className="w-40" /> */}
                                 <div className="flex justify-center items-center bg-red-500">
                                     {exibirWatchList}
                                 </div>
 
                             </div>
-                            <div className="text-3xl">{/**Curtir */}
+                            <div className="text-4xl flex sm:justify-center md:text-3xl">{/**Curtir */}
                                 <div className="flex">
                                     <button onClick={funcCurtir} className=" cursor-pointer hover:scale-105 hover:text-stone-500">Curtir</button>
                                     {/* <img src={exibirWatchList} alt="icon_watch_list" className="w-40" /> */}
@@ -158,7 +164,7 @@ export default function menuFilmes() {
                             </div>
 
                             <div>
-                            <a href="./teste">Teste</a> {/** APAGAR */}
+                                <a href="./teste">Teste</a> {/** APAGAR */}
                                 <button></button>
                             </div>
 
