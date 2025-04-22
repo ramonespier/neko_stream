@@ -34,7 +34,7 @@ export default function pageFilmes() {
                     bg-neutral-800     
                     border-neutral-500" >{/*Menu  */}
                         <div className='bg-stone-900 py-7 rounded-tl-lg'>
-                        <div className='w-full bg-neutral-800 px-40'> {/** Carrosel */}
+                        <div className='w-full bg-neutral-800 mx-auto'> {/** Carrosel */}
                             <Carosel/>
                         </div>
                         </div>

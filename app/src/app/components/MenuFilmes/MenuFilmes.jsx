@@ -65,10 +65,10 @@ export default function menuFilmes() {
                     <div>
 
                         <div className="grid grid-flex-row text-black bg-neutral-800 text-white pl-2 gap-1 justify-center md:justify-start">
-                            <div className="text-4xl flex sm:justify-center md:text-3xl"> {/**assistir */}
+                            <div className="text-4xl flex justify-center md:justify-start md:text-3xl"> {/**assistir */}
                                 <button className="  cursor-pointer hover:scale-105 hover:text-stone-500">Asistir</button>
                             </div>
-                            <div className="text-4xl flex justify-center md:flex md:justify-start md:text-3xl">{/*Detalhes */}
+                            <div className="text-4xl flex justify-center md:justify-start md:text-3xl">{/*Detalhes */}
                                 <button onClick={exibirPopUp} className=" cursor-pointer hover:scale-105 hover:text-stone-500">Detalhes</button>
 
                                 <div className={`${popUpDetalhes ? 'hidden' : 'fixed'} bg-neutral-800 rounded-lg border-4 border-neutral-500  top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-1/2 z-50  `}> {/**PopUp detalhes */}
@@ -144,16 +144,16 @@ export default function menuFilmes() {
 
 
                             </div>
-                            <div className="text-4xl flex sm:justify-center md:text-3xl">{/**Desejos */}
+                            <div className="text-4xl flex justify-center md:justify-start md:text-3xl">{/**Watchlist */}
 
                                 <button onClick={watchList} className=" cursor-pointer hover:scale-105 hover:text-stone-500">Watchlist</button>
                                 {/* <img src={exibirWatchList} alt="icon_watch_list" className="w-40" /> */}
-                                <div className="flex justify-center items-center bg-red-500">
+                                <div className="flex items-center bg-red-500">
                                     {exibirWatchList}
                                 </div>
 
                             </div>
-                            <div className="text-4xl flex sm:justify-center md:text-3xl">{/**Curtir */}
+                            <div className="text-4xl flex justify-center md:justify-start md:text-3xl">{/**Curtir */}
                                 <div className="flex">
                                     <button onClick={funcCurtir} className=" cursor-pointer hover:scale-105 hover:text-stone-500">Curtir</button>
                                     {/* <img src={exibirWatchList} alt="icon_watch_list" className="w-40" /> */}
