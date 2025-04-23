@@ -71,15 +71,15 @@ export default function menuFilmes() {
                             <div className="text-4xl flex justify-center md:justify-start md:text-3xl">{/*Detalhes */}
                                 <button onClick={exibirPopUp} className=" cursor-pointer hover:scale-105 hover:text-stone-500">Detalhes</button>
 
-                                <div className={`${popUpDetalhes ? 'hidden' : 'fixed'} bg-neutral-800 rounded-lg border-4 border-neutral-500  top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-1/2 z-50  `}> {/**PopUp detalhes */}
+                                <div className={`${popUpDetalhes ? 'hidden' : 'fixed'} bg-neutral-800 rounded-lg border-4 border-neutral-500  top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  w-9/10 md:w-3/4 lg:w-3/5 xl:w-1/2 z-50  `}> {/**PopUp detalhes */}
                                     <div className="flex justify-end">
                                         <button onClick={exibirPopUp} ><img src='./icon/fechar.png' alt='fechar' className="w-10 cursor-pointer hover:scale-105"></img> </button>
                                     </div>
                                     <div className="bg-zinc-900 mx-5 mb-5 flex justify-center">
                                         <img src='/bannerFilmes/banner-pop-1.jpeg'></img>
                                     </div>
-                                    <div className="bg-zinc-900 grid grid-cols-3 grid-rows-1">
-                                        <div className="col-start-1 text-center">
+                                    <div className="bg-zinc-900 grid grid-cols-2 sm:gap-10  sm:grid-cols-3  grid-rows-1">
+                                        <div className="col-start-1 flex justify-center sm:justify-end">
 
                                             <div className="rating"> {/* Estrelas */}
                                                 <input value="5" name="rate" id="star5" type="radio"></input>
@@ -95,7 +95,8 @@ export default function menuFilmes() {
 
                                             </div>
                                         </div>
-                                        <div className="col-start-3 flex content-center h-10 w-10">
+                                        <div className=" sm:col-start-3  sm:justify-start justify-center flex ">
+                                        <div className=" flex content-center h-10 w-10">
 
                                             <div className="object-contain heart-container" title="Like"> {/** Coração */}
                                                 <input type="checkbox" className="checkbox" id="Give-It-An-Id"></input>
@@ -118,6 +119,7 @@ export default function menuFilmes() {
                                                     </svg>
                                                 </div>
                                             </div>
+                                        </div>
                                         </div>
                                     </div>
                                     <div>
@@ -148,7 +150,8 @@ export default function menuFilmes() {
 
                                 <button onClick={watchList} className=" cursor-pointer hover:scale-105 hover:text-stone-500">Watchlist</button>
                                 {/* <img src={exibirWatchList} alt="icon_watch_list" className="w-40" /> */}
-                                <div className="flex items-center bg-red-500">
+                                <div className="flex items-center ml-3
+                                -">
                                     {exibirWatchList}
                                 </div>
 
@@ -157,7 +160,7 @@ export default function menuFilmes() {
                                 <div className="flex">
                                     <button onClick={funcCurtir} className=" cursor-pointer hover:scale-105 hover:text-stone-500">Curtir</button>
                                     {/* <img src={exibirWatchList} alt="icon_watch_list" className="w-40" /> */}
-                                    <div className="flex justify-center items-center bg-red-500">
+                                    <div className="flex justify-center items-center ml-3">
                                         {exibirCurtir}
                                     </div>
                                 </div>

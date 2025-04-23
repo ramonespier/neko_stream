@@ -5,9 +5,10 @@ const Carousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const images = [
+    "/Carroselimg/carrosel2.webp",
     "/demonslayer.jpg", // Substitua pelo caminho das suas imagens
     "/Carroselimg/DemonSlayerCarrosel.jpeg",
-    "/image3.jpg",
+    "/Carroselimg/carrosel1.jpg",
   ];
 
   const prevSlide = () => {
@@ -23,9 +24,9 @@ const Carousel = () => {
   };
 
   return (
-    <div className="relative w-3/4 mx-auto z-0">
+    <div className="relative w-full md:w-3/4 mx-auto z-0">
       {/* Imagem atual */}
-      <div className="w-full h-100 overflow-hidden">
+      <div className="w-full overflow-hidden">
         <img
           src={images[currentIndex]}
           alt={`Slide ${currentIndex}`}

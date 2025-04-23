@@ -24,13 +24,17 @@ export default function pageFilmes() {
                     
                     {/* -------------------------------------------------------- */}
                     <div className="
-                    col-span-3 border-3 rounded-lg
-                    border-t-3 border-l-3 border-b-3 
+                    col-span-3 
+                    md:rounded-lg
+                    md:border-3
+                    md:border-t-3 
+                    md:border-l-3 
+                    md:border-b-3 
                     md:col-span-7
                     lg:col-span-8
                     xl:col-span-9 
-                    w-full
                     
+                    w-full
                     bg-neutral-800     
                     border-neutral-500" >{/*Menu  */}
                         <div className='bg-stone-900 py-7 rounded-tl-lg'>
