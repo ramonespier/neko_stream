@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { motion, AnimatePresence } from "framer-motion"; // Importe do Framer Motion
 import CardVip1 from "../Card/CardVip1";
 import CardVip2 from "../Card/CardVip2";
 import CardVip3 from "../Card/CardVip3";
@@ -17,7 +18,7 @@ export default function Planos() {
   return (
     <>
       <div className="lg:hidden flex flex-col items-center gap-6 p-6">
-        {/* Botões para trocar de plano */}
+        {/* botões para trocar de plano */}
         <div className="flex gap-4">
           {cards.map((card, index) => (
             <button
@@ -33,22 +34,32 @@ export default function Planos() {
           ))}
         </div>
 
-        {/* Card atual */}
-        <div className="w-full max-w-md flex justify-center items-center">{cards[planoSelecionado].componente}</div>
+          {/* framer-motion */}
+        <AnimatePresence mode="wait">
+          <motion.div
+            key={planoSelecionado}
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -20 }}
+            transition={{ duration: 0.3 }}
+            className="w-full max-w-md flex justify-center items-center"
+          >
+            {cards[planoSelecionado].componente}
+          </motion.div>
+        </AnimatePresence>
       </div>
 
-
+      {/* desktop */}
       <div className="hidden lg:flex justify-center lg:gap-5">
         <div className="hover:scale-105 transition-all duration-150 ease-linear">
-        <CardVip1/>
+          <CardVip1 />
         </div>
         <div className="hover:scale-105 transition-all duration-150 ease-in">
-        <CardVip2/>
+          <CardVip2 />
         </div>
         <div className="hover:scale-105 transition-all duration-150 ease-in">
-        <CardVip3/>
+          <CardVip3 />
         </div>
-      
       </div>
     </>
   );
