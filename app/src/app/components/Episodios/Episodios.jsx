@@ -1,17 +1,18 @@
 'use client'
 import { useState } from "react"
-import data from "../../data/dados.json"
-const data2 = data.titulos?.[0]
+import dataBruto from "../../data/dadosFilmes.js"
 
-export default function episodiosFunc() {
+export default function episodiosFunc({id}) {
+    const data = dataBruto.find(p => p.id == id)
     const [activeItem, setActiveItem] = useState(null); // Estado para controlar o item ativo
 
-    function changeStatus(id) {
-        setActiveItem(activeItem === id ? null : id); // Alternar entre ativo e inativo
+    function changeStatus(titulo) {
+        setActiveItem(activeItem === titulo ? null : titulo); // Alternar entre ativo e inativo
     }
 
     return (
         <>
+
             <div className="w-full px-3 sm:px-7 md:px-10">
                 <div className="">
                     
@@ -27,14 +28,14 @@ export default function episodiosFunc() {
                     xl:grid-cols-4
                     
                     ">
-                        {data2.episodios.map((item) => (
-                            <div key={item.titulo} className=" border-1 flex flex-col items-end h-35 relative hover:scale-105">
-                                <button className="z-20 absolute p-1" onClick={() => changeStatus(item.titulo)}><img src='./icon/info.png' alt='fechar' className="w-5 cursor-pointer hover:scale-110"/></button>
+                        {data.episodios.map((item) => (
+                            <div key={item.titulo} className=" border-1 flex flex-col items-end  h-35 relative hover:scale-105">
+                                <button className="z-20 absolute p-1" onClick={() => changeStatus(item.titulo)}><img src='/icon/info.png' alt='fechar' className="w-5 cursor-pointer hover:scale-110"/></button>
 
-                                <div className={` ${activeItem === item.titulo ? 'fixed' : 'hidden'} w-full flex flex-col items-center relative z-10 h-full px-1 border border-1 rounded`}style={{ backgroundColor: "rgba(0, 0, 0, 0.5)" }}>
+                                <div2 className={` ${activeItem === item.titulo ? 'fixed' : 'hidden'} w-full flex flex-col items-center relative z-10 px-1 border border-1 rounded`}style={{ backgroundColor: "rgba(0, 0, 0, 0.5)" }}>
                                     <p className="relative">{item.titulo}</p>
                                     <p className="relative text-xs text-justify">{item.descr}</p>
-                                </div>
+                                </div2>
                                 <img className="absolute top-0 left-0 w-full h-full object-cover z-0" src={item.img} />
                             </div>
                         ))}

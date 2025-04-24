@@ -1,10 +1,14 @@
-import Menu from '../components/MenuFilmes/MenuFilmes.jsx';
-import Carosel from '../components/CaroselFilmes/Carossel.jsx';
-import Episodios from "../components/Episodios/Episodios.jsx"
-export default function pageFilmes() {
+
+import Menu from '../../components/MenuFilmes/MenuFilmes.jsx';
+import Carosel from '../../components/CaroselFilmes/Carossel.jsx';
+import Episodios from "../../components/Episodios/Episodios.jsx";
+
+export default async function pageFilmes({ params }) {
+
+    const { id } = await params;
+
     return (
         <>
-
             <div className='bg-black'>
                 <section className=" grid 
                 
@@ -19,7 +23,7 @@ export default function pageFilmes() {
                             
                             '>
                             
-                        <Menu/>
+                        <Menu id={id}/>
                     </div>
                     
                     {/* -------------------------------------------------------- */}
@@ -39,12 +43,12 @@ export default function pageFilmes() {
                     border-neutral-500" >{/*Menu  */}
                         <div className='bg-stone-900 py-7 rounded-tl-lg'>
                         <div className='w-full bg-neutral-800 mx-auto'> {/** Carrosel */}
-                            <Carosel/>
+                            <Carosel id={id}/>
                         </div>
                         </div>
 
                         <div className=''> {/** episodeos */}
-                            <Episodios/>
+                            <Episodios id={id}/>
                         </div>
                     </div>
                 </section>{/*Fim body grid*/}

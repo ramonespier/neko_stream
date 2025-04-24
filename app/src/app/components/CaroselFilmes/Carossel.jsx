@@ -1,15 +1,11 @@
 "use client"
 import { useState } from "react";
+import dataBruto from "../../data/dadosFilmes.js"
 
-const Carousel = () => {
+export default function Carousel ({id}){
   const [currentIndex, setCurrentIndex] = useState(0);
-
-  const images = [
-    "/Carroselimg/carrosel2.webp",
-    "/demonslayer.jpg", // Substitua pelo caminho das suas imagens
-    "/Carroselimg/DemonSlayerCarrosel.jpeg",
-    "/Carroselimg/carrosel1.jpg",
-  ];
+  const data = dataBruto.find(p => p.id == id)
+  const images = data.fotosBanner
 
   const prevSlide = () => {
     const isFirstSlide = currentIndex === 0;
@@ -53,4 +49,3 @@ const Carousel = () => {
   );
 };
 
-export default Carousel;
