@@ -1,8 +1,10 @@
 "use client"; //é necessario pois o useState servi no lado cliente e se não utilizar ele quebra
 import { useState } from "react";
 import "./index.css"
-export default function menuFilmes() {
+import dataBruto from "../../data/dadosFilmes.js"
 
+export default function menuFilmes({id}) {
+    const data = dataBruto.find(p => p.id == id)
     const [isExpanded, setIsExpanded] = useState(false);
     const [buttonText, setButtonText] = useState("Expandir");
     const [popUpDetalhes, SetpopUpDetalhes] = useState(true)
@@ -45,13 +47,11 @@ export default function menuFilmes() {
             <section className=" bg-black p-5 ">{/*Inico section menu*/}
                 <div className="w-full mr-5 bg-neutral-800 border-3 border-neutral-500 shadow-rose-css rounded-lg"> {/*div central menu*/}
                     <div className="font-bold xl:text-4xl lg:text-3xl md:text-2xl sm:text-5xl text-4xl bg-neutral-800 text-red-500 rounded-t-sm ">{/*titulo menu*/}
-                        <h1 className="text-center">Machigatteiru no yaba, demon slayer</h1>
+                        <h1 className="text-center">{data.titulo}</h1>
                     </div>
                     <div className="bg-neutral-800">
                         <div className={`${isExpanded ? "h-auto" : "h-[50px]"} overflow-hidden transition-all bg-neutral-800 pt-4 px-4 roboto text-justify `}>
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia suscipit dignissimos modi recusandae?
-                            Ad iste ratione sunt odit itaque at tempore
-                            expedita dicta deserunt eius, cum impedit reprehenderit dignissimos illum?.
+                            {data.descricao}
                         </div>
                         <div className="flex justify-center">
 
@@ -73,10 +73,10 @@ export default function menuFilmes() {
 
                                 <div className={`${popUpDetalhes ? 'hidden' : 'fixed'} bg-neutral-800 rounded-lg border-4 border-neutral-500  top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  w-9/10 md:w-3/4 lg:w-3/5 xl:w-1/2 z-50  `}> {/**PopUp detalhes */}
                                     <div className="flex justify-end">
-                                        <button onClick={exibirPopUp} ><img src='./icon/fechar.png' alt='fechar' className="w-10 cursor-pointer hover:scale-105"></img> </button>
+                                        <button onClick={exibirPopUp} ><img src='/icon/fechar.png' alt='fechar' className="w-10 cursor-pointer hover:scale-105"></img> </button>
                                     </div>
                                     <div className="bg-zinc-900 mx-5 mb-5 flex justify-center">
-                                        <img src='/bannerFilmes/banner-pop-1.jpeg'></img>
+                                        <img src={data.fotoDescricao}></img>
                                     </div>
                                     <div className="bg-zinc-900 grid grid-cols-2 sm:gap-10  sm:grid-cols-3  grid-rows-1">
                                         <div className="col-start-1 flex justify-center sm:justify-end">
@@ -123,15 +123,14 @@ export default function menuFilmes() {
                                         </div>
                                     </div>
                                     <div>
-                                        <p className="text-lg mt-2 px-3 roboto mb-3 ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cupiditate earum dolor neque dolorum nesciunt necessitatibus
-                                            totam sint voluptas, rem accusantium laudantium esse fugit dolores atque ratione velit nam voluptatem!</p>
+                                        <p className="text-lg mt-2 px-3 roboto mb-3 ">{data.descricaoDetalhes}</p>
                                     </div>
                                     <div className="flex gap-3 text-lg pl-3">
                                         <p className="">
                                             dublagem:
                                         </p>
                                         <p className="roboto">
-                                            aasdas
+                                            {data.dublagem}
                                         </p>
                                     </div>
                                     <div className="flex gap-3 text-lg pl-3">
@@ -139,7 +138,7 @@ export default function menuFilmes() {
                                             legenda:
                                         </p>
                                         <p className="roboto">
-                                            b1, b2, b3
+                                            {data.legenda}
                                         </p>
                                     </div>
                                 </div>

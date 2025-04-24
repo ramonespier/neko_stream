@@ -43,7 +43,6 @@ export default function Catalogo() {
                         transition
                         border-2
                         max-w-[300px] 
-                        p-5 
                         bg-rose-800 
                         col-auto 
                         row-auto 
@@ -53,6 +52,10 @@ export default function Catalogo() {
                         hover:scale-105
                         cursor-pointer
                         ">
+                            <a href={`/filmes/${anime.id}`}>
+                            <div className="w-full h-full p-5">
+
+
 
                             <div className="
                             flex 
@@ -71,6 +74,8 @@ export default function Catalogo() {
 
                                 <p className="text-justify text-lg text-">{anime.descricao}</p>
                             </div>
+                                    </div>
+                                    </a>
                         </li>
                     ))}
                 </ul>
