@@ -19,7 +19,7 @@ export default function Catalogo() {
             <div className="w-full flex flex-col p-6">
 
                 <div className="flex items-center border gap-2 rounded-lg w-96 p-0.5 bg-blue-50 text-black">
-                    <label for="search">🔎</label>
+                    <label htmlFor="search">🔎</label>
                     <input id="search" type="search" placeholder="Black Clover . . ." value={search} onChange={(e) => setSearch(e.target.value)}
                         className="
                 w-full
