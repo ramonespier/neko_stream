@@ -99,205 +99,205 @@ export const catalogo = [
         id: 17,
         titulo: "Code Geass",
         descricao: "Lelouch Lamperouge ganha um poder sobrenatural e lidera uma rebelião contra o império que domina o Japão.",
-        foto: "/catalogo/codegeass"
+        foto: "/catalogo/codegeass.jpg"
     },
     {
         id: 18,
         titulo: "Black Clover",
         descricao: "Asta, um garoto sem magia, sonha em se tornar o Rei Mago em um mundo onde a magia é tudo.",
-        foto: "/catalogo/blackclover"
+        foto: "/catalogo/blackclover.jpg"
     },
     {
         id: 19,
         titulo: "Fairy Tail",
         descricao: "Lucy Heartfilia se junta à guilda de magos Fairy Tail e vive aventuras com Natsu e seus amigos.",
-        foto: "/catalogo/fairytail"
+        foto: "/catalogo/fairytale.jpg"
     },
     {
         id: 20,
         titulo: "Re:Zero",
         descricao: "Subaru Natsuki é transportado para um mundo de fantasia e descobre que pode voltar no tempo toda vez que morre.",
-        foto: "/catalogo/rezero"
+        foto: "/catalogo/rezero.jpg"
     },
     {
         id: 21,
         titulo: "The Promised Neverland",
         descricao: "Órfãos descobrem que sua casa é uma fazenda de criação para monstros e planejam uma fuga desesperada.",
-        foto: "/catalogo/promisedneverland"
+        foto: "/catalogo/promisedneverland.jpg"
     },
     {
         id: 22,
         titulo: "Vinland Saga",
         descricao: "Thorfinn busca vingança contra o assassino de seu pai em uma história épica de vikings e guerra.",
-        foto: "/catalogo/vinlandsaga"
+        foto: "/catalogo/vinlandsaga.jpg"
     },
     {
         id: 23,
         titulo: "Dr. Stone",
         descricao: "Senku Ishigami usa a ciência para reconstruir a civilização após a humanidade ser petrificada por milhares de anos.",
-        foto: "/catalogo/drstone"
+        foto: "/catalogo/drstone.jpg"
     },
     {
         id: 24,
         titulo: "Haikyuu!!",
         descricao: "Shoyo Hinata se apaixona pelo vôlei e forma uma rivalidade com Tobio Kageyama enquanto busca se tornar o melhor.",
-        foto: "/catalogo/haikyuu"
+        foto: "/catalogo/haikyuu.jpg"
     },
     {
         id: 25,
         titulo: "One Punch Man",
         descricao: "Saitama é um herói tão forte que derrota qualquer inimigo com um único soco, mas sofre com o tédio de ser invencível.",
-        foto: "/catalogo/onepunchman"
+        foto: "/catalogo/onepunchman.jpg"
     },
     {
         id: 26,
         titulo: "Mob Psycho 100",
         descricao: "Shigeo Kageyama, um poderoso psíquico, tenta viver uma vida normal enquanto lida com suas emoções e poderes.",
-        foto: "/catalogo/mobpsycho"
+        foto: "/catalogo/mobpsycho.webp"
     },
     {
         id: 27,
         titulo: "JoJo's Bizarre Adventure",
         descricao: "A saga da família Joestar através das gerações, com batalhas sobrenaturais e poderes únicos chamados Stands.",
-        foto: "/catalogo/jojo"
+        foto: "/catalogo/jojo.avif"
     },
     {
         id: 28,
         titulo: "Berserk",
         descricao: "Guts, um espadachim marcado por tragédias, busca vingança em um mundo sombrio e repleto de demônios.",
-        foto: "/catalogo/berserk"
+        foto: "/catalogo/berserk.jpg"
     },
     {
         id: 29,
         titulo: "Parasyte",
         descricao: "Shinichi Izumi tem sua mão substituída por um parasita alienígena e luta para sobreviver em um mundo infestado por essas criaturas.",
-        foto: "/catalogo/parasyte"
+        foto: "/catalogo/parasyte.jpg"
     },
     {
         id: 30,
         titulo: "No Game No Life",
         descricao: "Os irmãos Sora e Shiro são transportados para um mundo onde tudo é decidido por jogos.",
-        foto: "/catalogo/ngnl"
+        foto: "/catalogo/ngnl.jpg"
     },
     {
         id: 31,
         titulo: "Konosuba",
         descricao: "Kazuma Sato morre e é reencarnado em um mundo de fantasia com uma deusa inútil e um grupo de aventureiros excêntricos.",
-        foto: "/catalogo/konosuba"
+        foto: "/catalogo/konosuba.webp"
     },
     {
         id: 32,
         titulo: "Overlord",
         descricao: "Um jogador fica preso em um MMORPG como seu personagem esquelético e domina o novo mundo como um poderoso lich.",
-        foto: "/catalogo/overlord"
+        foto: "/catalogo/overlord.jpg"
     },
     {
         id: 33,
         titulo: "Made in Abyss",
         descricao: "Riko e Reg exploram um abismo misterioso em busca dos segredos e perigos ocultos em suas profundezas.",
-        foto: "/catalogo/madeinabyss"
+        foto: "/catalogo/madeinabyss.jpg"
     },
     {
         id: 34,
         titulo: "Your Lie in April",
         descricao: "Um pianista prodígio traumatizado redescobre a música através de uma violinista livre e apaixonada.",
-        foto: "/catalogo/yourlieinapril"
+        foto: "/catalogo/yourlieinapril.jpg"
     },
     {
         id: 35,
         titulo: "Clannad",
         descricao: "Tomoya Okazaki ajuda várias garotas com seus problemas pessoais enquanto enfrenta seu próprio destino.",
-        foto: "/catalogo/clannad"
+        foto: "/catalogo/clannad.webp"
     },
     {
         id: 36,
         titulo: "Toradora!",
         descricao: "Ryuuji e Taiga formam uma improvável aliança para conquistar as pessoas de quem gostam.",
-        foto: "/catalogo/toradora"
+        foto: "/catalogo/toradora.jpg"
     },
     {
         id: 37,
         titulo: "Anohana",
         descricao: "Um grupo de amigos se reúne após anos quando o fantasma de uma amiga de infância aparece para um deles.",
-        foto: "/catalogo/anohana"
+        foto: "/catalogo/anohana.webp"
     },
     {
         id: 38,
         titulo: "Violet Evergarden",
         descricao: "Uma ex-soldado se torna uma escritora de cartas e aprende sobre o amor e as emoções humanas.",
-        foto: "/catalogo/violet"
+        foto: "/catalogo/violet.webp"
     },
     {
         id: 39,
         titulo: "A Silent Voice",
         descricao: "Um ex-valentão busca redenção ao se reconectar com uma garota surda que ele assediou no passado.",
-        foto: "/catalogo/silentvoice"
+        foto: "/catalogo/silentvoice.jpg"
     },
     {
         id: 40,
         titulo: "Weathering With You",
         descricao: "Um garoto fugitivo conhece uma garota com o poder de controlar o clima, mudando seus destinos para sempre.",
-        foto: "/catalogo/weathering"
+        foto: "/catalogo/weathering.jpg"
     },
     {
         id: 41,
         titulo: "Spirited Away",
         descricao: "Chihiro entra em um mundo espiritual e trabalha em uma casa de banhos para libertar seus pais, transformados em porcos.",
-        foto: "/catalogo/spiritedaway"
+        foto: "/catalogo/spiritedaway.jpg"
     },
     {
         id: 42,
         titulo: "My Neighbor Totoro",
         descricao: "Duas irmãs se mudam para o campo e fazem amizade com criaturas mágicas da floresta.",
-        foto: "/catalogo/totoro"
+        foto: "/catalogo/totoro.jpg"
     },
     {
         id: 43,
         titulo: "Howl's Moving Castle",
         descricao: "Sophie é transformada em uma idosa e busca a ajuda do misterioso mago Howl para quebrar a maldição.",
-        foto: "/catalogo/howl"
+        foto: "/catalogo/howl.webp"
     },
     {
         id: 44,
         titulo: "Princess Mononoke",
         descricao: "Ashitaka se envolve na batalha entre os deuses da floresta e os humanos que exploram seus recursos.",
-        foto: "/catalogo/mononoke"
+        foto: "/catalogo/mononoke.jpg"
     },
     {
         id: 45,
         titulo: "Akira",
         descricao: "Kaneda e Tetsuo se envolvem em um experimento governamental secreto que desencadeia poderes psíquicos catastróficos.",
-        foto: "/catalogo/akira"
+        foto: "/catalogo/akira.jpg"
     },
     {
         id: 46,
         titulo: "Ghost in the Shell",
         descricao: "Major Motoko Kusanagi investiga crimes cibernéticos em um futuro onde humanos e máquinas estão interligados.",
-        foto: "/catalogo/ghostintheshell"
+        foto: "/catalogo/ghostintheshell.jpg"
     },
     {
         id: 47,
         titulo: "Psycho-Pass",
         descricao: "Inspetores policiais usam um sistema que prevê crimes, mas descobrem falhas sombrias em sua sociedade distópica.",
-        foto: "/catalogo/psychopass"
+        foto: "/catalogo/psychopass.jpeg"
     },
     {
         id: 48,
         titulo: "Erased",
         descricao: "Satoru Fujinuma volta no tempo para evitar o assassinato de sua colega de classe e desvendar um mistério de seu passado.",
-        foto: "/catalogo/erased"
+        foto: "/catalogo/erased.webp"
     },
     {
         id: 49,
         titulo: "The Rising of the Shield Hero",
         descricao: "Naofumi Iwataki é traído e se torna o herói do escudo, lutando para provar seu valor em um mundo hostil.",
-        foto: "/catalogo/shieldhero"
+        foto: "/catalogo/shieldhero.jpg"
     },
     {
         id: 50,
         titulo: "Darling in the Franxx",
         descricao: "Pilotos adolescentes controlam mechas gigantes para proteger a humanidade de monstros em um futuro pós-apocalíptico.",
-        foto: "/catalogo/darlingfranxx"
+        foto: "/catalogo/darlingfranxx.jpg"
     }
 ]
 
