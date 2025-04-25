@@ -8,8 +8,8 @@ export default function Footer() {
                  bg-gradient-to-t
                 from-rose-600 to-background
                 grid 
-                lg:h-72
-                md:h-60
+                lg:h-32
+                md:h-32
                 h-52
             ">
                 <div
