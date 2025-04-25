@@ -37,12 +37,11 @@ export default function Header() {
                         
                         
                         ">
-                            <li className="p-5 hover:scale-105 hover:text-gray-400 transition"><a href="#">Catálogo</a></li>
-                            <li className="p-5 hover:scale-105 hover:text-gray-400 transition"><a href="#">Watchlist</a></li>
+                            <li className="p-5 hover:scale-105 hover:text-gray-400 transition"><a href="/">Catálogo</a></li>
+                            <li className="p-5 hover:scale-105 hover:text-gray-400 transition"><a href="/watchlist">Watchlist</a></li>
                         </ul>
                     </div>
                 </div>
-
 
                 <div
                     className=" items-center 
