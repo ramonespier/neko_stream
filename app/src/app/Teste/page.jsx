@@ -1,32 +1,44 @@
+// components/LocalStorageComponent.js
 'use client'
-// localStorage.clear();
-export default function teste () {
+// components/LocalStorageComponent.js
+import { useState } from 'react';
 
-    function salvarTeste () {
-        // const user = { id: 1, name: 'João', active: true };
-        // localStorage.setItem('user', JSON.stringify(user));
-        // alert('Dados salvos com sucesso!');
+export default function LocalStorageComponent() {
+  const [output, setOutput] = useState("");
+
+  // Função para adicionar um ID ao array armazenado no localStorage
+  function adicionarDados() {
+    const ids = JSON.parse(localStorage.getItem("meusIds")) || []; // Recuperar ou inicializar array
+    const novoId = ids.length + 1; // Gerar um novo ID (incremental)
+    ids.push(novoId); // Adicionar o novo ID ao array
+    localStorage.setItem("meusIds", JSON.stringify(ids)); // Armazenar novamente no localStorage
+    alert(`ID ${novoId} adicionado ao localStorage!`);
+  }
+
+  // Função para exibir os IDs armazenados
+  function exibirDados() {
+    const ids = JSON.parse(localStorage.getItem("meusIds")) || []; // Recuperar array
+    if (ids.length > 0) {
+      setOutput(`IDs armazenados: ${ids.join(", ")}`); // Mostrar os IDs como uma string
+    } else {
+      setOutput("Nenhum ID armazenado no localStorage.");
     }
-    function limparLocalStorage(){
-        alert('LocalStorage foi limpo.');
-        localStorage.clear();
-        console.log(localStorage)
-    }
+  }
 
-    const teste1 = (localStorage.getItem("user"));
-    // const teste2 = teste1.find(p => p.id == 1)
-    // const teste2 = JSON.stringify(localStorage.getItem('user'));
-    return (
-        <>
-            <div>
-                {/* <button className="bg-green-900" onClick={salvarTeste}>clique aqui</button>
-                <p>ler item {teste1}</p>
-                <p>-----</p> */}
+  // Função para limpar todos os IDs do array no localStorage
+  function limparDados() {
+    localStorage.removeItem("meusIds"); // Remover chave do localStorage
+    alert("Todos os IDs foram removidos do localStorage!");
+    setOutput(""); // Limpar o estado de exibição
+  }
 
-                <p>-----</p>
-                <div>limpar LocalStorage !Importante</div>
-                <button className="bg-green-800" onClick={limparLocalStorage}>clique aqui</button>
-            </div>
-        </>
-    )
+  return (
+    <div>
+      <h1>Exemplo de LocalStorage com Array de IDs</h1>
+      <button className='bg-red-500' onClick={adicionarDados}>Adicionar ID</button>
+      <button className='bg-green-500' onClick={exibirDados}>Exibir IDs</button>
+      <button className='bg-blue-500' onClick={limparDados}>Limpar IDs</button>
+      <div>{output}</div>
+    </div>
+  );
 }

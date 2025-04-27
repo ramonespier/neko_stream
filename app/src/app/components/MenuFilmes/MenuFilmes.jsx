@@ -167,11 +167,6 @@ export default function menuFilmes({id}) {
                                 </div>
                             </div>
 
-                            <div>
-                                <a href="./teste">Teste</a> {/** APAGAR */}
-                                {statusWatchList}
-                            </div>
-
                         </div>
 
                     </div>
