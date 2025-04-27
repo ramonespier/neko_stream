@@ -10,6 +10,7 @@ export default function menuFilmes({id}) {
     const [popUpDetalhes, SetpopUpDetalhes] = useState(true)
     const [statusWatchList, setWatchList] = useState(false)
     const [statusCurtir, setCurtir] = useState(false)
+    
 
     function toggleHeight() {
         setIsExpanded(!isExpanded);
@@ -66,7 +67,7 @@ export default function menuFilmes({id}) {
 
                         <div className="grid grid-flex-row text-black bg-neutral-800 text-white pl-2 gap-1 justify-center md:justify-start">
                             <div className="text-4xl flex justify-center md:justify-start md:text-3xl"> {/**assistir */}
-                                <button className="  cursor-pointer hover:scale-105 hover:text-stone-500">Asistir</button>
+                                <button className="  cursor-pointer hover:scale-105 hover:text-stone-500">Assistir</button>
                             </div>
                             <div className="text-4xl flex justify-center md:justify-start md:text-3xl">{/*Detalhes */}
                                 <button onClick={exibirPopUp} className=" cursor-pointer hover:scale-105 hover:text-stone-500">Detalhes</button>
@@ -75,8 +76,8 @@ export default function menuFilmes({id}) {
                                     <div className="flex justify-end">
                                         <button onClick={exibirPopUp} ><img src='/icon/fechar.png' alt='fechar' className="w-10 cursor-pointer hover:scale-105"></img> </button>
                                     </div>
-                                    <div className="bg-zinc-900 mx-5 mb-5 flex justify-center">
-                                        <img src={data.fotoDescricao}></img>
+                                    <div className="bg-zinc-900 mx-5 mb-5 flex justify-center itens-center">
+                                        <img  src={data.fotoDescricao}></img>
                                     </div>
                                     <div className="bg-zinc-900 grid grid-cols-2 sm:gap-10  sm:grid-cols-3  grid-rows-1">
                                         <div className="col-start-1 flex justify-center sm:justify-end">
@@ -152,6 +153,7 @@ export default function menuFilmes({id}) {
                                 <div className="flex items-center ml-3
                                 -">
                                     {exibirWatchList}
+                                    
                                 </div>
 
                             </div>
@@ -167,7 +169,7 @@ export default function menuFilmes({id}) {
 
                             <div>
                                 <a href="./teste">Teste</a> {/** APAGAR */}
-                                <button></button>
+                                {statusWatchList}
                             </div>
 
                         </div>
