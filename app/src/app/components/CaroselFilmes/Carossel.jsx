@@ -2,21 +2,21 @@
 import { useState } from "react";
 import dataBruto from "../../data/dadosFilmes.js"
 
-export default function Carousel ({id}){
-  const [currentIndex, setCurrentIndex] = useState(0);
+export default function Carousel({ id }) {
+  const [slideAtual, setslideAtual] = useState(0);
   const data = dataBruto.find(p => p.id == id)
   const images = data.fotosBanner
 
-  const prevSlide = () => {
-    const isFirstSlide = currentIndex === 0;
-    const newIndex = isFirstSlide ? images.length - 1 : currentIndex - 1;
-    setCurrentIndex(newIndex);
+  const slideAnterior = () => {
+    const primeiroSlide = slideAtual === 0;
+    const novoSlide = primeiroSlide ? images.length - 1 : slideAtual - 1;
+    setslideAtual(novoSlide);
   };
 
-  const nextSlide = () => {
-    const isLastSlide = currentIndex === images.length - 1;
-    const newIndex = isLastSlide ? 0 : currentIndex + 1;
-    setCurrentIndex(newIndex);
+  const proximoSlide = () => {
+    const ultimoSlide = slideAtual === images.length - 1;
+    const novoSlide = ultimoSlide ? 0 : slideAtual + 1;
+    setslideAtual(novoSlide);
   };
 
   return (
@@ -24,24 +24,38 @@ export default function Carousel ({id}){
       {/* Imagem atual */}
       <div className="w-full overflow-hidden ">
         <img
-          src={images[currentIndex]}
-          alt={`Slide ${currentIndex}`}
+          src={images[slideAtual]}
+          alt={`Slide ${slideAtual}`}
           className="w-full h-80 object-cover"
         />
       </div>
 
-      {/* Botão de anterior */}
       <button
-        onClick={prevSlide}
-        className="absolute top-1/2 left-4 -translate-y-1/2 text-white bg-black/50 p-2 rounded-full"
+        onClick={slideAnterior}
+        className="
+          absolute 
+          top-1/2 
+          left-4 
+          -translate-y-1/2 
+          text-white 
+          bg-black/50 
+          p-2 
+          rounded-full"
       >
         {"<"}
       </button>
 
-      {/* Botão de próximo */}
       <button
-        onClick={nextSlide}
-        className="absolute top-1/2 right-4 -translate-y-1/2 text-white bg-black/50 p-2 rounded-full"
+        onClick={proximoSlide}
+        className="
+          absolute 
+          top-1/2 
+          right-4 
+          -translate-y-1/2 
+          text-white 
+          bg-black/50 
+          p-2 
+          rounded-full"
       >
         {">"}
       </button>
