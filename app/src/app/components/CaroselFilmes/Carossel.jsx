@@ -22,11 +22,11 @@ export default function Carousel ({id}){
   return (
     <div className="relative w-full md:w-3/4 mx-auto z-0">
       {/* Imagem atual */}
-      <div className="w-full overflow-hidden">
+      <div className="w-full overflow-hidden ">
         <img
           src={images[currentIndex]}
           alt={`Slide ${currentIndex}`}
-          className="w-full h-full object-cover"
+          className="w-full h-80 object-cover"
         />
       </div>
 

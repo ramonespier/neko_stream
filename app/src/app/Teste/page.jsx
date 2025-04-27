@@ -1,34 +1,32 @@
 'use client'
-
+// localStorage.clear();
 export default function teste () {
 
+    function salvarTeste () {
+        // const user = { id: 1, name: 'João', active: true };
+        // localStorage.setItem('user', JSON.stringify(user));
+        // alert('Dados salvos com sucesso!');
+    }
+    function limparLocalStorage(){
+        alert('LocalStorage foi limpo.');
+        localStorage.clear();
+        console.log(localStorage)
+    }
 
-
-    const testes = [
-        {id: 1, nome: 'leo', age: 25},
-        {id: 2, nome: 'ronald', age: 10},
-        {id: 3, nome: 'lucas', age: 40}
-    ]
-
-
-
+    const teste1 = (localStorage.getItem("user"));
+    // const teste2 = teste1.find(p => p.id == 1)
+    // const teste2 = JSON.stringify(localStorage.getItem('user'));
     return (
         <>
-        <div className="bg-red-500 p-5 w-full">
+            <div>
+                {/* <button className="bg-green-900" onClick={salvarTeste}>clique aqui</button>
+                <p>ler item {teste1}</p>
+                <p>-----</p> */}
 
-        {testes.map((teste) =>(
-            <div className="bg-purple-500" key ={teste.id} >
-            <p> ID: {teste.id}</p>
-<button className="bg-blue-500 h-50 w-50"><a href={`/teste/${teste.id}`}>a</a></button>
-            
-            <p>Nome: {teste.nome}</p>
-            <p>Age: {teste.age}</p>
-            <br/>
+                <p>-----</p>
+                <div>limpar LocalStorage !Importante</div>
+                <button className="bg-green-800" onClick={limparLocalStorage}>clique aqui</button>
             </div>
-        ))}
-        </div>
-
-        <p>a</p>
         </>
     )
 }
