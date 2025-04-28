@@ -8,7 +8,6 @@ export const catalogo = [
     descricaoDetalhes: "One Piece acompanha Monkey D. Luffy em sua jornada para encontrar o lendário tesouro One Piece e se tornar o Rei dos Piratas. Com ação, aventura e amizade, a história cativa fãs no mundo inteiro 🏴‍☠️🔥",
     dublagem: "português, ingles, japonês(original)",
     legenda: "português, ingles, japonês, madarim, espanhol",
-    watchList: false,
     fotosBanner: ["/Carroselimg/onePiece-car1.jpg", "/Carroselimg/onePiece-car2.jpg"],
     episodios: [
       {
@@ -62,7 +61,6 @@ export const catalogo = [
     descricaoDetalhes: "Naruto segue a jornada de um ninja rejeitado que busca reconhecimento e protege Konoha. Com lutas épicas e temas de amizade, a série é um clássico do shonen ninja 🍥🔥",
     dublagem: "português, japonês(original), inglês",
     legenda: "português, inglês, espanhol, francês",
-    watchList: false,
     fotosBanner: ["/Carroselimg/naruto-car2.jpg", "/Carroselimg/naruto-car1.jpg"],
     episodios: [
       {
@@ -116,7 +114,6 @@ export const catalogo = [
     descricaoDetalhes: "Dragon Ball Z eleva as batalhas de Goku a níveis cósmicos, com Saiyajins, Fusões e o espírito de superação que define o anime 🐉💥",
     dublagem: "português, japonês(original), inglês",
     legenda: "português, inglês, espanhol",
-    watchList: false,
     fotosBanner: ["/Carroselimg/dbz-car1.jpeg", "/Carroselimg/dbz-car2.jpeg"],
     episodios: [
       {
@@ -170,7 +167,6 @@ export const catalogo = [
     descricaoDetalhes: "Attack on Titan mistura horror e revolução em um mundo onde humanos são caçados. Segredos chocantes e batalhas estratégicas definem a obra 🧱⚔️",
     dublagem: "português, japonês(original), inglês",
     legenda: "português, inglês, alemão",
-    watchList: false,
     fotosBanner: ["/Carroselimg/aot-car1.jpg", "/Carroselimg/aot-car2.jpg"],
     episodios: [
       {
@@ -224,7 +220,6 @@ export const catalogo = [
     descricaoDetalhes: "Death Note é um jogo psicológico entre Light (Kira) e L, onde a moralidade é questionada e cada movimento é calculado. Um clássico do suspense sobrenatural 📓⚡",
     dublagem: "português, japonês(original), inglês",
     legenda: "português, inglês, coreano",
-    watchList: false,
     fotosBanner: ["/Carroselimg/deathnote-car1.jpeg", "/Carroselimg/deathnote-car2.jpg"],
     episodios: [
       {
@@ -278,7 +273,6 @@ export const catalogo = [
     descricaoDetalhes: "FMA: Brotherhood combina alquimia, ética e revolução em uma jornada para corrigir erros do passado. Uma obra-prima da animação japonesa ⚗️🔥",
     dublagem: "português, japonês(original), inglês",
     legenda: "português, inglês, alemão",
-    watchList: false,
     fotosBanner: ["/Carroselimg/fma-car1.jpg", "/Carroselimg/fma-car2.jpg"],
     episodios: [
       {
@@ -332,7 +326,6 @@ export const catalogo = [
     descricaoDetalhes: "My Hero Academia celebra o heroísmo e a superação, com Izuku e seus amigos enfrentando vilões e desafios para se tornarem os melhores heróis. Plus Ultra! 💥🦸",
     dublagem: "português, japonês(original), inglês",
     legenda: "português, inglês, espanhol",
-    watchList: false,
     fotosBanner: ["/Carroselimg/mha-car1.png", "/Carroselimg/mha-car2.jpg"],
     episodios: [
       {
@@ -386,7 +379,6 @@ export const catalogo = [
     descricaoDetalhes: "Demon Slayer combina ação emocionante, animação deslumbrante e um emocionante laço familiar. A jornada de Tanjiro para salvar Nezuko é inesquecível ⚔️👺",
     dublagem: "português, japonês(original), inglês",
     legenda: "português, inglês, espanhol",
-    watchList: false,
     fotosBanner: ["/Carroselimg/demonSlayer-car1.jpg", "/Carroselimg/demonSlayer-car2.jpeg"],
     episodios: [
       {
@@ -440,7 +432,6 @@ export const catalogo = [
     descricaoDetalhes: "Hunter x Hunter mistura aventura, estratégia e profundidade emocional. A busca de Gon por Ging é repleta de desafios e amizades inesperadas 🎣✨",
     dublagem: "português, japonês(original), inglês",
     legenda: "português, inglês, francês",
-    watchList: false,
     fotosBanner: ["/Carroselimg/hxh-car1.jpg", "/Carroselimg/hxh-car2.jpg"],
     episodios: [
       {
@@ -494,7 +485,6 @@ export const catalogo = [
     descricaoDetalhes: "Bleach equilibra ação sobrenatural, katana afiada e um elenco carismático. A luta de Ichigo para proteger os vivos e os mortos é eletrizante ☠️⚡",
     dublagem: "português, japonês(original), inglês",
     legenda: "português, inglês, espanhol",
-    watchList: false,
     fotosBanner: ["/Carroselimg/bleach-car1.png", "/Carroselimg/bleach-car2.jpeg"],
     episodios: [
       {
@@ -548,7 +538,6 @@ export const catalogo = [
     descricaoDetalhes: "Tokyo Ghoul explora a dualidade humana e monstruosa através de Kaneki, em uma narrativa sombria e visceral. Um mergulho na escuridão psicológica 🎲👁️",
     dublagem: "português, japonês(original), inglês",
     legenda: "português, inglês, alemão",
-    watchList: false,
     fotosBanner: ["/Carroselimg/tokyoghoul-car1.jpg", "/Carroselimg/tokyoghoul-car2.jpg"],
     episodios: [
       {
@@ -602,7 +591,6 @@ export const catalogo = [
     descricaoDetalhes: "Jujutsu Kaisen traz combates dinâmicos, maldições aterrorizantes e um elenco carismático. A jornada de Yuji para controlar Sukuna é cheia de reviravoltas 🧿⚔️",
     dublagem: "português, japonês(original), inglês",
     legenda: "português, inglês, coreano",
-    watchList: false,
     fotosBanner: ["/Carroselimg/jujutsukaisen-car1.jpeg", "/Carroselimg/jujutsukaisen-car2.jpg"],
     episodios: [
       {
@@ -656,7 +644,6 @@ export const catalogo = [
     descricaoDetalhes: "SAO reinventa o conceito de MMORPGs com uma narrativa cheia de perigos reais e relacionamentos virtuais que transcendem o jogo. Uma aventura digital emocionante 💻⚔️",
     dublagem: "português, japonês(original), inglês",
     legenda: "português, inglês, espanhol",
-    watchList: false,
     fotosBanner: ["/Carroselimg/sao-car1.webp", "/Carroselimg/sao-car2.webp"],
     episodios: [
       {
@@ -710,7 +697,6 @@ export const catalogo = [
     descricaoDetalhes: "Steins;Gate é uma obra-prima de ficção científica que explora os paradoxos temporais com profundidade emocional. O preço de brincar de Deus é alto ⏳🔬",
     dublagem: "português, japonês(original), inglês",
     legenda: "português, inglês, alemão",
-    watchList: false,
     fotosBanner: ["/Carroselimg/steinsgate-car1.webp", "/Carroselimg/steinsgate-car2.png"],
     episodios: [
       {
@@ -764,7 +750,6 @@ export const catalogo = [
     descricaoDetalhes: "Cowboy Bebop combina jazz, faroeste espacial e personagens marcantes. Cada episódio é uma obra de arte independente com um final inesquecível 🎷🚀",
     dublagem: "português, japonês(original), inglês",
     legenda: "português, inglês, francês",
-    watchList: false,
     fotosBanner: ["/Carroselimg/cowboybebop-car1.jpg", "/Carroselimg/cowboybebop-car2.jpg"],
     episodios: [
       {
@@ -818,7 +803,6 @@ export const catalogo = [
     descricaoDetalhes: "Evangelion revolucionou o gênero mecha com profundidade psicológica e simbolismo complexo. Mais que robôs gigantes, uma jornada ao abismo da mente humana 🤖✝️",
     dublagem: "português, japonês(original), inglês",
     legenda: "português, inglês, alemão",
-    watchList: false,
     fotosBanner: ["/Carroselimg/evangelion-car1.jpg", "/Carroselimg/evangelion-car1.webp"],
     episodios: [
       {
@@ -872,7 +856,6 @@ export const catalogo = [
     descricaoDetalhes: "Code Geass mistura estratégia militar, dilemas morais e revolução em uma narrativa cheia de reviravoltas. Lelouch prova que uma mente brilhante pode mudar o mundo ♟️👑",
     dublagem: "português, japonês(original), inglês",
     legenda: "português, inglês, espanhol",
-    watchList: false,
     fotosBanner: ["/Carroselimg/codegeass-car1.jpg", "/Carroselimg/codegeass-car2.jpg"],
     episodios: [
       {
@@ -926,7 +909,6 @@ export const catalogo = [
     descricaoDetalhes: "Black Clover celebra a perseverança contra todas as probabilidades. Asta prova que força de vontade pode superar até a falta de magia em um mundo mágico ✨🗡️",
     dublagem: "português, japonês(original), inglês",
     legenda: "português, inglês, francês",
-    watchList: false,
     fotosBanner: ["/Carroselimg/blackclover-car1.jpg", "/Carroselimg/blackclover-car2.jpg"],
     episodios: [
       {
@@ -980,7 +962,6 @@ export const catalogo = [
     descricaoDetalhes: "Fairy Tail é pura energia e amizade! A guilda mais caótica de magos prova que família não é só sangue, mas laços forjados em batalhas épicas e festas animadas 🎪🔥",
     dublagem: "português, japonês(original), inglês",
     legenda: "português, inglês, espanhol",
-    watchList: false,
     fotosBanner: ["/Carroselimg/fairytale-car1.webp", "/Carroselimg/fairytale-car2.webp"],
     episodios: [
       {
@@ -1034,7 +1015,6 @@ export const catalogo = [
     descricaoDetalhes: "Re:Zero transforma o conceito de 'isekai' em um pesadelo psicológico. Subaru sofre, morre e renasce em uma jornada cruel para salvar quem ama ♾️💔",
     dublagem: "português, japonês(original), inglês",
     legenda: "português, inglês, alemão",
-    watchList: false,
     fotosBanner: ["/Carroselimg/rezero-car1.webp", "/Carroselimg/rezero-car2.webp"],
     episodios: [
       {
@@ -1088,7 +1068,6 @@ export const catalogo = [
     descricaoDetalhes: "The Promised Neverland é um thriller psicológico onde crianças usam inteligência pura para escapar de um destino horrível. Cada plano é um passo entre a vida e a morte 🧠🏃‍♂️",
     dublagem: "português, japonês(original), inglês",
     legenda: "português, inglês, francês",
-    watchList: false,
     fotosBanner: ["/Carroselimg/promisedneverland-car1.png", "/Carroselimg/promisedneverland-car2.png"],
     episodios: [
       {
@@ -1142,7 +1121,6 @@ export const catalogo = [
     descricaoDetalhes: "Vinland Saga é uma obra-prima histórica que transforma violência viking em uma meditação sobre redenção. A jornada de Thorfinn vai do ódio à busca por um lugar sem guerra ⚔️🌊",
     dublagem: "português, japonês(original), inglês",
     legenda: "português, inglês, alemão",
-    watchList: false,
     fotosBanner: ["/Carroselimg/vinlandsaga-car1.png", "/Carroselimg/vinlandsaga-car2.jpg"],
     episodios: [
       {
@@ -1196,7 +1174,6 @@ export const catalogo = [
     descricaoDetalhes: "Dr. Stone celebra o poder da ciência e inventividade humana. Senku e amigos recriam tecnologia do zero em um mundo pós-apocalíptico, uma aula de química épica 🧪🔨",
     dublagem: "português, japonês(original), inglês",
     legenda: "português, inglês, espanhol",
-    watchList: false,
     fotosBanner: ["/Carroselimg/drstone-car1.jpg", "/Carroselimg/drstone-car2.jpeg"],
     episodios: [
       {
@@ -1250,7 +1227,6 @@ export const catalogo = [
     descricaoDetalhes: "Haikyuu!! captura a adrenalina do vôlei com personagens carismáticos e jogos eletrizantes. Hinata e Kageyama provam que rivalidade e cooperação andam juntas 🏐🔥",
     dublagem: "português, japonês(original), inglês",
     legenda: "português, inglês, francês",
-    watchList: false,
     fotosBanner: ["/Carroselimg/haikyuu-car1.png", "/Carroselimg/haikyuu-car2.png"],
     episodios: [
       {
@@ -1304,7 +1280,6 @@ export const catalogo = [
     descricaoDetalhes: "One Punch Man satiriza super-heróis com humor e ação espetacular. Saitama busca um desafio que faça seu coração bater mais forte, mas ninguém resiste a um soco sério 💥👊",
     dublagem: "português, japonês(original), inglês",
     legenda: "português, inglês, espanhol",
-    watchList: false,
     fotosBanner: ["/Carroselimg/onepunchman-car1.jpg", "/Carroselimg/onepunchman-car2.webp"],
     episodios: [
       {
@@ -1358,7 +1333,6 @@ export const catalogo = [
     descricaoDetalhes: "Mob Psycho 100 mistura ação sobrenatural com crescimento pessoal. Mob aprende que poder não é tudo e que emoções, por mais difíceis, são o que nos fazem humanos 🌀💥",
     dublagem: "português, japonês(original), inglês",
     legenda: "português, inglês, francês",
-    watchList: false,
     fotosBanner: ["/Carroselimg/mobpsycho-car1.jpg", "/Carroselimg/mobpsycho-car2.jpg"],
     episodios: [
       {
@@ -1412,7 +1386,6 @@ export const catalogo = [
     descricaoDetalhes: "JoJo é puro estilo e criatividade! Cada parte traz um novo protagonista Joestar, vilões memoráveis e batalhas estratégicas com Stands únicos. Absurdo e genial ao mesmo tempo 💎🎸",
     dublagem: "português, japonês(original), inglês",
     legenda: "português, inglês, italiano",
-    watchList: false,
     fotosBanner: ["/Carroselimg/jojo-car1.webp", "/Carroselimg/jojo-car2.webp"],
     episodios: [
       {
@@ -1466,7 +1439,6 @@ export const catalogo = [
     descricaoDetalhes: "Berserk é uma obra-prima sombria sobre trauma, sobrevivência e a luta contra o destino. A jornada de Guts com sua Espada Dragon Slayer é visceral e inesquecível ⚔️🐺",
     dublagem: "português, japonês(original), inglês",
     legenda: "português, inglês, alemão",
-    watchList: false,
     fotosBanner: ["/Carroselimg/berserk-car1.webp", "/Carroselimg/berserk-car2.webp"],
     episodios: [
       {
@@ -1520,7 +1492,6 @@ export const catalogo = [
     descricaoDetalhes: "Parasyte explora a natureza humana através da simbiose forçada entre Shinichi e Migi. Sangrento, filosófico e repleto de dilemas morais 👁️🖐️",
     dublagem: "português, japonês(original), inglês",
     legenda: "português, inglês, coreano",
-    watchList: false,
     fotosBanner: ["/Carroselimg/parasyte-car1.png", "/Carroselimg/parasyte-car2.jpg"],
     episodios: [
       {
@@ -1574,7 +1545,6 @@ export const catalogo = [
     descricaoDetalhes: "No Game No Life é um festival de estratégias criativas e jogos psicológicos. Os irmãos Blank nunca perdem, provando que o intelecto pode superar qualquer desafio 🎮👑",
     dublagem: "português, japonês(original), inglês",
     legenda: "português, inglês, chinês",
-    watchList: false,
     fotosBanner: ["/Carroselimg/ngnl-car1.jpg", "/Carroselimg/ngnl-car2.jpg"],
     episodios: [
       {
@@ -1628,7 +1598,6 @@ export const catalogo = [
     descricaoDetalhes: "Konosuba satiriza o gênero isekai com humor absurdo e personagens hilariamente incompetentes. Kazuma só quer uma vida tranquila, mas seu grupo é um desastre andante 💦😂",
     dublagem: "português, japonês(original), inglês",
     legenda: "português, inglês, espanhol",
-    watchList: false,
     fotosBanner: ["/Carroselimg/konosuba-car1.jpg", "/Carroselimg/konosuba-car1.png"],
     episodios: [
       {
@@ -1682,7 +1651,6 @@ export const catalogo = [
     descricaoDetalhes: "Overlord inverte o isekai: o protagonista é o vilão opressor! Ainz Ooal Gown e seus NPCs aterrorizam um mundo real com magias de jogo, criando um império sombrio 💀🏰",
     dublagem: "português, japonês(original), inglês",
     legenda: "português, inglês, alemão",
-    watchList: false,
     fotosBanner: ["/Carroselimg/overlord-car1.png", "/Carroselimg/overlord-car2.webp"],
     episodios: [
       {
@@ -1736,7 +1704,6 @@ export const catalogo = [
     descricaoDetalhes: "Made in Abyss é uma jornada de descoberta e horror cósmico. A beleza do abismo esconde tragédias indescritíveis, testando os limites da curiosidade humana ⛏️🕳️",
     dublagem: "português, japonês(original), inglês",
     legenda: "português, inglês, francês",
-    watchList: false,
     fotosBanner: ["/Carroselimg/mia-car1.jpg", "/Carroselimg/mia-car2.jpg"],
     episodios: [
       {
@@ -1790,7 +1757,6 @@ export const catalogo = [
     descricaoDetalhes: "Your Lie in April é uma sinfonia de emoções. Kosei supera seu trauma através da música de Kaori, em uma história que celebra a vida mesmo na dor 🎹🎻",
     dublagem: "português, japonês(original), inglês",
     legenda: "português, inglês, coreano",
-    watchList: false,
     fotosBanner: ["/Carroselimg/yourlife-car1.jpg", "/Carroselimg/yourlife-car2.jpg"],
     episodios: [
       {
@@ -1844,7 +1810,6 @@ export const catalogo = [
     descricaoDetalhes: "Clannad é uma jornada sobre família, perda e redenção. A história de Tomoya e Nagisa prova que mesmo na tragédia, há luzes de esperança e amor 💮🌟",
     dublagem: "português, japonês(original), inglês",
     legenda: "português, inglês, alemão",
-    watchList: false,
     fotosBanner: ["/Carroselimg/clannad-car1.png", "/Carroselimg/clannad-car2.jpg"],
     episodios: [
       {
@@ -1898,7 +1863,6 @@ export const catalogo = [
     descricaoDetalhes: "Toradora! é um ícone do romance escolar. A química entre o delinquente Ryuuji e a tigrinha Taiga mostra que o amor pode surgir nos lugares mais inesperados 🐯❤️",
     dublagem: "português, japonês(original), inglês",
     legenda: "português, inglês, espanhol",
-    watchList: false,
     fotosBanner: ["/Carroselimg/toradora-car1.jpg", "/Carroselimg/toradora-car2.png"],
     episodios: [
       {
@@ -1952,7 +1916,6 @@ export const catalogo = [
     descricaoDetalhes: "Anohana é um soco no coração sobre luto e reconciliação. A busca para atender o último desejo de Menma cura feridas antigas de um grupo marcado pela tragédia 👻🌸",
     dublagem: "português, japonês(original), inglês",
     legenda: "português, inglês, francês",
-    watchList: false,
     fotosBanner: ["/Carroselimg/anohana-car1.jpg", "/Carroselimg/anohana-car2.jpg"],
     episodios: [
       {
@@ -2006,7 +1969,6 @@ export const catalogo = [
     descricaoDetalhes: "Violet Evergarden é uma obra de arte visual e emocional. Cada carta que Violet escreve é um passo para entender seu próprio coração quebrado pela guerra ✉️💔",
     dublagem: "português, japonês(original), inglês",
     legenda: "português, inglês, alemão",
-    watchList: false,
     fotosBanner: ["/Carroselimg/violet-car1.jpg", "/Carroselimg/violet-car2.jpg"],
     episodios: [
       {
@@ -2060,7 +2022,6 @@ export const catalogo = [
     descricaoDetalhes: "A Silent Voice aborda bullying, deficiência e redenção com sensibilidade rara. A jornada de Shoya para se perdoar e reconectar com Shoko é dolorosa e linda ao mesmo tempo 🤟❤️",
     dublagem: "português, japonês(original), inglês",
     legenda: "português, inglês, língua de sinais",
-    watchList: false,
     fotosBanner: ["/Carroselimg/vos-car1.jpg", "/Carroselimg/vos-car2.jpg"],
     episodios: [
       {
@@ -2114,7 +2075,6 @@ export const catalogo = [
     descricaoDetalhes: "Weathering With You mistura fantasia climática com romance adolescente. A escolha de Hodaka entre salvar Hina ou o Tóquio afundando em chuva eterna é de cortar o coração ☔🌧️",
     dublagem: "português, japonês(original), inglês",
     legenda: "português, inglês, chinês",
-    watchList: false,
     fotosBanner: ["/Carroselimg/wwy-car1.jpg", "/Carroselimg/wwy-car2.jpg"],
     episodios: [
       {
@@ -2168,7 +2128,6 @@ export const catalogo = [
     descricaoDetalhes: "Spirited Away é uma jornada de amadurecimento no mundo dos espíritos. Chihiro enfrenta criaturas mágicas e desafios para salvar sua família e encontrar seu caminho de volta 🐉🏯",
     dublagem: "português, japonês(original), inglês",
     legenda: "português, inglês, mandarim",
-    watchList: false,
     fotosBanner: ["/Carroselimg/spiritaway-car1.jpg", "/Carroselimg/spiritaway-car2.jpg"],
     episodios: [
       {
@@ -2222,7 +2181,6 @@ export const catalogo = [
     descricaoDetalhes: "Meu Amigo Totoro captura a inocência da infância e a magia da natureza. A amizade entre Satsuki, Mei e Totoro aquece corações há décadas 🍃🐾",
     dublagem: "português, japonês(original), inglês",
     legenda: "português, inglês, francês",
-    watchList: false,
     fotosBanner: ["/Carroselimg/totoro-car1.webp", "/Carroselimg/totoro-car2.jpg"],
     episodios: [
       {
@@ -2276,7 +2234,6 @@ export const catalogo = [
     descricaoDetalhes: "O Castelo Animado de Howl é um conto sobre aceitação e amor verdadeiro. Sophie descobre que a beleza está no coração, não na aparência, enquanto Howl aprende a amar 🏰🔥",
     dublagem: "português, japonês(original), inglês",
     legenda: "português, inglês, espanhol",
-    watchList: false,
     fotosBanner: ["/Carroselimg/howlsCastle-car1.jpg", "/Carroselimg/howlsCastle-car2.jpg"],
     episodios: [
       {
@@ -2330,7 +2287,6 @@ export const catalogo = [
     descricaoDetalhes: "Princesa Mononoke é um épico ecológico sem vilões simples. A luta entre progresso humano e preservação da natureza é retratada com profundidade e ação arrebatadora 🏹🐺",
     dublagem: "português, japonês(original), inglês",
     legenda: "português, inglês, japonês",
-    watchList: false,
     fotosBanner: ["/Carroselimg/mononoke-car1.jpg", "/Carroselimg/mononoke-car2.jpg"],
     episodios: [
       {
@@ -2384,7 +2340,6 @@ export const catalogo = [
     descricaoDetalhes: "Akira redefiniu o cyberpunk com sua animação revolucionária e história complexa. A amizade destruída entre Kaneda e Tetsuo reflete os horrores do poder absoluto 🏍️💥",
     dublagem: "português, japonês(original), inglês",
     legenda: "português, inglês, francês",
-    watchList: false,
     fotosBanner: ["/Carroselimg/akira-car1.jpg", "/Carroselimg/akira-car2.webp"],
     episodios: [
       {
@@ -2438,7 +2393,6 @@ export const catalogo = [
     descricaoDetalhes: "Ghost in the Shell explora identidade e consciência em um mundo de ciborgues. A busca de Motoko por sua própria humanidade influenciou Matrix e o cyberpunk moderno 🤖🌃",
     dublagem: "português, japonês(original), inglês",
     legenda: "português, inglês, mandarim",
-    watchList: false,
     fotosBanner: ["/Carroselimg/gis-car1.jpg", "/Carroselimg/gis-car2.jpg"],
     episodios: [
       {
@@ -2492,7 +2446,6 @@ export const catalogo = [
     descricaoDetalhes: "Psycho-Pass questiona livre-arbítrio e justiça em um futuro controlado por IA. A batalha de Akane contra o sistema Sibyl mostra que humanos não podem ser reduzidos a números 🔍💢",
     dublagem: "português, japonês(original), inglês",
     legenda: "português, inglês, russo",
-    watchList: false,
     fotosBanner: ["/Carroselimg/pyschopass.car1.png", "/Carroselimg/pyschopass.car2.jpg"],
     episodios: [
       {
@@ -2546,7 +2499,6 @@ export const catalogo = [
     descricaoDetalhes: "Erased mistura suspense e drama em uma jornada contra o destino. Satoru usa sua habilidade de revival para salvar vidas e corrigir erros do passado ⏳🔪",
     dublagem: "português, japonês(original), inglês",
     legenda: "português, inglês, coreano",
-    watchList: false,
     fotosBanner: ["/Carroselimg/erased-car1.jpg", "/Carroselimg/erased-car2.png"],
     episodios: [
       {
@@ -2600,7 +2552,6 @@ export const catalogo = [
     descricaoDetalhes: "Shield Hero começa como uma história de traição e redenção. Naofumi transforma ódio em compaixão enquanto prova que até o herói mais fraco pode se tornar o mais forte 🛡️⚔️",
     dublagem: "português, japonês(original), inglês",
     legenda: "português, inglês, alemão",
-    watchList: false,
     fotosBanner: ["/Carroselimg/rsh-var1.jpg", "/Carroselimg/rsh-var2.webp"],
     episodios: [
       {
@@ -2654,7 +2605,6 @@ export const catalogo = [
     descricaoDetalhes: "Darling in the Franxx mistura mechas, romance e revolução. A relação de Hiro e Zero Two desafia um sistema opressor, provando que o amor é a maior arma contra o controle 🦄❤️",
     dublagem: "português, japonês(original), inglês",
     legenda: "português, inglês, francês",
-    watchList: false,
     fotosBanner: ["/Carroselimg/darling-car1.png", "/Carroselimg/darling-car2.jpg"],
     episodios: [
       {
