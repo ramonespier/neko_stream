@@ -27,7 +27,7 @@ export default function watchList() {
     anime.titulo.toLowerCase().includes(searchLowerCase)
   );
 
-  function watchListVazia() {
+  function noResults() {
     if (animes.length == 0) {
       return <p className="col-start-2 text-xl mt-12">Não existe itens na watchList</p>
     }
@@ -80,7 +80,7 @@ export default function watchList() {
             grid-cols-[repeat(auto-fill,minmax(275px,1fr))] 
             justify-items-center    
             gap-8">
-          {watchListVazia()}
+          {noResults()}
           {animes.map((anime) => (
             <li
               key={anime.id}
