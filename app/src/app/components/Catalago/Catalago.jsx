@@ -385,7 +385,7 @@ export default function Filtro({ genreId }) {
                         key={anime.id}
                         className="w-[110px] md:w-[200px] flex-shrink-0"
                         >
-                            <a href={`/detalhes/${anime.id}`}>
+                            <a href={`/filmes/${anime.id}`}>
                                 <img
                                     src={anime.foto}
                                     alt={anime.titulo}
