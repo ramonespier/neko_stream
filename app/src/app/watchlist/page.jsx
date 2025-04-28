@@ -17,16 +17,10 @@ export default function watchList() {
   // const [itensWatchList, setitensWatchList] = useState([])
 
   useEffect(() => {
-<<<<<<< HEAD
     const idLocalStorage = JSON.parse(localStorage.getItem("meusIds")) || [];
     setidUseState(idLocalStorage.map(Number));
     
   }, []); 
-=======
-    const id2 = JSON.parse(localStorage.getItem("meusIds")) || [];
-    setId3(id2.map(Number));
-  }, []);
->>>>>>> e423d04f3a1cdb9f84f6af675bbaa5ddf788367d
 
   const searchLowerCase = search.toLowerCase();
   const catalogo2 = catalogo.filter((p) => idUseState.includes(p.id));
@@ -34,23 +28,16 @@ export default function watchList() {
     anime.titulo.toLowerCase().includes(searchLowerCase)
   );
 
-<<<<<<< HEAD
-  function watchListVazia() {
-    if (animes.length == 0){
-      return (<>
-      <div className="flex justify-center items-center gap-5">
-        <p className="text-2xl flex justify-center items-center h-80">Não existe um item na watchList</p>
-        <div className="flex items-center"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-40 ">
-                                <path strokeLinecap="round" strokeLinejoin="round" d="M15.182 16.318A4.486 4.486 0 0 0 12.016 15a4.486 4.486 0 0 0-3.198 1.318M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0ZM9.75 9.75c0 .414-.168.75-.375.75S9 10.164 9 9.75 9.168 9 9.375 9s.375.336.375.75Zm-.375 0h.008v.015h-.008V9.75Zm5.625 0c0 .414-.168.75-.375.75s-.375-.336-.375-.75.168-.75.375-.75.375.336.375.75Zm-.375 0h.008v.015h-.008V9.75Z" />
-                            </svg></div>
-      </div>
-      <div className="m-10"></div>
-      </>)
-=======
   function noResults() {
     if (animes.length == 0) {
-      return <p className="col-start-2 text-xl mt-12">Não existe itens na watchList</p>
->>>>>>> e423d04f3a1cdb9f84f6af675bbaa5ddf788367d
+      return <>
+      <p className="col-start-2 text-xl mt-12">Não existe itens na watchList</p>
+      <div className="flex items-center"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-40 ">
+                                <path strokeLinecap="round" strokeLinejoin="round" d="M15.182 16.318A4.486 4.486 0 0 0 12.016 15a4.486 4.486 0 0 0-3.198 1.318M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0ZM9.75 9.75c0 .414-.168.75-.375.75S9 10.164 9 9.75 9.168 9 9.375 9s.375.336.375.75Zm-.375 0h.008v.015h-.008V9.75Zm5.625 0c0 .414-.168.75-.375.75s-.375-.336-.375-.75.168-.75.375-.75.375.336.375.75Zm-.375 0h.008v.015h-.008V9.75Z" />
+                            </svg></div>
+      
+      <div className="m-10"></div>
+      </>
     }
   }
 
@@ -102,10 +89,7 @@ export default function watchList() {
             grid-cols-[repeat(auto-fill,minmax(275px,1fr))] 
             justify-items-center    
             gap-8">
-<<<<<<< HEAD
-=======
           {noResults()}
->>>>>>> e423d04f3a1cdb9f84f6af675bbaa5ddf788367d
           {animes.map((anime) => (
             <li
               key={anime.id}
