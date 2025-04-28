@@ -1,6 +1,5 @@
 "use client"
 
-import './header.css'
 import Dropdown from "../Dropdown/dropdown"
 
 export default function Header() {
