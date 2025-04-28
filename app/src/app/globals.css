@@ -12,6 +12,14 @@
   --font-mono: var(--font-geist-mono);
 }
 
+@font-face {
+  font-family: 'personal';
+  src: url('/fonts/Fonstars.otf') format('opentype');
+  src: url('/fonts/Juzho.otf') format('opentype');
+  /* src: url('/fonts/Mukote.ttf') format('truetype'); */
+  font-display: swap;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
