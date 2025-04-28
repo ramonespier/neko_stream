@@ -6,7 +6,7 @@ import { IoChevronBackOutline, IoChevronForwardOutline } from "react-icons/io5";
 
 
 
-export default function Catalogo({ genreId }) {
+export default function Filtro({ genreId }) {
     const catalogoAnime2 = [
         {
             id: 1,
