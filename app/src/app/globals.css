@@ -13,8 +13,8 @@
 }
 
 @font-face {
-  font-family: 'personal';
-  src: url('/fonts/Fonstars.otf') format('opentype');
+  font-family: 'Juzho';
+  /* src: url('/fonts/Fonstars.otf') format('opentype'); */
   src: url('/fonts/Juzho.otf') format('opentype');
   /* src: url('/fonts/Mukote.ttf') format('truetype'); */
   font-display: swap;

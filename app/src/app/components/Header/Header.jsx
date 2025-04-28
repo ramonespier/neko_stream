@@ -34,8 +34,9 @@ export default function Header() {
                         justify-center gap-10
                         
                         ">
-                            <li style={{ fontFamily: "'personal', 'Juzho'" }} className="p-5 text-3xl hover:scale-105 hover:text-gray-400 transition"><a href="/">Catálogo</a></li>
-                            <li style={{ fontFamily: "'personal', 'Juzho'" }} className="p-5 text-3xl hover:scale-105 hover:text-gray-400 transition"><a href="/watchlist">Watchlist</a></li>
+                            <li style={{ fontFamily: "Juzho" }} className="p-5 text-3xl hover:scale-105 hover:text-gray-400 transition"><a href="/">Catálogo</a></li>
+                            <li style={{ fontFamily: "Juzho" }} className="p-5 text-3xl hover:scale-105 hover:text-gray-400 transition"><a href="/watchlist">Watchlist</a></li>
+                            <li style={{ fontFamily: "Juzho" }} className="p-5 text-3xl hover:scale-105 hover:text-gray-400 transition"><a href="/planos">Planos</a></li>
                         </ul>
                     </div>
                 </div>
@@ -43,7 +44,7 @@ export default function Header() {
                 <div
                     className="md:hidden
                     text-2xl z-20"
-                    style={{ fontFamily: "'personal', 'Juzho'" }}
+                    style={{ fontFamily: "Juzho" }}
                 >
                     <Dropdown />
                 </div>
