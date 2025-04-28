@@ -35,7 +35,7 @@ import {
           <motion.ul
             initial={wrapperVariants.closed}
             variants={wrapperVariants}
-            style={{ originY: "top", translateX: "-80%" }}
+            style={{ originY: "top", translateX: "-60%", fontFamily: "'personal, 'Juhzo'"}}
             className="flex flex-col justify-around rounded-lg bg-white/85 shadow-xl absolute top-[120%] w-screen h-60 overflow-hidden"
           >
             <Option setOpen={setOpen} Icon={FiEdit} text="Editar perfil"/>

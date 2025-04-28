@@ -1,6 +1,5 @@
 "use client";
 
-import { Imprima } from "next/font/google";
 import { use, useEffect, useRef, useState } from "react";
 import { IoChevronBackOutline, IoChevronForwardOutline } from "react-icons/io5";
 
@@ -371,10 +370,10 @@ export default function Filtro({ genreId }) {
         const filtrado = catalogoAnime2.filter(item => (item.genero == genreId))
         return (
         <>
-            <div className="relative">
+            <div className="relative select-none">
                 <IoChevronBackOutline
                     onClick={() => slideLeft(elementRef.current)}
-                    className="text-[60px] p-2 cursor-pointer z-10 absolute left-2 top-1/2 -translate-y-1/2 border hover:scale-110 transition-all  bg-black rounded-full shadow-md"
+                    className="text-[60px] p-2 cursor-pointer z-10 absolute left-2 top-1/2 -translate-y-1/2 border hover:scale-110 transition-all bg-rose-600 hover:bg-rose-800 rounded-full shadow-md"
                     />
 
                 <div
@@ -400,7 +399,7 @@ export default function Filtro({ genreId }) {
 
                 <IoChevronForwardOutline
                     onClick={() => slideRight(elementRef.current)}
-                    className="text-[40px] p-2 cursor-pointer z-10 absolute right-2 top-1/2 -translate-y-1/2 bg-black rounded-full shadow-md"
+                    className="text-[60px] p-2 cursor-pointer z-10 absolute right-2 top-1/2 -translate-y-1/2 border hover:scale-110 transition-all bg-rose-600 hover:bg-rose-800 rounded-full shadow-md"
                     />
             </div>
         </>

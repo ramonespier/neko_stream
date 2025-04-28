@@ -1,6 +1,5 @@
 "use client"
 
-import Switch from "../BotaoTema/Botao"
 import './header.css'
 import Dropdown from "../Dropdown/dropdown"
 
@@ -35,19 +34,21 @@ export default function Header() {
                         hidden items-center
                         justify-center gap-10
                         
-                        
                         ">
-                            <li className="p-5 hover:scale-105 hover:text-gray-400 transition"><a href="/">Catálogo</a></li>
-                            <li className="p-5 hover:scale-105 hover:text-gray-400 transition"><a href="/watchlist">Watchlist</a></li>
+                            <li style={{ fontFamily: "'personal', 'Juzho'" }} className="p-5 text-3xl hover:scale-105 hover:text-gray-400 transition"><a href="/">Catálogo</a></li>
+                            <li style={{ fontFamily: "'personal', 'Juzho'" }} className="p-5 text-3xl hover:scale-105 hover:text-gray-400 transition"><a href="/watchlist">Watchlist</a></li>
                         </ul>
                     </div>
                 </div>
 
                 <div
-                    className=" items-center 
-                    gap-10
-                    text-2xl m-5">
+                    className="md:hidden
+                    text-2xl z-20"
+                    style={{ fontFamily: "'personal', 'Juzho'" }}
+                >
                     <Dropdown />
+                </div>
+                <div>
                     <ul className="hidden lg:flex md:flex tems-center gap-10">
                         <li className="p-5 hover:scale-105 hover:text-gray-400 transition w-36"><img className="rounded-full" src="/perfil.jfif" alt="Foto de perfil" /></li>
                     </ul>
