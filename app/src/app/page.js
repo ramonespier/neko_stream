@@ -19,7 +19,13 @@ export default function Catalogo() {
             <div className="w-full flex flex-col p-6">
 
                 <div className="flex items-center border gap-2 rounded-lg w-96 p-0.5 bg-blue-50 text-black">
-                    <label htmlFor="search">🔎</label>
+                    <label htmlFor="search">
+
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
+                            <path strokeLinecap="round" strokeLinejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                        </svg>
+
+                    </label>
                     <input id="search" type="search" placeholder="Black Clover . . ." value={search} onChange={(e) => setSearch(e.target.value)}
                         className="
                 w-full
@@ -53,29 +59,29 @@ export default function Catalogo() {
                         cursor-pointer
                         ">
                             <a href={`/filmes/${anime.id}`}>
-                            <div className="w-full h-full p-5">
+                                <div className="w-full h-full p-5">
 
 
 
-                            <div className="
+                                    <div className="
                             flex 
                             flex-col 
                             gap-4">
 
-                                <h3 className="
+                                        <h3 className="
                                 text-center 
                                 text-2xl 
                                 font-extrabold">
-                                    {anime.titulo}
-                                </h3>
+                                            {anime.titulo}
+                                        </h3>
 
-                                <img className="border-2 border-neutral-200/70"
-                                    src={anime.foto} />
+                                        <img className="border-2 border-neutral-200/70"
+                                            src={anime.foto} />
 
-                                <p className="text-justify text-lg text-">{anime.descricao}</p>
-                            </div>
+                                        <p className="text-justify text-lg text-">{anime.descricao}</p>
                                     </div>
-                                    </a>
+                                </div>
+                            </a>
                         </li>
                     ))}
                 </ul>
