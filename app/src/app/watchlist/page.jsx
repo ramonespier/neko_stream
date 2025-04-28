@@ -17,10 +17,16 @@ export default function watchList() {
   // const [itensWatchList, setitensWatchList] = useState([])
 
   useEffect(() => {
+<<<<<<< HEAD
     const idLocalStorage = JSON.parse(localStorage.getItem("meusIds")) || [];
     setidUseState(idLocalStorage.map(Number));
     
   }, []); 
+=======
+    const id2 = JSON.parse(localStorage.getItem("meusIds")) || [];
+    setId3(id2.map(Number));
+  }, []);
+>>>>>>> e423d04f3a1cdb9f84f6af675bbaa5ddf788367d
 
   const searchLowerCase = search.toLowerCase();
   const catalogo2 = catalogo.filter((p) => idUseState.includes(p.id));
@@ -28,6 +34,7 @@ export default function watchList() {
     anime.titulo.toLowerCase().includes(searchLowerCase)
   );
 
+<<<<<<< HEAD
   function watchListVazia() {
     if (animes.length == 0){
       return (<>
@@ -39,6 +46,11 @@ export default function watchList() {
       </div>
       <div className="m-10"></div>
       </>)
+=======
+  function noResults() {
+    if (animes.length == 0) {
+      return <p className="col-start-2 text-xl mt-12">Não existe itens na watchList</p>
+>>>>>>> e423d04f3a1cdb9f84f6af675bbaa5ddf788367d
     }
   }
 
@@ -60,7 +72,14 @@ export default function watchList() {
           p-0.5 
           bg-blue-50 
           text-black">
-          <label htmlFor="search">🔎</label>
+          <label htmlFor="search">
+
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
+              <path strokeLinecap="round" strokeLinejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+            </svg>
+
+
+          </label>
           <input
             id="search"
             type="search"
@@ -83,6 +102,10 @@ export default function watchList() {
             grid-cols-[repeat(auto-fill,minmax(275px,1fr))] 
             justify-items-center    
             gap-8">
+<<<<<<< HEAD
+=======
+          {noResults()}
+>>>>>>> e423d04f3a1cdb9f84f6af675bbaa5ddf788367d
           {animes.map((anime) => (
             <li
               key={anime.id}
@@ -111,9 +134,9 @@ export default function watchList() {
                         text-center 
                         text-2xl 
                         font-extrabold">
-                          {anime.titulo}
+                      {anime.titulo}
                     </h3>
-                    <img className="border-2 border-neutral-200/70"src={anime.foto}/>
+                    <img className="border-2 border-neutral-200/70" src={anime.foto} />
                     <p className="text-justify text-lg text-">
                       {anime.descricao}
                     </p>
@@ -126,7 +149,7 @@ export default function watchList() {
         {watchListVazia()}
       </div>
       <div className="flex justify-center">
-      <button onClick={limparDados} className='
+        <button onClick={limparDados} className='
         bg-rose-800 
         mb-10 
         mt-5 
