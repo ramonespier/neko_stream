@@ -49,7 +49,7 @@ export default function Header() {
                     <Dropdown />
                 </div>
                 <div>
-                    <ul className="hidden lg:flex md:flex tems-center gap-10">
+                    <ul className="hidden lg:flex md:flex mr-5 items-center gap-10">
                         <li className="p-5 hover:scale-105 hover:text-gray-400 transition w-36"><img className="rounded-full" src="/perfil.jfif" alt="Foto de perfil" /></li>
                     </ul>
                 </div>
