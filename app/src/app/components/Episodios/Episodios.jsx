@@ -36,17 +36,24 @@ export default function episodiosFunc({id}) {
                     xl:grid-cols-4
                     ">
                         {data.episodios.map((item) => (
-                            <div key={item.titulo} className="border-1 
+                            <div key={item.titulo} className="
                                 flex 
                                 flex-col 
                                 items-end 
                                 h-35 
                                 relative 
-                                hover:scale-105">
+                                transition
+                                rounded
+                                border-2
+                                hover:scale-95
+                                hover:border-rose-300">
                                 <button className="z-20 absolute p-1" onClick={() => changeStatus(item.titulo)}>
                                     <img src='/icon/info.png' alt='fechar' className="
                                         w-5 
                                         cursor-pointer 
+                                        border-2
+                                        border-red-600
+                                        rounded-full
                                         hover:scale-110"/>
                                 </button>
 
@@ -59,8 +66,7 @@ export default function episodiosFunc({id}) {
                                     relative 
                                     z-10 
                                     px-1 
-                                    border 
-                                    border-1 
+                                    border  
                                     rounded`}
                                     style={{ backgroundColor: "rgba(0, 0, 0, 0.5)" }}>
                                     <p className="relative">{item.titulo}</p>
@@ -73,6 +79,7 @@ export default function episodiosFunc({id}) {
                                     w-full 
                                     h-full 
                                     object-cover 
+                                    rounded
                                     z-0"/>
                             </div>
                         ))}

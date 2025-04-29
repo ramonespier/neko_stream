@@ -36,10 +36,15 @@ export default function Carousel({ id }) {
           absolute 
           top-1/2 
           left-4 
+          text-xl
+          transition
+          cursor-pointer
+          hover:scale-105
           -translate-y-1/2 
           text-white 
-          bg-black/50 
-          p-2 
+          bg-rose-700/70 
+          border
+          p-4 
           rounded-full"
       >
         {"<"}
@@ -51,10 +56,15 @@ export default function Carousel({ id }) {
           absolute 
           top-1/2 
           right-4 
+          text-xl
+          transition
+          cursor-pointer
+          hover:scale-105
           -translate-y-1/2 
           text-white 
-          bg-black/50 
-          p-2 
+          bg-rose-700/70 
+          border
+          p-4 
           rounded-full"
       >
         {">"}

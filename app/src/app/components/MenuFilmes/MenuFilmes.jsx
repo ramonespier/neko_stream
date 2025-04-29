@@ -7,7 +7,7 @@ export default function menuFilmes({ id }) {
     const [ids, setIds] = useState([]);
     const [statusWatchList, setWatchList] = useState(false);
     const [isExpanded, setIsExpanded] = useState(false);
-    const [buttonText, setButtonText] = useState("Expandir");
+    const [buttonText, setButtonText] = useState("Leia mais");
     const [popUpDetalhes, SetpopUpDetalhes] = useState(true);
     const [statusCurtir, setCurtir] = useState(false);
 
@@ -22,7 +22,7 @@ export default function menuFilmes({ id }) {
 
     function toggleHeight() {
         setIsExpanded(!isExpanded);
-        setButtonText(isExpanded ? "Expandir" : "Recolher"); // Alterna o texto
+        setButtonText(isExpanded ? "Leia mais" : "Recolher"); // Alterna o texto
     };
 
     function exibirPopUp() {
@@ -60,7 +60,7 @@ export default function menuFilmes({ id }) {
             <img src="/icon/aproveWhite.png" alt="icon_watch_list" className="w-8 h-8" />
         );
     };
-    
+
 
 
     let exibirCurtir = "";
@@ -72,14 +72,14 @@ export default function menuFilmes({ id }) {
 
     return (
         <>
-            <section className=" bg-black p-5 ">{/*Inico section menu*/}
+            <section className=" bg-black px-5 pb-5 ">{/*Inico section menu*/}
                 <div className="
                     w-full 
-                    mr-5 
                     bg-neutral-800 
-                    border-3 
-                    border-neutral-500 
-                    shadow-rose-css 
+                    border-2
+                    border-neutral-700 
+                    shadow-xl
+                    shadow-rose-500
                     rounded-lg"> {/*div central menu*/}
                     <div className="
                         font-bold 
@@ -88,27 +88,31 @@ export default function menuFilmes({ id }) {
                         lg:text-3xl 
                         xl:text-4xl 
                         text-4xl 
+                        text-justify
                         bg-neutral-800 
                         text-red-500 
                         rounded-t-sm ">{/*titulo menu*/}
-                        <h1 className="text-center">{data.titulo}</h1>
+                        <h1 className="text-center mt-4">{data.titulo}</h1>
                     </div>
-                    <div className="bg-neutral-800">
+                    <div className="flex">
                         <div className={`
                             ${isExpanded ? "h-auto" : "h-[50px]"} 
                             overflow-hidden 
                             transition-all 
                             bg-neutral-800 
-                            pt-4 
+                            py-4 
                             px-4 
-                            roboto 
+                            font-mono 
                             text-justify`}>
                             {data.descricao}
                         </div>
                         <div className="flex justify-center">
 
                             <button onClick={toggleHeight} className="
-                                text-blue-600 
+                                bg-neutral-200
+                                text-neutral-950 
+                                p-3 rounded-full m-2
+                                transition
                                 cursor-pointer 
                                 hover:scale-105 
                                 hover:text-blue-400">
@@ -121,9 +125,8 @@ export default function menuFilmes({ id }) {
                         <div className="
                             grid 
                             grid-flex-row 
-                            text-black 
                             bg-neutral-800 
-                            text-white 
+                            text-rose-100
                             pl-2 
                             gap-1 
                             justify-center 
@@ -136,9 +139,10 @@ export default function menuFilmes({ id }) {
                                 md:text-3xl"> {/**assistir */}
                                 <button className="
                                     cursor-pointer 
+                                    transition
                                     hover:scale-105 
                                     hover:text-stone-500">
-                                        Assistir
+                                    Assistir
                                 </button>
                             </div>
                             <div className="
@@ -149,43 +153,49 @@ export default function menuFilmes({ id }) {
                                 md:text-3xl">{/*Detalhes */}
                                 <button onClick={exibirPopUp} className=" 
                                     cursor-pointer 
+                                    transition
                                     hover:scale-105 
                                     hover:text-stone-500">
-                                        Detalhes
+                                    Detalhes
                                 </button>
 
                                 <div className={`
-                                    ${popUpDetalhes ? 'hidden' : 'fixed'} 
-                                    bg-neutral-800 
-                                    rounded-lg 
-                                    border-4 
-                                    border-neutral-500  
-                                    top-1/2 
-                                    left-1/2 
-                                    transform 
-                                    -translate-x-1/2 
-                                    -translate-y-1/2  
-                                    w-9/10 md:w-3/4 
-                                    lg:w-3/5 
-                                    xl:w-1/2 
-                                    z-50`}> {/**PopUp detalhes */}
+                                ${popUpDetalhes ? 'opacity-0 invisible scale-95' : 'opacity-100 visible scale-100'} 
+                                fixed 
+                                bg-neutral-800 
+                                rounded-lg 
+                                border-4 
+                                border-neutral-700  
+                                top-1/2 
+                                left-1/2 
+                                transform 
+                                -translate-x-1/2 
+                                -translate-y-1/2  
+                                w-9/10 md:w-3/4 
+                                lg:w-3/5 
+                                xl:w-1/2 
+                                z-50
+                                transition-all duration-300 ease-out
+                            `}> {/**PopUp detalhes */}
                                     <div className="flex justify-end">
                                         <button onClick={exibirPopUp} >
                                             <img src='/icon/fechar.png' alt='fechar' className="
                                                 w-7 
                                                 cursor-pointer 
+                                                transition
                                                 hover:scale-105
                                                 m-2"/>
                                         </button>
                                     </div>
                                     <div className="
                                         bg-zinc-900 
+                                        transition
                                         mx-5 
                                         mb-5 
                                         flex 
                                         justify-center 
                                         itens-center">
-                                        <img src={data.fotoDescricao}/>
+                                        <img src={data.fotoDescricao} />
                                     </div>
                                     <div className="
                                         bg-zinc-900 
@@ -193,7 +203,7 @@ export default function menuFilmes({ id }) {
                                         grid-cols-2 
                                         grid-rows-1
                                         sm:gap-10  
-                                        sm:grid-cols-3">  
+                                        sm:grid-cols-3">
                                         <div className="col-start-1 flex justify-center sm:justify-end">
                                             <div className="rating"> {/* Estrelas */}
                                                 <input value="5" name="rate" id="star5" type="radio"></input>
@@ -210,18 +220,19 @@ export default function menuFilmes({ id }) {
                                         </div>
                                         <div className=" sm:col-start-3  sm:justify-start justify-center flex ">
                                             <div className="flex">
-                                            <button onClick={watchList} className=" 
-                                    text-2xl
-                                    cursor-pointer 
-                                    hover:scale-102 
-                                    hover:text-stone-500">
-                                        Watchlist
-                                </button>
-                                <div className="flex items-center ml-3">
-                                    {exibirWatchListWhite}
-                                </div>
-                                </div>
-                                            
+                                                <button onClick={watchList} className=" 
+                                                text-2xl
+                                                cursor-pointer
+                                                transition 
+                                                hover:scale-102 
+                                                hover:text-stone-500">
+                                                    Watchlist
+                                                </button>
+                                                <div className="flex items-center ml-3">
+                                                    {exibirWatchListWhite}
+                                                </div>
+                                            </div>
+
                                         </div>
                                     </div>
                                     <div>
@@ -254,10 +265,11 @@ export default function menuFilmes({ id }) {
                                 md:justify-start 
                                 md:text-3xl">{/**Watchlist */}
                                 <button onClick={watchList} className=" 
-                                    cursor-pointer 
+                                    cursor-pointer
+                                    transition 
                                     hover:scale-105 
                                     hover:text-stone-500">
-                                        Watchlist
+                                    Watchlist
                                 </button>
                                 <div className="flex items-center ml-3">
                                     {exibirWatchList}
@@ -271,13 +283,14 @@ export default function menuFilmes({ id }) {
                                 justify-center 
                                 md:justify-start 
                                 md:text-3xl">{/**Curtir */}
-                                    <div className="flex">
-                                        <button onClick={funcCurtir} className=" 
+                                <div className="flex">
+                                    <button onClick={funcCurtir} className=" 
                                             cursor-pointer 
+                                            transition
                                             hover:scale-105 
                                             hover:text-stone-500">
-                                                Curtir
-                                        </button>
+                                        Curtir
+                                    </button>
                                     <div className="flex justify-center items-center ml-3">
                                         {exibirCurtir}
                                     </div>
