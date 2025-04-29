@@ -349,60 +349,762 @@ export default function Filtro({ genreId }) {
             descricao: "Pilotos adolescentes controlam mechas gigantes para proteger a humanidade de monstros em um futuro pós-apocalíptico.",
             foto: "/catalogo/darlingfranxx.jpg",
             genero: "Mecha"
+        },
+
+
+        {
+            id: 51,
+            titulo: "Monster",
+            descricao: "Um neurocirurgião persegue um ex-paciente psicopata que ele salvou na infância e que agora é um assassino em série.",
+            foto: "/catalogo/monster.png",
+            genero: "Suspense"
+        },
+        {
+            id: 52,
+            titulo: "Paranoia Agent",
+            descricao: "Detetives investigam uma série de ataques cometidos por um jovem misterioso chamado Shounen Bat.",
+            foto: "/catalogo/paranoiaagent.jpg",
+            genero: "Suspense"
+        },
+        {
+            id: 53,
+            titulo: "Perfect Blue",
+            descricao: "Uma ex-idol pop se torna atriz e começa a perder a noção da realidade enquanto é perseguida por um stalker.",
+            foto: "/catalogo/perfectblue.jpg",
+            genero: "Suspense"
+        },
+        {
+            id: 54,
+            titulo: "Another",
+            descricao: "Um estudante transfere-se para uma classe amaldiçoada onde os alunos morrem misteriosamente um por um.",
+            foto: "/catalogo/another.jpg",
+            genero: "Suspense"
+        },
+        {
+            id: 55,
+            titulo: "Higurashi no Naku Koro ni",
+            descricao: "Um grupo de amigos em uma vila rural vive um ciclo de assassinatos e mistérios sobrenaturais que se repetem.",
+            foto: "/catalogo/higurashi.jpg",
+            genero: "Suspense"
+        },
+        {
+            id: 56,
+            titulo: "Shiki",
+            descricao: "Os moradores de uma pequena vila começam a morrer misteriosamente, e alguns suspeitam que vampiros estão envolvidos.",
+            foto: "/catalogo/shiki.jpg",
+            genero: "Suspense"
+        },
+        {
+            id: 57,
+            titulo: "Psycho-Pass: Sinners of the System",
+            descricao: "Três histórias que expandem o universo de Psycho-Pass, explorando mais casos do Sistema Sibyl.",
+            foto: "/catalogo/psychopass.jpeg",
+            genero: "Suspense"
+        },
+        {
+            id: 58,
+            titulo: "Babylon",
+            descricao: "Um promotor público investiga uma misteriosa mulher envolvida em uma série de suicídios e conspirações políticas.",
+            foto: "/catalogo/babylon.jpg",
+            genero: "Suspense"
+        },
+        {
+            id: 59,
+            titulo: "ID: Invaded",
+            descricao: "Detetives entram na mente de assassinos através de um sistema que reconstrói seus pensamentos para resolver crimes.",
+            foto: "/catalogo/idinvaded.jpg",
+            genero: "Suspense"
+        },
+        {
+            id: 60,
+            titulo: "Boogiepop Phantom",
+            descricao: "Uma série de assassinatos bizarros ocorre após o aparecimento de uma entidade conhecida como Boogiepop.",
+            foto: "/catalogo/boogiepop.jpg",
+            genero: "Suspense"
+        },
+
+        // Romance (10 adicionais)
+        {
+            id: 61,
+            titulo: "Kaguya-sama: Love is War",
+            descricao: "Dois estudantes brilhantes tentam fazer o outro confessar seus sentimentos em uma batalha de estratégias românticas.",
+            foto: "/catalogo/kaguyasama.jpg",
+            genero: "Romance"
+        },
+        {
+            id: 62,
+            titulo: "Your Name",
+            descricao: "Dois adolescentes inexplicavelmente trocam de corpos e desenvolvem uma conexão que transcende o tempo e espaço.",
+            foto: "/catalogo/yourname.jpg",
+            genero: "Romance"
+        },
+        {
+            id: 63,
+            titulo: "Horimiya",
+            descricao: "Hori e Miyamura mantêm segredos um do outro na escola, mas descobrem suas verdadeiras personalidades fora dela.",
+            foto: "/catalogo/horimiya.jpg",
+            genero: "Romance"
+        },
+        {
+            id: 64,
+            titulo: "Fruits Basket",
+            descricao: "Tohru Honda descobre que a família Sohma é amaldiçoada a se transformar em animais do zodíaco chinês quando abraçados.",
+            foto: "/catalogo/fruitsbasket.jpg",
+            genero: "Romance"
+        },
+        {
+            id: 65,
+            titulo: "Golden Time",
+            descricao: "Um estudante com amnésia se apaixona por uma garota excêntrica enquanto tenta reconstruir sua vida na faculdade de direito.",
+            foto: "/catalogo/goldentime.jpg",
+            genero: "Romance"
+        },
+        {
+            id: 66,
+            titulo: "Nana",
+            descricao: "Duas jovens com o mesmo nome mas personalidades opostas se tornam amigas e enfrentam desafios no amor e na vida adulta.",
+            foto: "/catalogo/nana.jpg",
+            genero: "Romance"
+        },
+        {
+            id: 67,
+            titulo: "Lovely Complex",
+            descricao: "Um casal improvável - ela muito alta, ele muito baixo - desenvolve sentimentos após anos de amizade e brincadeiras.",
+            foto: "/catalogo/lovelycomplex.jpg",
+            genero: "Romance"
+        },
+        {
+            id: 68,
+            titulo: "Ao Haru Ride",
+            descricao: "Futaba reencontra seu primeiro amor do ensino médio, mas ele não é mais o mesmo garoto que ela conheceu no passado.",
+            foto: "/catalogo/aoharuride.jpg",
+            genero: "Romance"
+        },
+        {
+            id: 69,
+            titulo: "Sukitte Ii na yo",
+            descricao: "Mei Tachibana, que nunca teve amigos, acaba namorando o garoto popular da escola após um incidente inesperado.",
+            foto: "/catalogo/sukitteiinayo.jpg",
+            genero: "Romance"
+        },
+        {
+            id: 70,
+            titulo: "Kimi ni Todoke",
+            descricao: "Sawako, chamada de Sadako por sua semelhança com a garota do filme de terror, tenta fazer amigos e conquistar seu crush.",
+            foto: "/catalogo/kiminitodoke.jpg",
+            genero: "Romance"
+        },
+
+        // Esportes (10 adicionais)
+        {
+            id: 71,
+            titulo: "Kuroko no Basket",
+            descricao: "Um time de basquete escolar tenta chegar ao topo do Japão com a ajuda do misterioso sexto membro da Geração dos Milagres.",
+            foto: "/catalogo/kurokonobasket.jpg",
+            genero: "Esportes"
+        },
+        {
+            id: 72,
+            titulo: "Yuri!!! on Ice",
+            descricao: "Um patinador artístico em crise encontra nova inspiração quando um campeão russo se oferece para ser seu treinador.",
+            foto: "/catalogo/yurionice.jpg",
+            genero: "Esportes"
+        },
+        {
+            id: 73,
+            titulo: "Run with the Wind",
+            descricao: "Dez estudantes universitários com diferentes níveis de habilidade se unem para correr o lendário revezamento Hakone Ekiden.",
+            foto: "/catalogo/runwiththewind.jpg",
+            genero: "Esportes"
+        },
+        {
+            id: 74,
+            titulo: "Eyeshield 21",
+            descricao: "Um garoto tímido se torna um corredor lendário no futebol americano escolar usando um escudo facial para esconder sua identidade.",
+            foto: "/catalogo/eyeshield21.jpg",
+            genero: "Esportes"
+        },
+        {
+            id: 75,
+            titulo: "Ace of Diamond",
+            descricao: "Eijun Sawamura se junta a uma prestigiada escola de beisebol e luta para se tornar o melhor arremessador do Japão.",
+            foto: "/catalogo/aceofdiamond.jpg",
+            genero: "Esportes"
+        },
+        {
+            id: 76,
+            titulo: "Hajime no Ippo",
+            descricao: "Ippo Makunouchi, um garoto tímido, descobre seu talento para o boxe e começa sua jornada para se tornar um campeão.",
+            foto: "/catalogo/hajimenoippo.jpg",
+            genero: "Esportes"
+        },
+        {
+            id: 77,
+            titulo: "Slam Dunk",
+            descricao: "Hanamichi Sakuragi, um delinquente, se junta ao time de basquete para impressionar uma garota e descobre seu talento para o esporte.",
+            foto: "/catalogo/slamdunk.jpg",
+            genero: "Esportes"
+        },
+        {
+            id: 78,
+            titulo: "Free!",
+            descricao: "Um grupo de amigos que nadavam juntos na infância se reúne no ensino médio e revive sua paixão pela natação competitiva.",
+            foto: "/catalogo/free.jpg",
+            genero: "Esportes"
+        },
+        {
+            id: 79,
+            titulo: "Baby Steps",
+            descricao: "Um estudante metódico descobre o tênis e usa suas habilidades analíticas para se tornar um jogador profissional.",
+            foto: "/catalogo/babylon.jpg",
+            genero: "Esportes"
+        },
+        {
+            id: 80,
+            titulo: "Major",
+            descricao: "A jornada de Goro Shigeno desde a infância até se tornar um jogador profissional de beisebol, enfrentando muitos desafios.",
+            foto: "/catalogo/major.jpg",
+            genero: "Esportes"
+        },
+
+        // Ficção Científica (10 adicionais)
+        {
+            id: 81,
+            titulo: "Legend of the Galactic Heroes",
+            descricao: "Uma épica guerra espacial entre duas facções galácticas, seguindo estratégias militares e intrigas políticas.",
+            foto: "/catalogo/logh.jpg",
+            genero: "Ficção Científica"
+        },
+        {
+            id: 82,
+            titulo: "Planetes",
+            descricao: "No ano 2075, uma equipe de coletores de lixo espacial lida com os perigos da órbita terrestre enquanto perseguem seus sonhos.",
+            foto: "/catalogo/planetes.jpg",
+            genero: "Ficção Científica"
+        },
+        {
+            id: 83,
+            titulo: "Knights of Sidonia",
+            descricao: "Humanos a bordo de uma nave espacial lutam contra criaturas alienígenas em uma batalha pela sobrevivência da espécie.",
+            foto: "/catalogo/sidonia.jpg",
+            genero: "Ficção Científica"
+        },
+        {
+            id: 84,
+            titulo: "Space Battleship Yamato 2199",
+            descricao: "A tripulação da Yamato embarca em uma jornada interestelar para salvar a Terra da radiação mortal causada por alienígenas.",
+            foto: "/catalogo/yamato2199.jpg",
+            genero: "Ficção Científica"
+        },
+        {
+            id: 85,
+            titulo: "The Orbital Children",
+            descricao: "Crianças presas em uma estação espacial em 2045 descobrem que possuem habilidades especiais e um destino interplanetário.",
+            foto: "/catalogo/orbitalchildren.jpg",
+            genero: "Ficção Científica"
+        },
+        {
+            id: 86,
+            titulo: "Terraformars",
+            descricao: "Humanos geneticamente modificados são enviados a Marte para combater baratas humanoides que evoluíram no planeta vermelho.",
+            foto: "/catalogo/terraformars.jpg",
+            genero: "Ficção Científica"
+        },
+        {
+            id: 87,
+            titulo: "Gantz",
+            descricao: "Pessoas que morrem são recrutadas para caçar alienígenas em uma série de missões mortais com tecnologia avançada.",
+            foto: "/catalogo/gantz.jpg",
+            genero: "Ficção Científica"
+        },
+        {
+            id: 88,
+            titulo: "Blame!",
+            descricao: "Em um futuro distópico, um homem percorre uma imensa estrutura urbana em busca do gene humano puro para salvar a humanidade.",
+            foto: "/catalogo/blame.jpg",
+            genero: "Ficção Científica"
+        },
+        {
+            id: 89,
+            titulo: "Dennou Coil",
+            descricao: "Crianças exploram uma realidade aumentada onde objetos virtuais e segredos sombrios se misturam com o mundo real.",
+            foto: "/catalogo/dennoucoil.jpg",
+            genero: "Ficção Científica"
+        },
+        {
+            id: 90,
+            titulo: "Time of Eve",
+            descricao: "Em um futuro onde androides são comuns, humanos descobrem um café onde as regras entre humanos e máquinas são relaxadas.",
+            foto: "/catalogo/timeofeve.jpg",
+            genero: "Ficção Científica"
+        },
+
+        // Mecha (10 adicionais)
+        {
+            id: 91,
+            titulo: "Gurren Lagann",
+            descricao: "Simon e Kamina pilotam mechas para libertar a humanidade de vilas subterrâneas e enfrentar o tirânico Lordgenome.",
+            foto: "/catalogo/gurrenlagann.jpg",
+            genero: "Mecha"
+        },
+        {
+            id: 92,
+            titulo: "Eureka Seven",
+            descricao: "Renton Thurston se junta a um grupo de rebeldes e pilota um mecha misterioso ligado a uma garota chamada Eureka.",
+            foto: "/catalogo/eurekaseven.jpg",
+            genero: "Mecha"
+        },
+        {
+            id: 93,
+            titulo: "Aldnoah.Zero",
+            descricao: "Terra e Marte entram em guerra quando um incidente diplomático desencadeia um conflito entre tecnologias desiguais.",
+            foto: "/catalogo/aldnoahzero.jpg",
+            genero: "Mecha"
+        },
+        {
+            id: 94,
+            titulo: "Macross Frontier",
+            descricao: "Pilotos de mechas transformáveis defendem uma frota de naves coloniais contra ataques de alienígenas misteriosos.",
+            foto: "/catalogo/macrossf.jpg",
+            genero: "Mecha"
+        },
+        {
+            id: 95,
+            titulo: "The Big O",
+            descricao: "Em uma cidade sem memória, um negociador pilotando um mecha gigante busca respostas sobre o passado desaparecido.",
+            foto: "/catalogo/bigo.jpg",
+            genero: "Mecha"
+        },
+        {
+            id: 96,
+            titulo: "Full Metal Panic!",
+            descricao: "Um soldado mercenário é designado para proteger uma estudante com conhecimento militar secreto em seu subconsciente.",
+            foto: "/catalogo/fullmetalpanic.jpg",
+            genero: "Mecha"
+        },
+        {
+            id: 97,
+            titulo: "Valvrave the Liberator",
+            descricao: "Estudantes descobrem e pilotam mechas avançados para defender sua nação escolar de uma superpotência espacial.",
+            foto: "/catalogo/valvrave.jpg",
+            genero: "Mecha"
+        },
+        {
+            id: 98,
+            titulo: "Knights & Magic",
+            descricao: "Um programador reencarnado em um mundo de magia e mechas usa seu conhecimento para revolucionar o design dos mechas.",
+            foto: "/catalogo/knightsandmagic.jpg",
+            genero: "Mecha"
+        },
+        {
+            id: 99,
+            titulo: "Gargantia on the Verdurous Planet",
+            descricao: "Um soldado espacial cai na Terra pós-apocalíptica e aprende a viver em harmonia com os habitantes locais.",
+            foto: "/catalogo/gargantia.jpg",
+            genero: "Mecha"
+        },
+        {
+            id: 100,
+            titulo: "Suisei no Gargantia",
+            descricao: "Um piloto de mecha militar é transportado para um futuro distante onde a humanidade vive em cidades flutuantes na Terra.",
+            foto: "/catalogo/suisei.jpg",
+            genero: "Mecha"
+        },
+
+        // Cyberpunk (10 adicionais)
+        {
+            id: 101,
+            titulo: "Serial Experiments Lain",
+            descricao: "Uma garota introvertida se envolve em eventos bizarros quando descobre a realidade virtual chamada The Wired.",
+            foto: "/catalogo/lain.jpg",
+            genero: "Cyberpunk"
+        },
+        {
+            id: 102,
+            titulo: "Ergo Proxy",
+            descricao: "Em uma cidade-domo distópica, uma investigadora descobre segredos sobre androides Autoreivs e seres chamados Proxies.",
+            foto: "/catalogo/ergoproxy.jpg",
+            genero: "Cyberpunk"
+        },
+        {
+            id: 103,
+            titulo: "Texhnolyze",
+            descricao: "Em uma cidade subterrânea decadente, um lutador ganha membros cibernéticos e se envolve em uma guerra de facções.",
+            foto: "/catalogo/texhnolyze.jpg",
+            genero: "Cyberpunk"
+        },
+        
+        {
+            id: 105,
+            titulo: "No Guns Life",
+            descricao: "Um ex-soldado cibernético com uma cabeça de arma trabalha como detetive resolvendo casos envolvendo outros modificados.",
+            foto: "/catalogo/nogunslife.jpg",
+            genero: "Cyberpunk"
+        },
+        {
+            id: 106,
+            titulo: "Battle Angel Alita",
+            descricao: "Um cientista encontra os restos de uma ciborgue e a reconstrói, revelando que ela possui habilidades de luta excepcionais.",
+            foto: "/catalogo/alita.jpg",
+            genero: "Cyberpunk"
+        },
+        {
+            id: 107,
+            titulo: "Mardock Scramble",
+            descricao: "Uma prostituta é salva da morte e transformada em ciborgue para testemunhar contra seu assassino em um futuro distópico.",
+            foto: "/catalogo/mardock.jpg",
+            genero: "Cyberpunk"
+        },
+        {
+            id: 109,
+            titulo: "Cyber City Oedo 808",
+            descricao: "Três criminosos recebem a chance de reduzir suas sentenças trabalhando como agentes especiais em uma cidade futurista.",
+            foto: "/catalogo/oedo808.jpg",
+            genero: "Cyberpunk"
+        },
+        {
+            id: 110,
+            titulo: "Armitage III",
+            descricao: "Um detetive e uma androide investigam uma série de assassinatos de robôs humanoides em uma colônia marciana.",
+            foto: "/catalogo/armitage.jpg",
+            genero: "Cyberpunk"
+        },
+
+        // Comédia (10 adicionais)
+        {
+            id: 111,
+            titulo: "Gintama",
+            descricao: "Em um Japão feudal ocupado por alienígenas, um samurai preguiçoso e seus amigos aceitam trabalhos estranhos para sobreviver.",
+            foto: "/catalogo/gintama.jpg",
+            genero: "Comédia"
+        },
+        {
+            id: 112,
+            titulo: "Nichijou",
+            descricao: "A vida cotidiana absurdamente exagerada de um grupo de estudantes do ensino médio e suas interações hilárias.",
+            foto: "/catalogo/nichijou..jpg",
+            genero: "Comédia"
+        },
+        {
+            id: 113,
+            titulo: "Daily Lives of High School Boys",
+            descricao: "As travessuras e situações engraçadas de um grupo de garotos do ensino médio em sua vida escolar e familiar.",
+            foto: "/catalogo/danshikoukousei.jpg",
+            genero: "Comédia"
+        },
+        {
+            id: 114,
+            titulo: "Saiki Kusuo no Psi-nan",
+            descricao: "Um estudante com poderes psíquicos tenta viver uma vida normal, mas suas habilidades sempre causam situações caóticas.",
+            foto: "/catalogo/saiki.jpg",
+            genero: "Comédia"
+        },
+        {
+            id: 115,
+            titulo: "Asobi Asobase",
+            descricao: "Três garotas do ensino médio formam um clube de jogos que rapidamente se transforma em uma série de situações absurdas.",
+            foto: "/catalogo/asobiasobase.jpg",
+            genero: "Comédia"
+        },
+        {
+            id: 116,
+            titulo: "Hinamatsuri",
+            descricao: "Um yakuza se torna o guardião de uma garota com poderes psíquicos, levando a situações hilárias e emocionantes.",
+            foto: "/catalogo/hinamatsuri.jpg",
+            genero: "Comédia"
+        },
+        {
+            id: 117,
+            titulo: "Grand Blue",
+            descricao: "Um universitário se junta a um clube de mergulho que na verdade passa mais tempo bebendo do que na água.",
+            foto: "/catalogo/grandblue.jpg",
+            genero: "Comédia"
+        },
+        {
+            id: 118,
+            titulo: "Prison School",
+            descricao: "Cinco garotos são os primeiros estudantes homens em uma escola feminina e acabam presos em uma prisão escolar.",
+            foto: "/catalogo/prisonschool.jpg",
+            genero: "Comédia"
+        },
+        {
+            id: 119,
+            titulo: "Detroit Metal City",
+            descricao: "Um jovem que sonha em ser músico pop acaba como vocalista de uma banda de death metal extremo contra sua vontade.",
+            foto: "/catalogo/dmc.jpg",
+            genero: "Comédia"
+        },
+        {
+            id: 120,
+            titulo: "Cromartie High School",
+            descricao: "Uma escola cheia de delinquentes excêntricos, incluindo um gorila e um roboto, e um estudante normal que tenta entender tudo.",
+            foto: "/catalogo/cromartie.jpg",
+            genero: "Comédia"
+        },
+
+        // Horror (10 adicionais)
+        {
+            id: 121,
+            titulo: "Corpse Party",
+            descricao: "Estudantes presos em uma escola amaldiçoada tentam escapar enquanto são perseguidos por espíritos vingativos.",
+            foto: "/catalogo/corpseparty.jpg",
+            genero: "Horror"
+        },
+        {
+            id: 122,
+            titulo: "When They Cry",
+            descricao: "Um garoto se muda para uma vila rural onde ocorrem assassinatos misteriosos que parecem repetir-se em um ciclo temporal.",
+            foto: "/catalogo/higurashi.jpg",
+            genero: "Horror"
+        },
+        {
+            id: 123,
+            titulo: "Hell Girl",
+            descricao: "Uma garota misteriosa oferece vingança através de um site que envia os alvos direto para o inferno - mas com um preço.",
+            foto: "/catalogo/hellgirl.jpg",
+            genero: "Horror"
+        },
+        {
+            id: 124,
+            titulo: "Ghost Hunt",
+            descricao: "Um grupo de investigadores paranormais resolve casos de fantasmas e maldições usando métodos científicos e espirituais.",
+            foto: "/catalogo/ghosthunt.jpg",
+            genero: "Horror"
+        },
+        {
+            id: 125,
+            titulo: "Devilman Crybaby",
+            descricao: "Akira Fudo se funde com um demônio para combater uma invasão demoníaca, mas mantém sua compaixão humana.",
+            foto: "/catalogo/devilman.jpg",
+            genero: "Horror"
+        },
+        {
+            id: 126,
+            titulo: "Junji Ito Collection",
+            descricao: "Adaptação de várias histórias de horror do mestre do mangá de terror Junji Ito, com contos surrealistas e aterrorizantes.",
+            foto: "/catalogo/junjiito.jpg",
+            genero: "Horror"
+        },
+        {
+            id: 127,
+            titulo: "Another",
+            descricao: "Estudantes de uma classe amaldiçoada morrem misteriosamente enquanto tentam quebrar a maldição que os assombra.",
+            foto: "/catalogo/another.jpg",
+            genero: "Horror"
+        },
+        {
+            id: 128,
+            titulo: "Yami Shibai",
+            descricao: "Uma série de contos de terror tradicionais japoneses narrados por um misterioso contador de histórias em um playground.",
+            foto: "/catalogo/yamishibai.jpg",
+            genero: "Horror"
+        },
+        {
+            id: 129,
+            titulo: "Petshop of Horrors",
+            descricao: "Um misterioso petshop chinês vende animais exóticos que cumprem os desejos de seus donos - com consequências terríveis.",
+            foto: "/catalogo/petshop.jpg",
+            genero: "Horror"
+        },
+        {
+            id: 130,
+            titulo: "Gyo",
+            descricao: "Peixes mortos começam a andar em terra usando pernas mecânicas, espalhando um odor mortal e causando o caos.",
+            foto: "/catalogo/gyo.jpg",
+            genero: "Horror"
+        },
+
+        // Drama (10 adicionais)
+        {
+            id: 131,
+            titulo: "March Comes in Like a Lion",
+            descricao: "Um jovem profissional de shogi luta contra a depressão enquanto encontra calor humano em uma família acolhedora.",
+            foto: "/catalogo/sangatsu.jpg",
+            genero: "Drama"
+        },
+        {
+            id: 132,
+            titulo: "Nana",
+            descricao: "Duas jovens com o mesmo nome mas personalidades opostas se tornam amigas e enfrentam desafios no amor e na vida adulta.",
+            foto: "/catalogo/nana.jpg",
+            genero: "Drama"
+        },
+        {
+            id: 133,
+            titulo: "Shouwa Genroku Rakugo Shinjuu",
+            descricao: "A vida e carreira de um contador de histórias rakugo, explorando tradição, rivalidade e redenção no Japão do século 20.",
+            foto: "/catalogo/rakugo.jpg",
+            genero: "Drama"
+        },
+        {
+            id: 134,
+            titulo: "Banana Fish",
+            descricao: "Um jovem líder de gangue investiga uma misteriosa droga chamada Banana Fish enquanto desenvolve um vínculo com um fotógrafo japonês.",
+            foto: "/catalogo/bananafish.jpg",
+            genero: "Drama"
+        },
+        {
+            id: 135,
+            titulo: "Orange",
+            descricao: "Um grupo de amigos recebe cartas de seus futuros eus, tentando evitar que um colega cometa suicídio.",
+            foto: "/catalogo/orange.jpg",
+            genero: "Drama"
+        },
+        {
+            id: 136,
+            titulo: "Plastic Memories",
+            descricao: "Em um futuro onde androides têm vida útil limitada, um funcionário de recuperação ajuda a coletar unidades que expiraram.",
+            foto: "/catalogo/plasticmemories.jpg",
+            genero: "Drama"
+        },
+        {
+            id: 137,
+            titulo: "I Want to Eat Your Pancreas",
+            descricao: "Um estudante solitário descobre que sua colega de classe popular está morrendo de uma doença no pâncreas e se aproxima dela.",
+            foto: "/catalogo/pancreas.jpg",
+            genero: "Drama"
+        },
+        {
+            id: 138,
+            titulo: "Anthem of the Heart",
+            descricao: "Uma garota incapaz de falar devido a um trauma infantil se expressa através da música em um projeto escolar.",
+            foto: "/catalogo/anthem.jpg",
+            genero: "Drama"
+        },
+        {
+            id: 139,
+            titulo: "Scum's Wish",
+            descricao: "Estudantes envolvidos em relacionamentos não correspondidos formam um vínculo complexo baseado em desejo e solidão.",
+            foto: "/catalogo/scumswish.jpg",
+            genero: "Drama"
+        },
+        {
+            id: 140,
+            titulo: "5 Centimeters per Second",
+            descricao: "A história de um amor de infância que se desfaz com o tempo e a distância, mostrado em três atos emocionais.",
+            foto: "/catalogo/5cm.jpg",
+            genero: "Drama"
+        },
+
+        // Fantasia (10 adicionais)
+        {
+            id: 141,
+            titulo: "Mushishi",
+            descricao: "Ginko viaja pelo Japão feudal investigando criaturas espirituais chamadas Mushi e ajudando pessoas afetadas por elas.",
+            foto: "/catalogo/mushishi.jpg",
+            genero: "Fantasia"
+        },
+        {
+            id: 142,
+            titulo: "The Ancient Magus' Bride",
+            descricao: "Uma jovem vendida como escrava se torna aprendiz e noiva de um misterioso mago com cabeça de lobo em um mundo de magia.",
+            foto: "/catalogo/magusbride..jpg",
+            genero: "Fantasia"
+        },
+        {
+            id: 143,
+            titulo: "Little Witch Academia",
+            descricao: "Akomi Kagari entra em uma academia de magia inspirada por sua bruxa favorita e vive aventuras mágicas com suas amigas.",
+            foto: "/catalogo/littlewitch.jpg",
+            genero: "Fantasia"
+        },
+        {
+            id: 144,
+            titulo: "The Twelve Kingdoms",
+            descricao: "Uma estudante é transportada para um mundo fantástico onde descobre ser a legítima governante de um dos doze reinos.",
+            foto: "/catalogo/12kingdoms.jpg",
+            genero: "Fantasia"
+        },
+        {
+            id: 145,
+            titulo: "Spice and Wolf",
+            descricao: "Um comerciante viaja com uma deusa lobo em forma humana, misturando economia medieval e romance sobrenatural.",
+            foto: "/catalogo/spiceandwolf.jpg",
+            genero: "Fantasia"
+        },
+        {
+            id: 146,
+            titulo: "Maquia: When the Promised Flower Blooms",
+            descricao: "Uma jovem imortal adota um bebê humano e aprende sobre amor materno enquanto o vê crescer e envelhecer.",
+            foto: "/catalogo/maquia.jpg",
+            genero: "Fantasia"
+        },
+        
+        {
+            id: 148,
+            titulo: "Moribito: Guardian of the Spirit",
+            descricao: "Uma guerreira é contratada para proteger um príncipe possuído por um espírito aquático que pode causar secas ou inundações.",
+            foto: "/catalogo/moribito..jpg",
+            genero: "Fantasia"
+        },
+        {
+            id: 149,
+            titulo: "Somali and the Forest Spirit",
+            descricao: "Um golem protetor e uma pequena humana viajam por um mundo mágico em busca dos parentes desaparecidos da garota.",
+            foto: "/catalogo/somali.jpg",
+            genero: "Fantasia"
+        },
+        {
+            id: 150,
+            titulo: "The Dragon Prince",
+            descricao: "Dois príncipes humanos e uma elfa assassina se unem para devolver um filhote de dragão e evitar uma guerra entre seus povos.",
+            foto: "/catalogo/dragonprince.jpg",
+            genero: "Fantasia"
         }
     ];
+    
 
 
     return <Movie genreId={genreId} catalogoAnime={catalogoAnime2} />;
-    
+
     function Movie({ genreId, catalogoAnime }) {
         const elementRef = useRef(null);
-        
+
         const slideLeft = (element) => {
             element.scrollLeft -= 500;
         };
-        
+
         const slideRight = (element) => {
             element.scrollLeft += 500;
         };
-        
-        
+
+
         const filtrado = catalogoAnime2.filter(item => (item.genero == genreId))
         return (
-        <>
-            <div className="relative select-none">
-                <IoChevronBackOutline
-                    onClick={() => slideLeft(elementRef.current)}
-                    className="text-[60px] p-2 cursor-pointer z-10 absolute left-2 top-1/2 -translate-y-1/2 border hover:scale-110 transition-all bg-rose-600 hover:bg-rose-800 rounded-full shadow-md"
+            <>
+                <div className="relative select-none">
+                    <IoChevronBackOutline
+                        onClick={() => slideLeft(elementRef.current)}
+                        className="text-[60px] p-2 cursor-pointer z-10 absolute left-2 top-1/2 -translate-y-1/2 border hover:scale-110 transition-all bg-rose-600 hover:bg-rose-800 rounded-full shadow-md"
                     />
 
-                <div
-                    ref={elementRef}
-                    className="flex  scrollbar-none overflow-hidden pt-5 px-5 pb-5 mt-5 scroll-smooth gap-8"
-                >
-                    {filtrado.map((anime) => (
-                        <div
-                        key={anime.id}
-                        className="w-[110px] md:w-[200px] flex-shrink-0"
-                        >
-                            <a href={`/filmes/${anime.id}`}>
-                                <img
-                                    src={anime.foto}
-                                    alt={anime.titulo}
-                                    className="w-full rounded-lg hover:border-[3px] border-gray-400 hover:scale-105 transition-all duration-150 ease-in"
+                    <div
+                        ref={elementRef}
+                        className="flex  scrollbar-none overflow-hidden pt-5 px-5 pb-5 mt-5 scroll-smooth gap-8"
+                    >
+                        {filtrado.map((anime) => (
+                            <div
+                                key={anime.id}
+                                className="w-[110px] md:w-[200px] flex-shrink-0"
+                            >
+                                <a href={`/filmes/${anime.id}`}>
+                                    <img
+                                        src={anime.foto}
+                                        alt={anime.titulo}
+                                        className="w-full rounded-lg hover:border-[3px] border-gray-400 hover:scale-105 transition-all duration-150 ease-in"
                                     />
-                            </a>
-                        </div>
-                    ))}
-                </div>
+                                </a>
+                            </div>
+                        ))}
+                    </div>
 
 
-                <IoChevronForwardOutline
-                    onClick={() => slideRight(elementRef.current)}
-                    className="text-[60px] p-2 cursor-pointer z-10 absolute right-2 top-1/2 -translate-y-1/2 border hover:scale-110 transition-all bg-rose-600 hover:bg-rose-800 rounded-full shadow-md"
+                    <IoChevronForwardOutline
+                        onClick={() => slideRight(elementRef.current)}
+                        className="text-[60px] p-2 cursor-pointer z-10 absolute right-2 top-1/2 -translate-y-1/2 border hover:scale-110 transition-all bg-rose-600 hover:bg-rose-800 rounded-full shadow-md"
                     />
-            </div>
-        </>
-    );
-}
+                </div>
+            </>
+        );
+    }
 }
