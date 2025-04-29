@@ -6,10 +6,10 @@ import '../page.css'
 import { useState, useEffect } from 'react';
 
 export default function watchList() {
- 
+
   function limparDados() {
     localStorage.removeItem("meusIds");
-    {setidUseState([])}
+    { setidUseState([]) }
   }
 
   const [search, setSearch] = useState("");
@@ -19,8 +19,8 @@ export default function watchList() {
   useEffect(() => {
     const idLocalStorage = JSON.parse(localStorage.getItem("meusIds")) || [];
     setidUseState(idLocalStorage.map(Number));
-    
-  }, []); 
+
+  }, []);
 
   const searchLowerCase = search.toLowerCase();
   const catalogo2 = catalogo.filter((p) => idUseState.includes(p.id));
@@ -30,14 +30,19 @@ export default function watchList() {
 
   function noResults() {
     if (animes.length == 0) {
-      return <>
-      <p className="col-start-2 text-xl mt-12">Sua watchlist está vazia!</p>
-      <div className="flex items-center"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-40 ">
-                                <path strokeLinecap="round" strokeLinejoin="round" d="M15.182 16.318A4.486 4.486 0 0 0 12.016 15a4.486 4.486 0 0 0-3.198 1.318M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0ZM9.75 9.75c0 .414-.168.75-.375.75S9 10.164 9 9.75 9.168 9 9.375 9s.375.336.375.75Zm-.375 0h.008v.015h-.008V9.75Zm5.625 0c0 .414-.168.75-.375.75s-.375-.336-.375-.75.168-.75.375-.75.375.336.375.75Zm-.375 0h.008v.015h-.008V9.75Z" />
-                            </svg></div>
-      
-      <div className="m-10"></div>
-      </>
+      return (
+
+        <div className="h-[45vh] w-full flex flex-col items-center justify-center">
+          <p className="flex items-center justify-center col-start-2 text-xl">Sua watchlist está vazia!</p>
+          <div className="flex justify-center items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-40 ">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M15.182 16.318A4.486 4.486 0 0 0 12.016 15a4.486 4.486 0 0 0-3.198 1.318M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0ZM9.75 9.75c0 .414-.168.75-.375.75S9 10.164 9 9.75 9.168 9 9.375 9s.375.336.375.75Zm-.375 0h.008v.015h-.008V9.75Zm5.625 0c0 .414-.168.75-.375.75s-.375-.336-.375-.75.168-.75.375-.75.375.336.375.75Zm-.375 0h.008v.015h-.008V9.75Z" />
+            </svg>
+          </div>
+
+          <div className="m-10"></div>
+        </div>
+      )
     }
   }
 
@@ -81,15 +86,17 @@ export default function watchList() {
               px-3
               "/>
         </div>
-        
+
         <ul
-          className="
+          className={`${noResults() ? 'flex flex-col' : 'grid'}
+            justify-center
+            items-center
             m-10
-            grid 
             grid-cols-[repeat(auto-fill,minmax(275px,1fr))] 
             justify-items-center    
-            gap-8">
-          {noResults()}
+            gap-8`}>
+            {noResults()}
+          
           {animes.map((anime) => (
             <li
               key={anime.id}
@@ -130,7 +137,6 @@ export default function watchList() {
             </li>
           ))}
         </ul>
-        {noResults()}
       </div>
       <div className="flex justify-center">
         <button onClick={limparDados} className='
