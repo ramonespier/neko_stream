@@ -72,7 +72,7 @@ export default function menuFilmes({ id }) {
 
     return (
         <>
-            <section className=" bg-black px-5 pb-5 ">{/*Inico section menu*/}
+            <section className=" bg-black px-5 pb-5 MenuComponent ">{/*Inico section menu*/}
                 <div className="
                     w-full 
                     bg-neutral-800 
