@@ -2648,7 +2648,2537 @@ export const catalogo = [
         img: "/episodios/ep12.jpg"
       }
     ]
-  }
+  },
+  
+    {
+      id: 51,
+      titulo: "Monster",
+      foto: "/catalogo/monster.png",
+      descricao: "Um neurocirurgião persegue um ex-paciente psicopata que ele salvou na infância e que agora é um assassino em série.",
+      fotoDescricao: "/descricao/padrao-fotoDescr.png",
+      descricaoDetalhes: "Dr. Kenzo Tenma enfrenta dilemas éticos ao descobrir que uma criança que salvou se tornou um assassino em série. Uma obra-prima do suspense psicológico.",
+      dublagem: "português, japonês(original), inglês",
+      legenda: "português, japonês, inglês, espanhol",
+      fotosBanner: ["/Carroselimg/padrao-car1.png", "/Carroselimg/padrao-car2.png"],
+      episodios: [
+        { titulo: "O Primeiro Paciente", descr: "Tenma salva Johan Liebert, sem saber que está criando um monstro.", img: "/episodios/ep5.jpg" },
+        { titulo: "A Irmã Gêmea", descr: "Nina Fortner entra em cena, revelando segredos do passado de Johan.", img: "/episodios/ep9.jpg" },
+        { titulo: "O Preço da Justiça", descr: "Tenma é acusado de crimes que não cometeu.", img: "/episodios/ep2.jpg" },
+        { titulo: "O Hospício", descr: "Johan manipula pacientes e funcionários em um hospício.", img: "/episodios/ep11.jpg" },
+        { titulo: "O Livro Vermelho", descr: "Tenma descobre pistas sobre o passado de Johan.", img: "/episodios/ep7.jpg" },
+        { titulo: "O Verdadeiro Nome", descr: "A identidade real de Johan é revelada.", img: "/episodios/ep1.jpg" },
+        { titulo: "A Criança Perdida", descr: "Tenma encontra outra vítima de Johan.", img: "/episodios/ep12.jpg" },
+        { titulo: "O Confronto Final", descr: "Tenma e Johan se enfrentam em um duelo psicológico.", img: "/episodios/ep4.jpg" }
+      ]
+    },
+    {
+      id: 52,
+      titulo: "Paranoia Agent",
+      foto: "/catalogo/paranoiaagent.jpg",
+      descricao: "Detetives investigam uma série de ataques cometidos por um jovem misterioso chamado Shounen Bat.",
+      fotoDescricao: "/descricao/padrao-fotoDescr.png",
+      descricaoDetalhes: "Uma análise surreal da sociedade moderna através de ataques aleatórios de um garoto com um taco de beisebol. Direção do mestre Satoshi Kon.",
+      dublagem: "português, japonês(original)",
+      legenda: "português, japonês, inglês",
+      fotosBanner: ["/Carroselimg/padrao-car1.png", "/Carroselimg/padrao-car2.png"],
+      episodios: [
+        { titulo: "O Ataque do Shounen Bat", descr: "A primeira vítima relata o ataque de um garoto misterioso.", img: "/episodios/ep3.jpg" },
+        { titulo: "A Designer", descr: "Uma designer pressionada inventa uma mentira que se torna realidade.", img: "/episodios/ep8.jpg" },
+        { titulo: "O Herói do Bairro", descr: "Um homem comum tenta ser um herói, com consequências inesperadas.", img: "/episodios/ep6.jpg" },
+        { titulo: "A Lenda Urbana", descr: "O mito do Shounen Bat se espalha pela cidade.", img: "/episodios/ep10.jpg" },
+        { titulo: "A Investigação", descr: "Os detetives encontram padrões nos ataques.", img: "/episodios/ep1.jpg" },
+        { titulo: "O Segredo da Professora", descr: "Uma professora esconde um trauma do passado.", img: "/episodios/ep12.jpg" },
+        { titulo: "A Revelação", descr: "A verdade por trás do Shounen Bat é descoberta.", img: "/episodios/ep4.jpg" },
+        { titulo: "O Fim do Pesadelo", descr: "A cidade tenta voltar ao normal após os eventos.", img: "/episodios/ep7.jpg" }
+      ]
+    },
+    {
+      id: 53,
+      titulo: "Perfect Blue",
+      foto: "/catalogo/perfectblue.jpg",
+      descricao: "Uma ex-idol pop se torna atriz e começa a perder a noção da realidade enquanto é perseguida por um stalker.",
+      fotoDescricao: "/descricao/padrao-fotoDescr.png",
+      descricaoDetalhes: "Mima Kirigoe abandona sua carreira de idol para ser atriz, mas um stalker obsessivo e alucinações a fazem questionar o que é real.",
+      dublagem: "português, japonês(original), inglês",
+      legenda: "português, japonês, inglês, francês",
+      fotosBanner: ["/Carroselimg/padrao-car1.png", "/Carroselimg/padrao-car2.png"],
+      episodios: [
+        { titulo: "O Último Show", descr: "Mima anuncia sua saída do grupo de idols.", img: "/episodios/ep2.jpg" },
+        { titulo: "O Primeiro Papel", descr: "Mima enfrenta desafios em sua nova carreira como atriz.", img: "/episodios/ep9.jpg" },
+        { titulo: "O Stalker", descr: "Um fã obsessivo começa a perseguir Mima.", img: "/episodios/ep5.jpg" },
+        { titulo: "A Site Misteriosa", descr: "Mima descobre um blog que detalha sua vida diária.", img: "/episodios/ep11.jpg" },
+        { titulo: "A Queda", descr: "Mima aceita um papel controverso que a perturba.", img: "/episodios/ep7.jpg" },
+        { titulo: "A Outra Mima", descr: "Mima começa a ver uma versão de si mesma como idol.", img: "/episodios/ep1.jpg" },
+        { titulo: "O Pesadelo", descr: "A linha entre realidade e fantasia se desfaz.", img: "/episodios/ep12.jpg" },
+        { titulo: "O Despertar", descr: "Mima confronta sua própria identidade.", img: "/episodios/ep4.jpg" }
+      ]
+    },
+    {
+      id: 54,
+      titulo: "Another",
+      foto: "/catalogo/another.jpg",
+      descricao: "Um estudante transfere-se para uma classe amaldiçoada onde os alunos morrem misteriosamente um por um.",
+      fotoDescricao: "/descricao/padrao-fotoDescr.png",
+      descricaoDetalhes: "Koichi Sakakibara descobre que sua turma esconde um segredo macabro ligado a uma aluna falecida. Mistério e horror se entrelaçam.",
+      dublagem: "português, japonês(original)",
+      legenda: "português, japonês, inglês",
+      fotosBanner: ["/Carroselimg/padrao-car1.png", "/Carroselimg/padrao-car2.png"],
+      episodios: [
+        { titulo: "A Transferência", descr: "Koichi chega à nova escola e nota algo estranho na turma.", img: "/episodios/ep6.jpg" },
+        { titulo: "A Aluna Invisível", descr: "Mei Misaki parece ser ignorada por todos.", img: "/episodios/ep10.jpg" },
+        { titulo: "A Primeira Morte", descr: "Um aluno morre em um acidente bizarro.", img: "/episodios/ep3.jpg" },
+        { titulo: "A Maldição", descr: "A turma revela a verdade sobre a maldição.", img: "/episodios/ep8.jpg" },
+        { titulo: "O Quebra-Cabeça", descr: "Koichi e Mei investigam o passado da turma.", img: "/episodios/ep1.jpg" },
+        { titulo: "A Corrida Contra o Tempo", descr: "Os alunos tentam quebrar a maldição antes que mais mortes ocorram.", img: "/episodios/ep12.jpg" },
+        { titulo: "O Segredo de Mei", descr: "Mei revela sua conexão com a maldição.", img: "/episodios/ep5.jpg" },
+        { titulo: "O Final Sangrento", descr: "A turma enfrenta o clímax da maldição.", img: "/episodios/ep7.jpg" }
+      ]
+    },
+    {
+      id: 55,
+      titulo: "Higurashi no Naku Koro ni",
+      foto: "/catalogo/higurashi.jpg",
+      descricao: "Um grupo de amigos em uma vila rural vive um ciclo de assassinatos e mistérios sobrenaturais que se repetem.",
+      fotoDescricao: "/descricao/padrao-fotoDescr.png",
+      descricaoDetalhes: "Keiichi Maebara se muda para Hinamizawa, onde eventos brutais se repetem em loops temporais. Terror psicológico e mistério se misturam.",
+      dublagem: "português, japonês(original)",
+      legenda: "português, japonês, inglês",
+      fotosBanner: ["/Carroselimg/padrao-car1.png", "/Carroselimg/padrao-car2.png"],
+      episodios: [
+        { titulo: "Bem-vindo a Hinamizawa", descr: "Keiichi conhece os amigos e os costumes da vila.", img: "/episodios/ep4.jpg" },
+        { titulo: "O Festival de Watanagashi", descr: "O festival anual esconde segredos sombrios.", img: "/episodios/ep9.jpg" },
+        { titulo: "A Primeira Paranoia", descr: "Keiichi começa a desconfiar de seus amigos.", img: "/episodios/ep2.jpg" },
+        { titulo: "O Primeiro Assassinato", descr: "Um corpo é encontrado após o festival.", img: "/episodios/ep11.jpg" },
+        { titulo: "O Loop Temporal", descr: "Keiichi revive os eventos com novas perspectivas.", img: "/episodios/ep6.jpg" },
+        { titulo: "A Verdade de Rena", descr: "Rena revela seu passado traumático.", img: "/episodios/ep10.jpg" },
+        { titulo: "O Poder de Hanyuu", descr: "A entidade sobrenatural por trás dos loops é revelada.", img: "/episodios/ep3.jpg" },
+        { titulo: "O Fim do Ciclo", descr: "Keiichi tenta quebrar a maldição de Hinamizawa.", img: "/episodios/ep8.jpg" }
+      ]
+    },
+    {
+      id: 56,
+      titulo: "Shiki",
+      foto: "/catalogo/shiki.jpg",
+      descricao: "Os moradores de uma pequena vila começam a morrer misteriosamente, e alguns suspeitam que vampiros estão envolvidos.",
+      fotoDescricao: "/descricao/padrao-fotoDescr.png",
+      descricaoDetalhes: "Em Sotoba, uma epidemia de mortes inexplicáveis leva a conflitos entre humanos e criaturas noturnas. Uma reflexão sobre moralidade e sobrevivência.",
+      dublagem: "português, japonês(original)",
+      legenda: "português, japonês, inglês",
+      fotosBanner: ["/Carroselimg/padrao-car1.png", "/Carroselimg/padrao-car2.png"],
+      episodios: [
+        { titulo: "A Chegada dos Shiiki", descr: "Uma família misteriosa se muda para a vila.", img: "/episodios/ep5.jpg" },
+        { titulo: "A Primeira Morte", descr: "Uma jovem morre sem explicação médica.", img: "/episodios/ep12.jpg" },
+        { titulo: "A Suspeita", descr: "O médico Ozaki desconfia da verdade por trás das mortes.", img: "/episodios/ep1.jpg" },
+        { titulo: "A Revelação", descr: "Os shikis são expostos como vampiros.", img: "/episodios/ep7.jpg" },
+        { titulo: "A Caçada", descr: "Os humanos decidem exterminar os shikis.", img: "/episodios/ep3.jpg" },
+        { titulo: "O Preço da Vingança", descr: "A violência escalona para um massacre.", img: "/episodios/ep9.jpg" },
+        { titulo: "A Tragédia de Megumi", descr: "O destino trágico de uma jovem transformada em shiki.", img: "/episodios/ep4.jpg" },
+        { titulo: "O Fim da Vila", descr: "Sotoba nunca mais será a mesma.", img: "/episodios/ep10.jpg" }
+      ]
+    },
+    {
+      id: 57,
+      titulo: "Psycho-Pass: Sinners of the System",
+      foto: "/catalogo/psychopass.jpeg",
+      descricao: "Três histórias que expandem o universo de Psycho-Pass, explorando mais casos do Sistema Sibyl.",
+      fotoDescricao: "/descricao/padrao-fotoDescr.png",
+      descricaoDetalhes: "Casos adicionais da equipe da Divisão 1, mostrando dilemas éticos e falhas do Sistema Sibyl em um futuro distópico.",
+      dublagem: "português, japonês(original), inglês",
+      legenda: "português, japonês, inglês, alemão",
+      fotosBanner: ["/Carroselimg/padrao-car1.png", "/Carroselimg/padrao-car2.png"],
+      episodios: [
+        { titulo: "Caso 1: Crime e Castigo", descr: "Kogami enfrenta um criminoso em uma prisão isolada.", img: "/episodios/ep2.jpg" },
+        { titulo: "Caso 2: Primeiro Inspetor", descr: "A história de como Ginoza se tornou inspetor.", img: "/episodios/ep6.jpg" },
+        { titulo: "Caso 3: O Sistema Perfeito", descr: "Akane questiona a infalibilidade do Sibyl.", img: "/episodios/ep11.jpg" },
+        { titulo: "O Dilema de Shimotsuki", descr: "A inspetora enfrenta um conflito moral.", img: "/episodios/ep4.jpg" },
+        { titulo: "A Rede de Corrupção", descr: "Um esquema dentro do próprio Sibyl é exposto.", img: "/episodios/ep8.jpg" },
+        { titulo: "O Retorno de Kogami", descr: "O ex-inspetor volta para ajudar Akane.", img: "/episodios/ep1.jpg" },
+        { titulo: "O Preço da Justiça", descr: "A equipe decide até onde ir para manter a ordem.", img: "/episodios/ep12.jpg" },
+        { titulo: "O Futuro do Sibyl", descr: "O sistema enfrenta sua maior crise.", img: "/episodios/ep5.jpg" }
+      ]
+    },
+    {
+      id: 58,
+      titulo: "Babylon",
+      foto: "/catalogo/babylon.jpg",
+      descricao: "Um promotor público investiga uma misteriosa mulher envolvida em uma série de suicídios e conspirações políticas.",
+      fotoDescricao: "/descricao/padrao-fotoDescr.png",
+      descricaoDetalhes: "Zen Seizaki descobre uma trama que desafia conceitos de vida e morte, enquanto uma mulher enigmática manipula eventos em escala global.",
+      dublagem: "português, japonês(original)",
+      legenda: "português, japonês, inglês",
+      fotosBanner: ["/Carroselimg/padrao-car1.png", "/Carroselimg/padrao-car2.png"],
+      episodios: [
+        { titulo: "O Caso dos Suicídios", descr: "Seizaki investiga mortes suspeitas na prefeitura.", img: "/episodios/ep7.jpg" },
+        { titulo: "A Mulher sem Nome", descr: "Ai Magase é identificada como suspeita.", img: "/episodios/ep3.jpg" },
+        { titulo: "A Lei do Mais Forte", descr: "Um político radical propõe uma lei polêmica.", img: "/episodios/ep10.jpg" },
+        { titulo: "O Experimento", descr: "Magase revela seu plano de manipulação em massa.", img: "/episodios/ep2.jpg" },
+        { titulo: "A Cidade do Pecado", descr: "Seizaki viaja para Fukuoka, onde a lei foi suspensa.", img: "/episodios/ep9.jpg" },
+        { titulo: "O Julgamento Final", descr: "O mundo debate o valor da vida humana.", img: "/episodios/ep5.jpg" },
+        { titulo: "A Escolha de Seizaki", descr: "O promotor toma uma decisão radical.", img: "/episodios/ep12.jpg" },
+        { titulo: "O Legado de Babylon", descr: "As consequências da trama mudam o Japão.", img: "/episodios/ep1.jpg" }
+      ]
+    },
+    {
+      id: 59,
+      titulo: "ID: Invaded",
+      foto: "/catalogo/idinvaded.jpg",
+      descricao: "Detetives entram na mente de assassinos através de um sistema que reconstrói seus pensamentos para resolver crimes.",
+      fotoDescricao: "/descricao/padrao-fotoDescr.png",
+      descricaoDetalhes: "Sakaido, um detetive preso, usa a tecnologia Mizuhanome para mergulhar em mentes criminosas e desvendar casos complexos.",
+      dublagem: "português, japonês(original), inglês",
+      legenda: "português, japonês, inglês, coreano",
+      fotosBanner: ["/Carroselimg/padrao-car1.png", "/Carroselimg/padrao-car2.png"],
+      episodios: [
+        { titulo: "O Poço do Assassino", descr: "Sakaido entra no primeiro poço mental.", img: "/episodios/ep6.jpg" },
+        { titulo: "O Serial Killer de Kiki", descr: "Um assassino que deixa pistas enigmáticas.", img: "/episodios/ep11.jpg" },
+        { titulo: "A Conexão entre os Poços", descr: "Os casos começam a se relacionar.", img: "/episodios/ep3.jpg" },
+        { titulo: "A Identidade de John Walker", descr: "O mentor por trás dos assassinos é revelado.", img: "/episodios/ep8.jpg" },
+        { titulo: "O Poço de Sakaido", descr: "O detetive enfrenta seu próprio subconsciente.", img: "/episodios/ep1.jpg" },
+        { titulo: "A Armadilha Final", descr: "A equipe tenta prender John Walker.", img: "/episodios/ep12.jpg" },
+        { titulo: "O Paradoxo do Timekeeper", descr: "Hondomachi descobre a verdade sobre o sistema.", img: "/episodios/ep5.jpg" },
+        { titulo: "O Mundo Ideal", descr: "O desfecho da caça a John Walker.", img: "/episodios/ep9.jpg" }
+      ]
+    },
+    {
+      id: 60,
+      titulo: "Boogiepop Phantom",
+      foto: "/catalogo/boogiepop.jpg",
+      descricao: "Uma série de assassinatos bizarros ocorre após o aparecimento de uma entidade conhecida como Boogiepop.",
+      fotoDescricao: "/descricao/padrao-fotoDescr.png",
+      descricaoDetalhes: "Em uma cidade assombrada por eventos sobrenaturais, Boogiepop surge para enfrentar ameaças além da compreensão humana.",
+      dublagem: "português, japonês(original)",
+      legenda: "português, japonês, inglês",
+      fotosBanner: ["/Carroselimg/padrao-car1.png", "/Carroselimg/padrao-car2.png"],
+      episodios: [
+        { titulo: "O Eclipse", descr: "A cidade é atingida por um evento misterioso.", img: "/episodios/ep4.jpg" },
+        { titulo: "A Menina que Não Existia", descr: "Uma estudante desaparece sem deixar rastros.", img: "/episodios/ep10.jpg" },
+        { titulo: "O Homem-Pipa", descr: "Um serial killer com métodos surrealistas.", img: "/episodios/ep2.jpg" },
+        { titulo: "O Retorno de Boogiepop", descr: "A entidade aparece para enfrentar o caos.", img: "/episodios/ep7.jpg" },
+        { titulo: "O Experimento da Tiamat", descr: "Uma organização secreta é revelada.", img: "/episodios/ep12.jpg" },
+        { titulo: "A Escolha de Nagi", descr: "Uma jovem deve decidir seu próprio destino.", img: "/episodios/ep5.jpg" },
+        { titulo: "O Fim da Ilusão", descr: "A verdade por trás dos fenômenos é revelada.", img: "/episodios/ep9.jpg" },
+        { titulo: "O Amanhecer", descr: "A cidade tenta seguir em frente após os eventos.", img: "/episodios/ep1.jpg" }
+      ]
+    },
+    {
+      id: 61,
+      titulo: "Kaguya-sama: Love is War",
+      foto: "/catalogo/kaguyasama.jpg",
+      descricao: "Dois estudantes brilhantes tentam fazer o outro confessar seus sentimentos em uma batalha de estratégias românticas.",
+      descricaoDetalhes: "Dois estudantes brilhantes tentam fazer o outro confessar seus sentimentos em uma batalha de estratégias românticas.",
+      fotoDescricao: "/descricao/padrao-fotoDescr.png",
+      fotosBanner: ["/Carroselimg/padrao-car1.png", "/Carroselimg/padrao-car2.png"],
+      episodios: [
+        {
+          titulo: "Plano Infalível",
+          descr: "Kaguya e Miyuki criam estratégias para fazer o outro confessar seus sentimentos.",
+          img: "/episodios/ep1.jpg"
+        },
+        {
+          titulo: "Batalha de Emoções",
+          descr: "Uma série de eventos inesperados coloca à prova os sentimentos de Kaguya e Miyuki.",
+          img: "/episodios/ep3.jpg"
+        },
+        {
+          titulo: "O Primeiro Encontro",
+          descr: "Kaguya e Miyuki se veem em uma situação onde precisam interagir romanticamente.",
+          img: "/episodios/ep5.jpg"
+        },
+        {
+          titulo: "O Mistério de Chika",
+          descr: "Chika influencia os eventos do dia, levando o casal a momentos inesperados.",
+          img: "/episodios/ep7.jpg"
+        },
+        {
+          titulo: "Declaração Indireta",
+          descr: "Miyuki tenta convencer Kaguya com gestos sutis de seu verdadeiro sentimento.",
+          img: "/episodios/ep9.jpg"
+        },
+        {
+          titulo: "Estratégia Perfeita",
+          descr: "Os jogos mentais entre os protagonistas atingem um novo patamar.",
+          img: "/episodios/ep11.jpg"
+        },
+        {
+          titulo: "Amigos ou Rivais?",
+          descr: "A rivalidade entre os dois leva a momentos intensos e apaixonantes.",
+          img: "/episodios/ep4.jpg"
+        },
+        {
+          titulo: "Uma Nova Fase",
+          descr: "Kaguya e Miyuki começam a perceber seus sentimentos de forma mais profunda.",
+          img: "/episodios/ep8.jpg"
+        }
+      ]
+  }, 
+  {
+    id: 62,
+    titulo: "Your Name",
+    foto: "/catalogo/yourname.jpg",
+    descricao: "Dois adolescentes inexplicavelmente trocam de corpos e desenvolvem uma conexão que transcende o tempo e espaço.",
+    descricaoDetalhes: "Dois adolescentes inexplicavelmente trocam de corpos e desenvolvem uma conexão que transcende o tempo e espaço.",
+    fotoDescricao: "/descricao/padrao-fotoDescr.png",
+    fotosBanner: ["/Carroselimg/padrao-car1.png", "/Carroselimg/padrao-car2.png"],
+    episodios: [
+      {
+        titulo: "O Encontro",
+        descr: "Taki e Mitsuha começam a trocar de corpos, tentando entender o mistério por trás disso.",
+        img: "/episodios/ep2.jpg"
+      },
+      {
+        titulo: "Uma Vida Diferente",
+        descr: "Taki se vê no corpo de Mitsuha, explorando a cidade dela pela primeira vez.",
+        img: "/episodios/ep6.jpg"
+      },
+      {
+        titulo: "Lembranças Confusas",
+        descr: "Os protagonistas percebem que há uma conexão maior entre suas histórias.",
+        img: "/episodios/ep10.jpg"
+      },
+      {
+        titulo: "A Promessa",
+        descr: "Taki e Mitsuha tentam deixar mensagens para si mesmos no futuro.",
+        img: "/episodios/ep12.jpg"
+      },
+      {
+        titulo: "Revelações",
+        descr: "Taki descobre uma verdade impactante sobre Mitsuha e sua cidade.",
+        img: "/episodios/ep4.jpg"
+      },
+      {
+        titulo: "Corrida contra o Destino",
+        descr: "Taki e Mitsuha lutam contra o tempo para tentar se reencontrar.",
+        img: "/episodios/ep8.jpg"
+      },
+      {
+        titulo: "A Última Chance",
+        descr: "Uma tentativa final de conexão entre os protagonistas.",
+        img: "/episodios/ep3.jpg"
+      },
+      {
+        titulo: "O Eterno Amanhã",
+        descr: "A história de Mitsuha e Taki chega a sua conclusão emocionante.",
+        img: "/episodios/ep7.jpg"
+      }
+    ]
+},
+{
+  id: 63,
+  titulo: "Horimiya",
+  foto: "/catalogo/horimiya.jpg",
+  descricao: "Hori e Miyamura mantêm segredos um do outro na escola, mas descobrem suas verdadeiras personalidades fora dela.",
+  descricaoDetalhes: "Hori e Miyamura mantêm segredos um do outro na escola, mas descobrem suas verdadeiras personalidades fora dela.",
+  fotoDescricao: "/descricao/padrao-fotoDescr.png",
+  fotosBanner: ["/Carroselimg/$$$.jpg", "/Carroselimg/$$$-car2.jpg"],
+  episodios: [
+    {
+      titulo: "A Revelação",
+      descr: "Hori descobre um lado inesperado de Miyamura, aproximando-se ainda mais dele.",
+      img: "/episodios/ep1.jpg"
+    },
+    {
+      titulo: "Conexão Profunda",
+      descr: "Hori e Miyamura enfrentam desafios, consolidando sua relação através do apoio mútuo.",
+      img: "/episodios/ep9.jpg"
+    },
+    {
+      titulo: "A Verdadeira Amizade",
+      descr: "Novas dinâmicas surgem quando segredos são revelados.",
+      img: "/episodios/ep5.jpg"
+    },
+    {
+      titulo: "Primeiro Encontro",
+      descr: "Hori e Miyamura saem juntos e percebem sentimentos escondidos.",
+      img: "/episodios/ep3.jpg"
+    },
+    {
+      titulo: "O Passado de Miyamura",
+      descr: "Memórias antigas voltam para assombrar Miyamura.",
+      img: "/episodios/ep8.jpg"
+    },
+    {
+      titulo: "Compreensão Mútua",
+      descr: "O casal aprende a lidar com suas próprias inseguranças.",
+      img: "/episodios/ep12.jpg"
+    },
+    {
+      titulo: "Um Novo Começo",
+      descr: "Hori e Miyamura finalmente encontram uma nova forma de equilíbrio.",
+      img: "/episodios/ep4.jpg"
+    },
+    {
+      titulo: "A Última Confissão",
+      descr: "Uma declaração inesperada muda tudo.",
+      img: "/episodios/ep2.jpg"
+    }
+  ]
+},
+{
+  id: 64,
+  titulo: "Fruits Basket",
+  foto: "/catalogo/fruitsbasket.jpg",
+  descricao: "Tohru Honda descobre que a família Sohma é amaldiçoada a se transformar em animais do zodíaco chinês quando abraçados.",
+  descricaoDetalhes: "Tohru Honda descobre que a família Sohma é amaldiçoada a se transformar em animais do zodíaco chinês quando abraçados.",
+  fotoDescricao: "/descricao/padrao-fotoDescr.png",
+  fotosBanner: ["/Carroselimg/$$$.jpg", "/Carroselimg/$$$-car2.jpg"],
+  episodios: [
+    {
+      titulo: "O Segredo da Família Sohma",
+      descr: "Tohru descobre a maldição e se aproxima da família.",
+      img: "/episodios/ep1.jpg"
+    },
+    {
+      titulo: "Uma Nova Amizade",
+      descr: "Tohru começa a entender os membros da família Sohma.",
+      img: "/episodios/ep4.jpg"
+    },
+    {
+      titulo: "Kyo em Apuros",
+      descr: "Kyo enfrenta desafios que testam sua confiança.",
+      img: "/episodios/ep6.jpg"
+    },
+    {
+      titulo: "Memórias Dolorosas",
+      descr: "Yuki revela momentos difíceis de seu passado.",
+      img: "/episodios/ep8.jpg"
+    },
+    {
+      titulo: "A Verdadeira Transformação",
+      descr: "Tohru presencia um dos Sohma em sua forma animal.",
+      img: "/episodios/ep10.jpg"
+    },
+    {
+      titulo: "A Escolha de Tohru",
+      descr: "Tohru enfrenta um dilema que pode mudar tudo.",
+      img: "/episodios/ep12.jpg"
+    },
+    {
+      titulo: "A Confissão",
+      descr: "Sentimentos ocultos vêm à tona.",
+      img: "/episodios/ep5.jpg"
+    },
+    {
+      titulo: "Um Novo Começo",
+      descr: "Tohru e os Sohma encontram esperança para o futuro.",
+      img: "/episodios/ep9.jpg"
+    }
+  ]
+},
+{
+  id: 65,
+  titulo: "Golden Time",
+  foto: "/catalogo/goldentime.jpg",
+  descricao: "Um estudante com amnésia se apaixona por uma garota excêntrica enquanto tenta reconstruir sua vida na faculdade de direito.",
+  descricaoDetalhes: "Um estudante com amnésia se apaixona por uma garota excêntrica enquanto tenta reconstruir sua vida na faculdade de direito.",
+  fotoDescricao: "/descricao/padrao-fotoDescr.png",
+  fotosBanner: ["/Carroselimg/padrao-car1.png", "/Carroselimg/padrao-car2.png"],
+  episodios: [
+    {
+      titulo: "O Primeiro Dia",
+      descr: "Banri tenta se adaptar à faculdade e conhece novos amigos.",
+      img: "/episodios/ep3.jpg"
+    },
+    {
+      titulo: "Memórias Perdidas",
+      descr: "Banri começa a sentir fragmentos de seu passado.",
+      img: "/episodios/ep7.jpg"
+    },
+    {
+      titulo: "A Verdadeira Koko",
+      descr: "Banri descobre mais sobre sua misteriosa colega.",
+      img: "/episodios/ep10.jpg"
+    },
+    {
+      titulo: "Revelações Dolorosas",
+      descr: "Conflitos emocionais atingem Banri e seus amigos.",
+      img: "/episodios/ep2.jpg"
+    },
+    {
+      titulo: "Promessas Inquebráveis",
+      descr: "Banri toma uma decisão importante sobre seu futuro.",
+      img: "/episodios/ep5.jpg"
+    },
+    {
+      titulo: "O Conflito Final",
+      descr: "A vida de Banri e Koko toma um rumo inesperado.",
+      img: "/episodios/ep9.jpg"
+    },
+    {
+      titulo: "Perdendo o Controle",
+      descr: "Banri luta contra o retorno de seu passado esquecido.",
+      img: "/episodios/ep12.jpg"
+    },
+    {
+      titulo: "Um Novo Horizonte",
+      descr: "Novos caminhos se abrem para Banri e seus amigos.",
+      img: "/episodios/ep4.jpg"
+    }
+  ]
+},
+{
+  id: 66,
+  titulo: "Nana",
+  foto: "/catalogo/nana.jpg",
+  descricao: "Duas jovens com o mesmo nome mas personalidades opostas se tornam amigas e enfrentam desafios no amor e na vida adulta.",
+  descricaoDetalhes: "Duas jovens com o mesmo nome mas personalidades opostas se tornam amigas e enfrentam desafios no amor e na vida adulta.",
+  fotoDescricao: "/descricao/padrao-fotoDescr.png",
+  fotosBanner: ["/Carroselimg/padrao-car1.png", "/Carroselimg/padrao-car2.png"],
+  episodios: [
+    {
+      titulo: "O Encontro das Nanas",
+      descr: "Duas jovens desconhecidas compartilham um destino inesperado.",
+      img: "/episodios/ep1.jpg"
+    },
+    {
+      titulo: "Sonhos e Realidade",
+      descr: "Nana Osaki enfrenta o mundo da música enquanto Nana Komatsu busca amor.",
+      img: "/episodios/ep6.jpg"
+    },
+    {
+      titulo: "Dúvidas do Coração",
+      descr: "A amizade das duas é testada por escolhas difíceis.",
+      img: "/episodios/ep12.jpg"
+    },
+    {
+      titulo: "Laços Inquebráveis",
+      descr: "As duas Nanas encontram apoio uma na outra.",
+      img: "/episodios/ep3.jpg"
+    },
+    {
+      titulo: "O Preço do Sucesso",
+      descr: "Nana Osaki enfrenta as dificuldades da fama.",
+      img: "/episodios/ep9.jpg"
+    },
+    {
+      titulo: "Amor e Despedida",
+      descr: "Um momento marcante muda tudo entre as protagonistas.",
+      img: "/episodios/ep2.jpg"
+    },
+    {
+      titulo: "Esperança no Futuro",
+      descr: "As Nanas tomam decisões que afetam seus destinos.",
+      img: "/episodios/ep5.jpg"
+    },
+    {
+      titulo: "O Último Show",
+      descr: "A jornada de Nana Osaki na música alcança seu ápice.",
+      img: "/episodios/ep11.jpg"
+    }
+  ]
+},
+{
+  id: 67,
+  titulo: "Lovely Complex",
+  foto: "/catalogo/lovelycomplex.jpg",
+  descricao: "Um casal improvável - ela muito alta, ele muito baixo - desenvolve sentimentos após anos de amizade e brincadeiras.",
+  descricaoDetalhes: "Um casal improvável - ela muito alta, ele muito baixo - desenvolve sentimentos após anos de amizade e brincadeiras.",
+  fotoDescricao: "/descricao/padrao-fotoDescr.png",
+  fotosBanner: ["/Carroselimg/padrao-car1.png", "/Carroselimg/padrao-car2.png"],
+  episodios: [
+    {
+      titulo: "Uma Parceria Inusitada",
+      descr: "Risa e Otani são amigos que sempre se provocam.",
+      img: "/episodios/ep7.jpg"
+    },
+    {
+      titulo: "A Verdade dos Sentimentos",
+      descr: "Risa começa a perceber seus sentimentos por Otani.",
+      img: "/episodios/ep4.jpg"
+    },
+    {
+      titulo: "Ciúmes e Confusões",
+      descr: "Otani reage de forma inesperada ao ver Risa com outro garoto.",
+      img: "/episodios/ep1.jpg"
+    },
+    {
+      titulo: "Declaração Secreta",
+      descr: "Risa finalmente toma coragem para expressar seus sentimentos.",
+      img: "/episodios/ep10.jpg"
+    },
+    {
+      titulo: "Relação em Perigo",
+      descr: "Otani se sente dividido entre amizade e algo mais.",
+      img: "/episodios/ep6.jpg"
+    },
+    {
+      titulo: "O Momento Perfeito",
+      descr: "Risa e Otani têm uma conversa decisiva.",
+      img: "/episodios/ep12.jpg"
+    },
+    {
+      titulo: "A Primeira Promessa",
+      descr: "Os dois fazem um acordo sobre seu futuro juntos.",
+      img: "/episodios/ep3.jpg"
+    },
+    {
+      titulo: "Casal Oficial?",
+      descr: "Risa e Otani enfrentam desafios sendo um casal.",
+      img: "/episodios/ep9.jpg"
+    }
+  ]
+},{
+  id: 68,
+  titulo: "Ao Haru Ride",
+  foto: "/catalogo/aoharuride.jpg",
+  descricao: "Futaba reencontra seu primeiro amor do ensino médio, mas ele não é mais o mesmo garoto que ela conheceu no passado.",
+  descricaoDetalhes: "Futaba reencontra seu primeiro amor do ensino médio, mas ele não é mais o mesmo garoto que ela conheceu no passado.",
+  fotoDescricao: "/descricao/padrao-fotoDescr.png",
+  fotosBanner: ["/Carroselimg/padrao-car1.png", "/Carroselimg/padrao-car2.png"],
+  episodios: [
+    {
+      titulo: "O Reencontro",
+      descr: "Futaba fica surpresa ao ver Kou novamente, mas ele está diferente.",
+      img: "/episodios/ep3.jpg"
+    },
+    {
+      titulo: "Mudanças no Tempo",
+      descr: "Futaba tenta entender o que aconteceu com Kou nos últimos anos.",
+      img: "/episodios/ep7.jpg"
+    },
+    {
+      titulo: "A Verdade Escondida",
+      descr: "Kou revela partes de seu passado para Futaba.",
+      img: "/episodios/ep12.jpg"
+    },
+    {
+      titulo: "A Nova Jornada",
+      descr: "Futaba decide seguir em frente, mas seus sentimentos permanecem.",
+      img: "/episodios/ep1.jpg"
+    },
+    {
+      titulo: "Conflito de Emoções",
+      descr: "Futaba e Kou se aproximam, mas um obstáculo surge entre eles.",
+      img: "/episodios/ep6.jpg"
+    },
+    {
+      titulo: "Promessas Não Cumpridas",
+      descr: "Futaba encara a realidade sobre suas expectativas.",
+      img: "/episodios/ep10.jpg"
+    },
+    {
+      titulo: "A Última Escolha",
+      descr: "Kou precisa tomar uma decisão sobre seu futuro e sua relação com Futaba.",
+      img: "/episodios/ep4.jpg"
+    },
+    {
+      titulo: "Um Novo Começo",
+      descr: "Futaba finalmente entende o que quer para sua vida.",
+      img: "/episodios/ep9.jpg"
+    }
+  ]
+},
+{
+  id: 69,
+  titulo: "Sukitte Ii na yo",
+  foto: "/catalogo/sukitteiinayo.jpg",
+  descricao: "Mei Tachibana, que nunca teve amigos, acaba namorando o garoto popular da escola após um incidente inesperado.",
+  descricaoDetalhes: "Mei Tachibana, que nunca teve amigos, acaba namorando o garoto popular da escola após um incidente inesperado.",
+  fotoDescricao: "/descricao/padrao-fotoDescr.png",
+  fotosBanner: ["/Carroselimg/sukitteiinayo-car1.jpg", "/Carroselimg/sukitteiinayo-car2.jpg"],
+  episodios: [
+    {
+      titulo: "A Primeira Conexão",
+      descr: "Mei conhece Yamato após um momento inesperado.",
+      img: "/episodios/ep5.jpg"
+    },
+    {
+      titulo: "Um Novo Mundo",
+      descr: "Mei começa a se abrir para novas experiências.",
+      img: "/episodios/ep2.jpg"
+    },
+    {
+      titulo: "Desafios do Coração",
+      descr: "A relação entre Mei e Yamato encontra obstáculos.",
+      img: "/episodios/ep8.jpg"
+    },
+    {
+      titulo: "O Valor da Amizade",
+      descr: "Mei aprende a confiar em seus sentimentos e nas pessoas ao seu redor.",
+      img: "/episodios/ep11.jpg"
+    },
+    {
+      titulo: "Provas de Amor",
+      descr: "Mei enfrenta inseguranças sobre seu relacionamento com Yamato.",
+      img: "/episodios/ep3.jpg"
+    },
+    {
+      titulo: "O Poder das Palavras",
+      descr: "Uma conversa entre Mei e Yamato muda tudo.",
+      img: "/episodios/ep6.jpg"
+    },
+    {
+      titulo: "Promessas Sinceras",
+      descr: "Mei faz uma escolha importante sobre seu futuro.",
+      img: "/episodios/ep9.jpg"
+    },
+    {
+      titulo: "Para Sempre",
+      descr: "O relacionamento de Mei e Yamato se consolida de forma marcante.",
+      img: "/episodios/ep12.jpg"
+    }
+  ]
+},
+{
+  id: 70,
+  titulo: "Kimi ni Todoke",
+  foto: "/catalogo/kiminitodoke.jpg",
+  descricao: "Sawako, chamada de Sadako por sua semelhança com a garota do filme de terror, tenta fazer amigos e conquistar seu crush.",
+  descricaoDetalhes: "Sawako, chamada de Sadako por sua semelhança com a garota do filme de terror, tenta fazer amigos e conquistar seu crush.",
+  fotoDescricao: "/descricao/padrao-fotoDescr.png",
+  fotosBanner: ["/Carroselimg/padrao-car1.png", "/Carroselimg/padrao-car2.png"],
+  episodios: [
+    {
+      titulo: "A Primeira Tentativa",
+      descr: "Sawako tenta se aproximar dos colegas de classe.",
+      img: "/episodios/ep1.jpg"
+    },
+    {
+      titulo: "O Verdadeiro Kazehaya",
+      descr: "Sawako começa a enxergar quem Kazehaya realmente é.",
+      img: "/episodios/ep6.jpg"
+    },
+    {
+      titulo: "Novos Amigos",
+      descr: "Sawako faz sua primeira amizade sincera.",
+      img: "/episodios/ep12.jpg"
+    },
+    {
+      titulo: "Ciúmes Inesperados",
+      descr: "Sentimentos ocultos começam a surgir.",
+      img: "/episodios/ep4.jpg"
+    },
+    {
+      titulo: "Confissão Indireta",
+      descr: "Kazehaya dá sinais de seus sentimentos por Sawako.",
+      img: "/episodios/ep7.jpg"
+    },
+    {
+      titulo: "A Verdade entre Amigos",
+      descr: "Sawako enfrenta mal-entendidos dentro da escola.",
+      img: "/episodios/ep9.jpg"
+    },
+    {
+      titulo: "Momento Decisivo",
+      descr: "Kazehaya e Sawako têm uma conversa importante.",
+      img: "/episodios/ep3.jpg"
+    },
+    {
+      titulo: "Um Novo Começo",
+      descr: "Sawako finalmente encontra seu espaço entre amigos.",
+      img: "/episodios/ep10.jpg"
+    }
+  ]
+}, 
+
+  {
+    id: 71,
+    titulo: "Kuroko no Basket",
+    foto: "/catalogo/kurokonobasket.jpg",
+    descricao: "Um time de basquete escolar tenta chegar ao topo do Japão com a ajuda do misterioso sexto membro da Geração dos Milagres.",
+    descricaoDetalhes: "Um time de basquete escolar tenta chegar ao topo do Japão com a ajuda do misterioso sexto membro da Geração dos Milagres.",
+    fotoDescricao: "/descricao/padrao-fotoDescr.png",
+    fotosBanner: ["/Carroselimg/padrao-car1.png", "/Carroselimg/padrao-car2.png"],
+    episodios: [
+      { titulo: "O Sexto Membro", descr: "A equipe conhece as habilidades únicas de Kuroko.", img: "/episodios/ep5.jpg" },
+      { titulo: "Rivalidade Acirrada", descr: "O jogo contra a Geração dos Milagres começa.", img: "/episodios/ep2.jpg" },
+      { titulo: "O Despertar de Kagami", descr: "Kagami enfrenta seus limites contra Aomine.", img: "/episodios/ep9.jpg" },
+      { titulo: "A Promessa do Passado", descr: "Kuroko revela seu acordo com os ex-companheiros.", img: "/episodios/ep7.jpg" },
+      { titulo: "Estilo de Jogo Direto", descr: "Seirin enfrenta o time de Midorima.", img: "/episodios/ep11.jpg" },
+      { titulo: "A Arma Secreta", descr: "Kuroko usa seu Ignite Pass pela primeira vez.", img: "/episodios/ep4.jpg" },
+      { titulo: "Final Acirrada", descr: "Partida decisiva contra a Academia Too.", img: "/episodios/ep12.jpg" },
+      { titulo: "Novos Desafios", descr: "O time se prepara para o torneio nacional.", img: "/episodios/ep1.jpg" }
+    ]
+  },
+  {
+    id: 72,
+    titulo: "Yuri!!! on Ice",
+    foto: "/catalogo/yurionice.jpg",
+    descricao: "Um patinador artístico em crise encontra nova inspiração quando um campeão russo se oferece para ser seu treinador.",
+    descricaoDetalhes: "Um patinador artístico em crise encontra nova inspiração quando um campeão russo se oferece para ser seu treinador.",
+    fotoDescricao: "/descricao/padrao-fotoDescr.png",
+    fotosBanner: ["/Carroselimg/padrao-car1.png", "/Carroselimg/padrao-car2.png"],
+    episodios: [
+      { titulo: "Encontro no Gelo", descr: "Victor surpreende Yuri ao aparecer no Japão.", img: "/episodios/ep1.jpg" },
+      { titulo: "Primeira Competição", descr: "Yuri enfrenta seu rival Yurio na Rússia.", img: "/episodios/ep7.jpg" },
+      { titulo: "Rotina Perfeita", descr: "Victor e Yuri treinam para o Grand Prix.", img: "/episodios/ep11.jpg" },
+      { titulo: "Ansiedade Pré-Prova", descr: "Yuri duvida de sua habilidade antes da apresentação.", img: "/episodios/ep3.jpg" },
+      { titulo: "Eros ou Agape?", descr: "Yuri redefine seu estilo artístico.", img: "/episodios/ep8.jpg" },
+      { titulo: "Queda Inesperada", descr: "Yuri falha em uma manobra crítica.", img: "/episodios/ep6.jpg" },
+      { titulo: "A Decisão de Victor", descr: "Victor escolhe entre treinar Yuri ou voltar a competir.", img: "/episodios/ep10.jpg" },
+      { titulo: "Final no Gelo", descr: "Yuri e Yurio se enfrentam na última prova.", img: "/episodios/ep12.jpg" }
+    ]
+  },
+  {
+    id: 73,
+    titulo: "Run with the Wind",
+    foto: "/catalogo/runwiththewind.jpg",
+    descricao: "Dez estudantes universitários com diferentes níveis de habilidade se unem para correr o lendário revezamento Hakone Ekiden.",
+    descricaoDetalhes: "Dez estudantes universitários com diferentes níveis de habilidade se unem para correr o lendário revezamento Hakone Ekiden.",
+    fotoDescricao: "/descricao/padrao-fotoDescr.png",
+    fotosBanner: ["/Carroselimg/padrao-car1.png", "/Carroselimg/padrao-car2.png"],
+    episodios: [
+      { titulo: "Time Improvável", descr: "Kakeru se junta ao grupo de corredores amadores.", img: "/episodios/ep4.jpg" },
+      { titulo: "Primeiro Treino", descr: "O time descobre suas fraquezas físicas.", img: "/episodios/ep2.jpg" },
+      { titulo: "Conflito de Líderes", descr: "Haiji e Kakeru discutem sobre métodos de treino.", img: "/episodios/ep9.jpg" },
+      { titulo: "Superando Limites", descr: "Prince enfrenta sua primeira corrida longa.", img: "/episodios/ep6.jpg" },
+      { titulo: "Prova de Classificação", descr: "O time precisa atingir o tempo mínimo para Hakone.", img: "/episodios/ep12.jpg" },
+      { titulo: "Lesão Inesperada", descr: "Kakeru sofre uma distensão muscular.", img: "/episodios/ep3.jpg" },
+      { titulo: "Estratégia Final", descr: "Definem a ordem de corrida para o Ekiden.", img: "/episodios/ep8.jpg" },
+      { titulo: "Largada em Hakone", descr: "O sonho do time se torna realidade.", img: "/episodios/ep1.jpg" }
+    ]
+  },
+  {
+    id: 74,
+    titulo: "Eyeshield 21",
+    foto: "/catalogo/eyeshield21.jpg",
+    descricao: "Um garoto tímido se torna um corredor lendário no futebol americano escolar usando um escudo facial para esconder sua identidade.",
+    descricaoDetalhes: "Um garoto tímido se torna um corredor lendário no futebol americano escolar usando um escudo facial para esconder sua identidade.",
+    fotoDescricao: "/descricao/padrao-fotoDescr.png",
+    fotosBanner: ["/Carroselimg/padrao-car1.png", "/Carroselimg/padrao-car2.png"],
+    episodios: [
+      { titulo: "A Descoberta", descr: "Sena é recrutado por Hiruma para o time.", img: "/episodios/ep5.jpg" },
+      { titulo: "Primeiro TD", descr: "Sena marca seu primeiro touchdown.", img: "/episodios/ep1.jpg" },
+      { titulo: "Rivalidade com Shin", descr: "O jogo contra os Oujou White Knights.", img: "/episodios/ep10.jpg" },
+      { titulo: "Treino no Inferno", descr: "Preparação para o torneio de outono.", img: "/episodios/ep7.jpg" },
+      { titulo: "O Poder do Eyeshield", descr: "Sena enfrenta o time de Riku.", img: "/episodios/ep3.jpg" },
+      { titulo: "Revelação da Identidade", descr: "Os colegas descobrem quem é Sena.", img: "/episodios/ep12.jpg" },
+      { titulo: "Final do Torneio", descr: "Deimon vs. Teikoku Alexander.", img: "/episodios/ep8.jpg" },
+      { titulo: "Novos Companheiros", descr: "O time se prepara para o Kanto Tournament.", img: "/episodios/ep2.jpg" }
+    ]
+  },
+  {
+    id: 75,
+    titulo: "Ace of Diamond",
+    foto: "/catalogo/aceofdiamond.jpg",
+    descricao: "Eijun Sawamura se junta a uma prestigiada escola de beisebol e luta para se tornar o melhor arremessador do Japão.",
+    descricaoDetalhes: "Eijun Sawamura se junta a uma prestigiada escola de beisebol e luta para se tornar o melhor arremessador do Japão.",
+    fotoDescricao: "/descricao/padrao-fotoDescr.png",
+    fotosBanner: ["/Carroselimg/padrao-car1.png", "/Carroselimg/padrao-car2.png"],
+    episodios: [
+      { titulo: "Arremesso Inicial", descr: "Eijun se transfere para Seidou.", img: "/episodios/ep1.jpg" },
+      { titulo: "Rivalidade com Furuya", descr: "Duelo pelos holofotes de arremessador.", img: "/episodios/ep6.jpg" },
+      { titulo: "Jogo de Estreia", descr: "Eijun entra como relief pitcher.", img: "/episodios/ep4.jpg" },
+      { titulo: "Frustração", descr: "Eijun é rebaixado ao segundo time.", img: "/episodios/ep9.jpg" },
+      { titulo: "Treino com Miyuki", descr: "Desenvolvem o Number Eleven.", img: "/episodios/ep11.jpg" },
+      { titulo: "Volta por Cima", descr: "Eijun retorna ao time principal.", img: "/episodios/ep3.jpg" },
+      { titulo: "Semi-final do Torneio", descr: "Seidou enfrenta Inashiro.", img: "/episodios/ep7.jpg" },
+      { titulo: "Novo Começo", descr: "Time se prepara para o próximo ano.", img: "/episodios/ep12.jpg" }
+    ]
+  },
+  {
+    id: 76,
+    titulo: "Hajime no Ippo",
+    foto: "/catalogo/hajimenoippo.jpg",
+    descricao: "Ippo Makunouchi, um garoto tímido, descobre seu talento para o boxe e começa sua jornada para se tornar um campeão.",
+    descricaoDetalhes: "Ippo Makunouchi, um garoto tímido, descobre seu talento para o boxe e começa sua jornada para se tornar um campeão.",
+    fotoDescricao: "/descricao/padrao-fotoDescr.png",
+    fotosBanner: ["/Carroselimg/padrao-car1.png", "/Carroselimg/padrao-car2.png"],
+    episodios: [
+      { titulo: "O Primeiro Soco", descr: "Ippo conhece o mundo do boxe através de Takamura.", img: "/episodios/ep3.jpg" },
+      { titulo: "Luta de Estreia", descr: "Ippo enfrenta seu primeiro oponente oficial.", img: "/episodios/ep8.jpg" },
+      { titulo: "Técnica do Dempsey Roll", descr: "Ippo aprende o golpe lendário com Date.", img: "/episodios/ep12.jpg" },
+      { titulo: "Rival Implacável", descr: "Miyata desafia Ippo para um combate.", img: "/episodios/ep5.jpg" },
+      { titulo: "Treino Extremo", descr: "Ippo se prepara para enfrentar o campeão regional.", img: "/episodios/ep2.jpg" },
+      { titulo: "Prova de Coragem", descr: "Ippo supera o medo de contra-ataques.", img: "/episodios/ep9.jpg" },
+      { titulo: "A Volta por Cima", descr: "Ippo vence após uma sequência de derrotas.", img: "/episodios/ep7.jpg" },
+      { titulo: "Novo Desafio", descr: "Ippo avança para a classe peso-pena.", img: "/episodios/ep4.jpg" }
+    ]
+  },
+  {
+    id: 77,
+    titulo: "Slam Dunk",
+    foto: "/catalogo/slamdunk.jpg",
+    descricao: "Hanamichi Sakuragi, um delinquente, se junta ao time de basquete para impressionar uma garota e descobre seu talento para o esporte.",
+    descricaoDetalhes: "Hanamichi Sakuragi, um delinquente, se junta ao time de basquete para impressionar uma garota e descobre seu talento para o esporte.",
+    fotoDescricao: "/descricao/padrao-fotoDescr.png",
+    fotosBanner: ["/Carroselimg/padrao-car1.png", "/Carroselimg/padrao-car2.png"],
+    episodios: [
+      { titulo: "O Encontro", descr: "Hanamichi conhece Haruko e o basquete.", img: "/episodios/ep1.jpg" },
+      { titulo: "Primeiro Treino", descr: "Sakuragi tenta driblar pela primeira vez.", img: "/episodios/ep6.jpg" },
+      { titulo: "Duelo com Rukawa", descr: "Rivalidade dentro do time começa.", img: "/episodios/ep10.jpg" },
+      { titulo: "Jogo de Estreia", descr: "Shohoku enfrenta Ryonan.", img: "/episodios/ep4.jpg" },
+      { titulo: "Rebote Decisivo", descr: "Sakuragi brilha nos rebotes.", img: "/episodios/ep8.jpg" },
+      { titulo: "Lesão de Akagi", descr: "O capitão se machuca antes do torneio.", img: "/episodios/ep3.jpg" },
+      { titulo: "Final Contra Sannoh", descr: "Partida pelo título nacional.", img: "/episodios/ep12.jpg" },
+      { titulo: "O Futuro", descr: "Time se prepara para novos desafios.", img: "/episodios/ep7.jpg" }
+    ]
+  },
+  {
+    id: 78,
+    titulo: "Free!",
+    foto: "/catalogo/free.jpg",
+    descricao: "Um grupo de amigos que nadavam juntos na infância se reúne no ensino médio e revive sua paixão pela natação competitiva.",
+    descricaoDetalhes: "Um grupo de amigos que nadavam juntos na infância se reúne no ensino médio e revive sua paixão pela natação competitiva.",
+    fotoDescricao: "/descricao/padrao-fotoDescr.png",
+    fotosBanner: ["/Carroselimg/padrao-car1.png", "/Carroselimg/padrao-car2.png"],
+    episodios: [
+      { titulo: "Reencontro", descr: "Haruka reencontra Makoto e Rin.", img: "/episodios/ep2.jpg" },
+      { titulo: "Desafio no Mar", descr: "Haru e Rin competem nas águas abertas.", img: "/episodios/ep5.jpg" },
+      { titulo: "Time Iwatobi", descr: "Formam o clube de natação da escola.", img: "/episodios/ep1.jpg" },
+      { titulo: "Rin vs. Haru", descr: "Duelo nos 100m livre.", img: "/episodios/ep9.jpg" },
+      { titulo: "Chegada de Nagisa", descr: "O quarto membro se junta ao time.", img: "/episodios/ep7.jpg" },
+      { titulo: "Torneio Regional", descr: "Primeira competição oficial.", img: "/episodios/ep4.jpg" },
+      { titulo: "Revelação do Passado", descr: "Rin explica sua rivalidade com Haru.", img: "/episodios/ep11.jpg" },
+      { titulo: "Decisão de Futuro", descr: "Haru escolhe seu estilo de nado.", img: "/episodios/ep12.jpg" }
+    ]
+  },
+  {
+    id: 79,
+    titulo: "Baby Steps",
+    foto: "/catalogo/babylon.jpg",
+    descricao: "Um estudante metódico descobre o tênis e usa suas habilidades analíticas para se tornar um jogador profissional.",
+    descricaoDetalhes: "Um estudante metódico descobre o tênis e usa suas habilidades analíticas para se tornar um jogador profissional.",
+    fotoDescricao: "/descricao/padrao-fotoDescr.png",
+    fotosBanner: ["/Carroselimg/padrao-car1.png", "/Carroselimg/padrao-car2.png"],
+    episodios: [
+      { titulo: "Primeira Raquete", descr: "Eiichiro começa a treinar tênis.", img: "/episodios/ep3.jpg" },
+      { titulo: "Método de Estudo", descr: "Maruo usa cadernos para analisar jogadas.", img: "/episodios/ep6.jpg" },
+      { titulo: "Amizade com Natsu", descr: "Relação com a treinadora se desenvolve.", img: "/episodios/ep1.jpg" },
+      { titulo: "Primeiro Torneio", descr: "Maruo enfrenta jogadores experientes.", img: "/episodios/ep8.jpg" },
+      { titulo: "Derrota Aprendizado", descr: "Eiichiro analisa seus erros.", img: "/episodios/ep4.jpg" },
+      { titulo: "Viagem para Treino", descr: "Time vai para um campo de treinamento.", img: "/episodios/ep10.jpg" },
+      { titulo: "Torneio Nacional", descr: "Maruo enfrenta o topo do ranking juvenil.", img: "/episodios/ep12.jpg" },
+      { titulo: "Novas Metas", descr: "Preparação para o circuito profissional.", img: "/episodios/ep7.jpg" }
+    ]
+  },
+  {
+    id: 80,
+    titulo: "Major",
+    foto: "/catalogo/major.jpg",
+    descricao: "A jornada de Goro Shigeno desde a infância até se tornar um jogador profissional de beisebol, enfrentando muitos desafios.",
+    descricaoDetalhes: "A jornada de Goro Shigeno desde a infância até se tornar um jogador profissional de beisebol, enfrentando muitos desafios.",
+    fotoDescricao: "/descricao/padrao-fotoDescr.png",
+    fotosBanner: ["/Carroselimg/padrao-car1.png", "/Carroselimg/padrao-car2.png"],
+    episodios: [
+      { titulo: "Sonho Infantil", descr: "Goro assiste ao pai jogar beisebol.", img: "/episodios/ep1.jpg" },
+      { titulo: "Primeiro Arremesso", descr: "Goro se destaca no time escolar.", img: "/episodios/ep5.jpg" },
+      { titulo: "Tragédia Familiar", descr: "Goro perde o pai em um acidente.", img: "/episodios/ep9.jpg" },
+      { titulo: "Novo Time", descr: "Ingressa no Kaido para jogar Koshien.", img: "/episodios/ep3.jpg" },
+      { titulo: "Lesão no Ombro", descr: "Goro enfrenta primeira grande crise.", img: "/episodios/ep7.jpg" },
+      { titulo: "Draft da MLB", descr: "Goro é draftado por um time americano.", img: "/episodios/ep11.jpg" },
+      { titulo: "Retorno ao Japão", descr: "Volta para jogar no Samurai Japan.", img: "/episodios/ep6.jpg" },
+      { titulo: "Legado", descr: "Goro inspira a próxima geração.", img: "/episodios/ep12.jpg" }
+    ]
+  },
+
+    {
+      id: 81,
+      titulo: "Legend of the Galactic Heroes",
+      foto: "/catalogo/logh.jpg",
+      descricao: "Uma épica guerra espacial entre duas facções galácticas, seguindo estratégias militares e intrigas políticas.",
+      descricaoDetalhes: "Uma épica guerra espacial entre duas facções galácticas, seguindo estratégias militares e intrigas políticas.",
+      fotoDescricao: "/descricao/padrao-fotoDescr.png",
+      fotosBanner: ["/Carroselimg/padrao-car1.png", "/Carroselimg/padrao-car2.png"],
+      episodios: [
+        { titulo: "O Confronto Inicial", descr: "Batalha de Astarte entre a Aliança e o Império.", img: "/episodios/ep3.jpg" },
+        { titulo: "Os Dois Estrategistas", descr: "Yang Wen-li e Reinhard se destacam como gênios militares.", img: "/episodios/ep7.jpg" },
+        { titulo: "Golpe de Estado", descr: "Reinhard orquestra uma revolução no Império.", img: "/episodios/ep11.jpg" },
+        { titulo: "A Queda de Iserlohn", descr: "A Fortaleza é capturada pela Aliança.", img: "/episodios/ep2.jpg" },
+        { titulo: "Assassinato Político", descr: "Crimes abalam o governo da Aliança.", img: "/episodios/ep9.jpg" },
+        { titulo: "Batalha de Vermilion", descr: "Confronto decisivo no espaço.", img: "/episodios/ep5.jpg" },
+        { titulo: "A Coroação", descr: "Reinhard se torna Kaiser.", img: "/episodios/ep12.jpg" },
+        { titulo: "Legado", descr: "O futuro da galáxia é decidido.", img: "/episodios/ep8.jpg" }
+      ]
+    },
+    {
+      id: 82,
+      titulo: "Planetes",
+      foto: "/catalogo/planetes.jpg",
+      descricao: "No ano 2075, uma equipe de coletores de lixo espacial lida com os perigos da órbita terrestre enquanto perseguem seus sonhos.",
+      descricaoDetalhes: "No ano 2075, uma equipe de coletores de lixo espacial lida com os perigos da órbita terrestre enquanto perseguem seus sonhos.",
+      fotoDescricao: "/descricao/padrao-fotoDescr.png",
+      fotosBanner: ["/Carroselimg/padrao-car1.png", "/Carroselimg/padrao-car2.png"],
+      episodios: [
+        { titulo: "Lixo Espacial", descr: "Equipe da Toyama inicia missão de coleta.", img: "/episodios/ep1.jpg" },
+        { titulo: "Sonho de Tanabe", descr: "Hachimaki planeja comprar sua própria nave.", img: "/episodios/ep6.jpg" },
+        { titulo: "Acidente Orbital", descr: "Colisão com detritos ameaça a estação.", img: "/episodios/ep4.jpg" },
+        { titulo: "Segredos do Passado", descr: "Fee revela seu histórico como astronauta.", img: "/episodios/ep10.jpg" },
+        { titulo: "Missão Solitária", descr: "Hachimaki enfrenta o vácuo do espaço sozinho.", img: "/episodios/ep7.jpg" },
+        { titulo: "Tragédia Pessoal", descr: "Morte de um colega abala a equipe.", img: "/episodios/ep3.jpg" },
+        { titulo: "Viagem a Júpiter", descr: "Seleção para missão interestelar.", img: "/episodios/ep12.jpg" },
+        { titulo: "Despedida", descr: "Hachimaki toma uma decisão crucial.", img: "/episodios/ep9.jpg" }
+      ]
+    },
+    {
+      id: 83,
+      titulo: "Knights of Sidonia",
+      foto: "/catalogo/sidonia.jpg",
+      descricao: "Humanos a bordo de uma nave espacial lutam contra criaturas alienígenas em uma batalha pela sobrevivência da espécie.",
+      descricaoDetalhes: "Humanos a bordo de uma nave espacial lutam contra criaturas alienígenas em uma batalha pela sobrevivência da espécie.",
+      fotoDescricao: "/descricao/padrao-fotoDescr.png",
+      fotosBanner: ["/Carroselimg/padrao-car1.png", "/Carroselimg/padrao-car2.png"],
+      episodios: [
+        { titulo: "O Último Reduto", descr: "Nagate é descoberto vivendo nas profundezas de Sidonia.", img: "/episodios/ep5.jpg" },
+        { titulo: "Primeiro Combate", descr: "Nagate pilota o Garde contra os Gauna.", img: "/episodios/ep2.jpg" },
+        { titulo: "Segredo de Tsugumi", descr: "A verdade sobre a piloto misteriosa é revelada.", img: "/episodios/ep8.jpg" },
+        { titulo: "Ameaça Híbrida", descr: "Gauna assumem forma humana.", img: "/episodios/ep11.jpg" },
+        { titulo: "Batalha de Tsumugi", descr: "O Garde biológico entra em ação.", img: "/episodios/ep6.jpg" },
+        { titulo: "Traição", descr: "Um membro da equipe sabota as defesas.", img: "/episodios/ep3.jpg" },
+        { titulo: "Fuga Desesperada", descr: "Sidonia enfrenta destruição iminente.", img: "/episodios/ep10.jpg" },
+        { titulo: "Novo Mundo", descr: "Chegam a um planeta potencialmente habitável.", img: "/episodios/ep12.jpg" }
+      ]
+    },
+    {
+      id: 84,
+      titulo: "Space Battleship Yamato 2199",
+      foto: "/catalogo/yamato2199.jpg",
+      descricao: "A tripulação da Yamato embarca em uma jornada interestelar para salvar a Terra da radiação mortal causada por alienígenas.",
+      descricaoDetalhes: "A tripulação da Yamato embarca em uma jornada interestelar para salvar a Terra da radiação mortal causada por alienígenas.",
+      fotoDescricao: "/descricao/padrao-fotoDescr.png",
+      fotosBanner: ["/Carroselimg/padrao-car1.png", "/Carroselimg/padrao-car2.png"],
+      episodios: [
+        { titulo: "Mensagem de Iscandar", descr: "A Yamato é preparada para sua missão.", img: "/episodios/ep1.jpg" },
+        { titulo: "Partida", descr: "A nave deixa a Terra sob ataque.", img: "/episodios/ep4.jpg" },
+        { titulo: "Batalha de Saturno", descr: "Confronto com as forças de Gamilas.", img: "/episodios/ep7.jpg" },
+        { titulo: "Segredos da Wave Motion", descr: "Kodai descobre o poder da nave.", img: "/episodios/ep9.jpg" },
+        { titulo: "Planeta Deserto", descr: "Exploram um mundo abandonado por Gamilas.", img: "/episodios/ep2.jpg" },
+        { titulo: "Traição", descr: "Um tripulante é revelado como espião.", img: "/episodios/ep12.jpg" },
+        { titulo: "Sacrifício", descr: "Okita piora devido à radiação.", img: "/episodios/ep6.jpg" },
+        { titulo: "Chegada a Iscandar", descr: "O destino da Terra está em jogo.", img: "/episodios/ep10.jpg" }
+      ]
+    },
+    {
+      id: 85,
+      titulo: "The Orbital Children",
+      foto: "/catalogo/orbitalchildren.jpg",
+      descricao: "Crianças presas em uma estação espacial em 2045 descobrem que possuem habilidades especiais e um destino interplanetário.",
+      descricaoDetalhes: "Crianças presas em uma estação espacial em 2045 descobrem que possuem habilidades especiais e um destino interplanetário.",
+      fotoDescricao: "/descricao/padrao-fotoDescr.png",
+      fotosBanner: ["/Carroselimg/padrao-car1.png", "/Carroselimg/padrao-car2.png"],
+      episodios: [
+        { titulo: "Acidente na Estação", descr: "As crianças ficam isoladas no espaço.", img: "/episodios/ep3.jpg" },
+        { titulo: "Poderes Despertados", descr: "Touya manifesta habilidades psíquicas.", img: "/episodios/ep8.jpg" },
+        { titulo: "IA Misteriosa", descr: "Seven revela seus segredos.", img: "/episodios/ep5.jpg" },
+        { titulo: "Fuga Impossível", descr: "Tentam consertar os sistemas da estação.", img: "/episodios/ep11.jpg" },
+        { titulo: "Conflito Interior", descr: "Mina e Konoha discordam sobre o plano.", img: "/episodios/ep2.jpg" },
+        { titulo: "Alienígenas?", descr: "Entidade desconhecida é detectada.", img: "/episodios/ep9.jpg" },
+        { titulo: "Decisão Final", descr: "Escolhem entre voltar à Terra ou evoluir.", img: "/episodios/ep12.jpg" },
+        { titulo: "Novo Começo", descr: "O futuro da humanidade no espaço.", img: "/episodios/ep6.jpg" }
+      ]
+    },
+    {
+      id: 86,
+      titulo: "Terraformars",
+      foto: "/catalogo/terraformars.jpg",
+      descricao: "Humanos geneticamente modificados são enviados a Marte para combater baratas humanoides que evoluíram no planeta vermelho.",
+      descricaoDetalhes: "Humanos geneticamente modificados são enviados a Marte para combater baratas humanoides que evoluíram no planeta vermelho.",
+      fotoDescricao: "/descricao/padrao-fotoDescr.png",
+      fotosBanner: ["/Carroselimg/padrao-car1.png", "/Carroselimg/padrao-car2.png"],
+      episodios: [
+        { titulo: "Missão Bugs 2", descr: "Equipe parte para Marte com poderes animais.", img: "/episodios/ep1.jpg" },
+        { titulo: "Primeiro Contato", descr: "Encontro sangrento com os Terraformars.", img: "/episodios/ep7.jpg" },
+        { titulo: "Morte de Líder", descr: "Comandante é esmagado pelos inimigos.", img: "/episodios/ep4.jpg" },
+        { titulo: "Habilidade Especial", descr: "Akari ativa seu poder de lula.", img: "/episodios/ep10.jpg" },
+        { titulo: "Traição", descr: "Membro da equipe revela lealdade duvidosa.", img: "/episodios/ep3.jpg" },
+        { titulo: "Rainha dos Terraformars", descr: "Descobrem a líder das criaturas.", img: "/episodios/ep12.jpg" },
+        { titulo: "Fuga de Marte", descr: "Sobreviventes tentam retornar à Terra.", img: "/episodios/ep8.jpg" },
+        { titulo: "Preparação para a Vingança", descr: "Nova equipe é formada.", img: "/episodios/ep5.jpg" }
+      ]
+    },
+    {
+      id: 87,
+      titulo: "Gantz",
+      foto: "/catalogo/gantz.jpg",
+      descricao: "Pessoas que morrem são recrutadas para caçar alienígenas em uma série de missões mortais com tecnologia avançada.",
+      descricaoDetalhes: "Pessoas que morrem são recrutadas para caçar alienígenas em uma série de missões mortais com tecnologia avançada.",
+      fotoDescricao: "/descricao/padrao-fotoDescr.png",
+      fotosBanner: ["/Carroselimg/padrao-car1.png", "/Carroselimg/padrao-car2.png"],
+      episodios: [
+        { titulo: "Morte e Ressurreição", descr: "Kei acorda na sala do Gantz.", img: "/episodios/ep2.jpg" },
+        { titulo: "Primeira Missão", descr: "Caçam o alienígena Onion Head.", img: "/episodios/ep6.jpg" },
+        { titulo: "Tragédia em Shinjuku", descr: "Batalha contra o alienígena Buda.", img: "/episodios/ep9.jpg" },
+        { titulo: "Poder do Traje", descr: "Kei domina as habilidades do traje Gantz.", img: "/episodios/ep4.jpg" },
+        { titulo: "Missão em Osaka", descr: "Encontro com a equipe rival.", img: "/episodios/ep11.jpg" },
+        { titulo: "100 Pontos", descr: "Kei alcança a pontuação máxima.", img: "/episodios/ep7.jpg" },
+        { titulo: "Escolha Difícil", descr: "Liberdade ou reviver alguém?", img: "/episodios/ep12.jpg" },
+        { titulo: "Invasão Alienígena", descr: "Tokyo é atacada por hordas.", img: "/episodios/ep3.jpg" }
+      ]
+    },
+    {
+      id: 88,
+      titulo: "Blame!",
+      foto: "/catalogo/blame.jpg",
+      descricao: "Em um futuro distópico, um homem percorre uma imensa estrutura urbana em busca do gene humano puro para salvar a humanidade.",
+      descricaoDetalhes: "Em um futuro distópico, um homem percorre uma imensa estrutura urbana em busca do gene humano puro para salvar a humanidade.",
+      fotoDescricao: "/descricao/padrao-fotoDescr.png",
+      fotosBanner: ["/Carroselimg/padrao-car1.png", "/Carroselimg/padrao-car2.png"],
+      episodios: [
+        { titulo: "A Cidade Infinita", descr: "Killy encontra sobreviventes em meio ao caos.", img: "/episodios/ep5.jpg" },
+        { titulo: "Ameaça dos Safeguard", descr: "Máquinas exterminadoras atacam.", img: "/episodios/ep1.jpg" },
+        { titulo: "Esperança Genética", descr: "Descoberta de um possível humano puro.", img: "/episodios/ep8.jpg" },
+        { titulo: "Fuga Desesperada", descr: "Perseguição pelas camadas da cidade.", img: "/episodios/ep3.jpg" },
+        { titulo: "Poder da Graviton", descr: "Killy usa sua arma lendária.", img: "/episodios/ep10.jpg" },
+        { titulo: "Vila Esquecida", descr: "Encontram uma comunidade isolada.", img: "/episodios/ep6.jpg" },
+        { titulo: "Sacrifício", descr: "Aliados morrem para proteger Killy.", img: "/episodios/ep12.jpg" },
+        { titulo: "Continuação da Jornada", descr: "Killy segue em busca do Net Terminal Gene.", img: "/episodios/ep4.jpg" }
+      ]
+    },
+    {
+      id: 89,
+      titulo: "Dennou Coil",
+      foto: "/catalogo/dennoucoil.jpg",
+      descricao: "Crianças exploram uma realidade aumentada onde objetos virtuais e segredos sombrios se misturam com o mundo real.",
+      descricaoDetalhes: "Crianças exploram uma realidade aumentada onde objetos virtuais e segredos sombrios se misturam com o mundo real.",
+      fotoDescricao: "/descricao/padrao-fotoDescr.png",
+      fotosBanner: ["/Carroselimg/padrao-car1.png", "/Carroselimg/padrao-car2.png"],
+      episodios: [
+        { titulo: "Óculos Mágicos", descr: "Yuko chega à cidade e descobre o mundo virtual.", img: "/episodios/ep1.jpg" },
+        { titulo: "Caçada a Illegals", descr: "Equipe de Yasako persegue bugs digitais.", img: "/episodios/ep7.jpg" },
+        { titulo: "Mistério de Isako", descr: "A rival esconde um segredo sombrio.", img: "/episodios/ep4.jpg" },
+        { titulo: "Cidade dos Mortos", descr: "Exploram um espaço virtual proibido.", img: "/episodios/ep11.jpg" },
+        { titulo: "Vírus Perigoso", descr: "Densuke é infectado por uma entidade.", img: "/episodios/ep3.jpg" },
+        { titulo: "Sacrifício de Fumie", descr: "Verdade sobre o irmão desaparecido.", img: "/episodios/ep9.jpg" },
+        { titulo: "Reset do Sistema", descr: "O mundo virtual colapsa.", img: "/episodios/ep12.jpg" },
+        { titulo: "Reconstrução", descr: "Yasako e amigos recomeçam.", img: "/episodios/ep6.jpg" }
+      ]
+    },
+    {
+      id: 90,
+      titulo: "Time of Eve",
+      foto: "/catalogo/timeofeve.jpg",
+      descricao: "Em um futuro onde androides são comuns, humanos descobrem um café onde as regras entre humanos e máquinas são relaxadas.",
+      descricaoDetalhes: "Em um futuro onde androides são comuns, humanos descobrem um café onde as regras entre humanos e máquinas são relaxadas.",
+      fotoDescricao: "/descricao/padrao-fotoDescr.png",
+      fotosBanner: ["/Carroselimg/padrao-car1.png", "/Carroselimg/padrao-car2.png"],
+      episodios: [
+        { titulo: "As Regras do Café", descr: "Rikuo descobre o Time of Eve por acidente.", img: "/episodios/ep2.jpg" },
+        { titulo: "Androide Artista", descr: "Uma robô pianista questiona sua existência.", img: "/episodios/ep5.jpg" },
+        { titulo: "Dilema de Akiko", descr: "Menina se apega a um androide de estimação.", img: "/episodios/ep8.jpg" },
+        { titulo: "Segredo de Sammy", descr: "A verdade sobre a androide de Rikuo.", img: "/episodios/ep1.jpg" },
+        { titulo: "Investigação", descr: "Inspetor começa a caçar o café.", img: "/episodios/ep10.jpg" },
+        { titulo: "Rebelião Silenciosa", descr: "Androides manifestam desejos próprios.", img: "/episodios/ep4.jpg" },
+        { titulo: "Fechamento", descr: "O café é ameaçado de ser descoberto.", img: "/episodios/ep12.jpg" },
+        { titulo: "Última Xícara", descr: "Clientes se despedem do Time of Eve.", img: "/episodios/ep7.jpg" }
+      ]
+    }, 
+    {
+      id: 91,
+      titulo: "Gurren Lagann",
+      foto: "/catalogo/gurrenlagann.jpg",
+      descricao: "Simon e Kamina pilotam mechas para libertar a humanidade de vilas subterrâneas e enfrentar o tirânico Lordgenome.",
+      descricaoDetalhes: "Simon e Kamina pilotam mechas para libertar a humanidade de vilas subterrâneas e enfrentar o tirânico Lordgenome.",
+      fotoDescricao: "/descricao/padrao-fotoDescr.png",
+      fotosBanner: ["/Carroselimg/padrao-car1.png", "/Carroselimg/padrao-car2.png"],
+      episodios: [
+        {
+          titulo: "Furadeira do Destino",
+          descr: "Simon encontra o Lagann e escapa da vila subterrânea.",
+          img: "/episodios/ep3.jpg"
+        },
+        {
+          titulo: "O Preço da Coragem",
+          descr: "Kamina lidera o ataque contra um mecha inimigo.",
+          img: "/episodios/ep7.jpg"
+        },
+        {
+          titulo: "Espiral da Revolução",
+          descr: "A equipe enfrenta o primeiro general de Lordgenome.",
+          img: "/episodios/ep11.jpg"
+        },
+        {
+          titulo: "Lágrimas na Batalha",
+          descr: "Um sacrifício abala o grupo.",
+          img: "/episodios/ep5.jpg"
+        },
+        {
+          titulo: "Gurren Lagann Nasce",
+          descr: "A fusão dos mechas cria uma nova arma.",
+          img: "/episodios/ep1.jpg"
+        },
+        {
+          titulo: "Adeus, Irmão",
+          descr: "Simon supera sua maior perda.",
+          img: "/episodios/ep9.jpg"
+        },
+        {
+          titulo: "Assalto à Capital",
+          descr: "O ataque final a Lordgenome começa.",
+          img: "/episodios/ep12.jpg"
+        },
+        {
+          titulo: "Para Além do Céu",
+          descr: "O destino da humanidade é decidido.",
+          img: "/episodios/ep8.jpg"
+        }
+      ]
+    },
+    {
+      id: 92,
+      titulo: "Eureka Seven",
+      foto: "/catalogo/eurekaseven.jpg",
+      descricao: "Renton Thurston se junta a um grupo de rebeldes e pilota um mecha misterioso ligado a uma garota chamada Eureka.",
+      descricaoDetalhes: "Renton Thurston se junta a um grupo de rebeldes e pilota um mecha misterioso ligado a uma garota chamada Eureka.",
+      fotoDescricao: "/descricao/padrao-fotoDescr.png",
+      fotosBanner: ["/Carroselimg/padrao-car1.png", "/Carroselimg/padrao-car2.png"],
+      episodios: [
+        {
+          titulo: "O Garoto e o Nirvash",
+          descr: "Renton conhece Eureka e o mecha Nirvash.",
+          img: "/episodios/ep2.jpg"
+        },
+        {
+          titulo: "Segredos do Passado",
+          descr: "Eureka revela sua conexão com os alienígenas.",
+          img: "/episodios/ep6.jpg"
+        },
+        {
+          titulo: "Correntes Aéreas",
+          descr: "A tripulação enfrenta turbulências extremas.",
+          img: "/episodios/ep10.jpg"
+        },
+        {
+          titulo: "O Preço da Liberdade",
+          descr: "Renton questiona seu lugar no Gekkostate.",
+          img: "/episodios/ep4.jpg"
+        },
+        {
+          titulo: "Onda de Choque",
+          descr: "Uma nova arma ameaça a frota rebelde.",
+          img: "/episodios/ep12.jpg"
+        },
+        {
+          titulo: "Corações Divididos",
+          descr: "Eureka e Renton enfrentam um mal-entendido.",
+          img: "/episodios/ep7.jpg"
+        },
+        {
+          titulo: "O Segredo de Adroc",
+          descr: "A verdade sobre a missão de Dewey é revelada.",
+          img: "/episodios/ep9.jpg"
+        },
+        {
+          titulo: "O Fim da Jornada",
+          descr: "O confronto final decide o futuro do planeta.",
+          img: "/episodios/ep1.jpg"
+        }
+      ]
+    },
+    {
+      id: 93,
+      titulo: "Aldnoah.Zero",
+      foto: "/catalogo/aldnoahzero.jpg",
+      descricao: "Terra e Marte entram em guerra quando um incidente diplomático desencadeia um conflito entre tecnologias desiguais.",
+      descricaoDetalhes: "Terra e Marte entram em guerra quando um incidente diplomático desencadeia um conflito entre tecnologias desiguais.",
+      fotoDescricao: "/descricao/padrao-fotoDescr.png",
+      fotosBanner: ["/Carroselimg/padrao-car1.png", "/Carroselimg/padrao-car2.png"],
+      episodios: [
+        {
+          titulo: "O Incidente de Marte",
+          descr: "O assassinato da princesa de Marte inflama a guerra.",
+          img: "/episodios/ep4.jpg"
+        },
+        {
+          titulo: "O Cavaleiro Terrano",
+          descr: "Inaho improvisa táticas contra a tecnologia marciana.",
+          img: "/episodios/ep9.jpg"
+        },
+        {
+          titulo: "A Arma Aldnoah",
+          descr: "O segredo por trás dos mechas marcianos é revelado.",
+          img: "/episodios/ep2.jpg"
+        },
+        {
+          titulo: "Traição no Front",
+          descr: "Um aliado revela sua verdadeira lealdade.",
+          img: "/episodios/ep11.jpg"
+        },
+        {
+          titulo: "A Queda da Lua",
+          descr: "Uma catástrofe orbital muda o curso da guerra.",
+          img: "/episodios/ep7.jpg"
+        },
+        {
+          titulo: "Princesa Sob Fogo Cruzado",
+          descr: "Aslleyn é pega entre dois exércitos.",
+          img: "/episodios/ep1.jpg"
+        },
+        {
+          titulo: "Julgamento de Inaho",
+          descr: "O protagonista enfrenta um tribunal militar.",
+          img: "/episodios/ep12.jpg"
+        },
+        {
+          titulo: "Fim do Começo",
+          descr: "A primeira temporada termina com um climax chocante.",
+          img: "/episodios/ep5.jpg"
+        }
+      ]
+    },
+    {
+      id: 94,
+      titulo: "Macross Frontier",
+      foto: "/catalogo/macrossf.jpg",
+      descricao: "Pilotos de mechas transformáveis defendem uma frota de naves coloniais contra ataques de alienígenas misteriosos.",
+      descricaoDetalhes: "Pilotos de mechas transformáveis defendem uma frota de naves coloniais contra ataques de alienígenas misteriosos.",
+      fotoDescricao: "/descricao/padrao-fotoDescr.png",
+      fotosBanner: ["/Carroselimg/padrao-car1.png", "/Carroselimg/padrao-car2.png"],
+      episodios: [
+        {
+          titulo: "Encontro Estelar",
+          descr: "Alto e Sheryl escapam do ataque inicial dos Vajra.",
+          img: "/episodios/ep6.jpg"
+        },
+        {
+          titulo: "Canção da Rainha",
+          descr: "Sheryl revela seu poder como cantora de batalha.",
+          img: "/episodios/ep3.jpg"
+        },
+        {
+          titulo: "Triângulo Galáctico",
+          descr: "Ranka entra na disputa afetiva e musical.",
+          img: "/episodios/ep10.jpg"
+        },
+        {
+          titulo: "Segredos Genéticos",
+          descr: "A conexão entre Ranka e os Vajra é explorada.",
+          img: "/episodios/ep8.jpg"
+        },
+        {
+          titulo: "Batalha na Nebulosa",
+          descr: "A frota é encurralada em território inimigo.",
+          img: "/episodios/ep12.jpg"
+        },
+        {
+          titulo: "Memórias de Mao",
+          descr: "Flashbacks revelam a primeira guerra contra os Vajra.",
+          img: "/episodios/ep4.jpg"
+        },
+        {
+          titulo: "Fronteira em Chamas",
+          descr: "A nave capital sofre um ataque devastador.",
+          img: "/episodios/ep1.jpg"
+        },
+        {
+          titulo: "Decultura!",
+          descr: "O desfecho da rivalidade musical e militar.",
+          img: "/episodios/ep7.jpg"
+        }
+      ]
+    },
+    {
+      id: 95,
+      titulo: "The Big O",
+      foto: "/catalogo/bigo.jpg",
+      descricao: "Em uma cidade sem memória, um negociador pilotando um mecha gigante busca respostas sobre o passado desaparecido.",
+      descricaoDetalhes: "Em uma cidade sem memória, um negociador pilotando um mecha gigante busca respostas sobre o passado desaparecido.",
+      fotoDescricao: "/descricao/padrao-fotoDescr.png",
+      fotosBanner: ["/Carroselimg/padrao-car1.png", "/Carroselimg/padrao-car2.png"],
+      episodios: [
+        {
+          titulo: "Negociador de Paradigm",
+          descr: "Roger Smith resolve seu primeiro caso com o Big O.",
+          img: "/episodios/ep5.jpg"
+        },
+        {
+          titulo: "Memórias Fantasmas",
+          descr: "Fragmentos do passado assombram a cidade.",
+          img: "/episodios/ep2.jpg"
+        },
+        {
+          titulo: "O Herdeiro de Paradigm",
+          descr: "Um rival com outro mecha surge.",
+          img: "/episodios/ep9.jpg"
+        },
+        {
+          titulo: "Dorothy em Perigo",
+          descr: "A androide é sequestrada por um magnata.",
+          img: "/episodios/ep11.jpg"
+        },
+        {
+          titulo: "O Segredo de Alex",
+          descr: "O mordomo revela conhecimentos proibidos.",
+          img: "/episodios/ep3.jpg"
+        },
+        {
+          titulo: "Showtime!",
+          descr: "Roger encena um espetáculo para capturar um criminoso.",
+          img: "/episodios/ep7.jpg"
+        },
+        {
+          titulo: "O Despertar",
+          descr: "Mechas adormecidos reativam-se subitamente.",
+          img: "/episodios/ep12.jpg"
+        },
+        {
+          titulo: "Negociação Final",
+          descr: "Roger enfrenta a verdade por trás de Paradigm.",
+          img: "/episodios/ep1.jpg"
+        }
+      ]
+    },
+    {
+      id: 96,
+      titulo: "Full Metal Panic!",
+      foto: "/catalogo/fullmetalpanic.jpg",
+      descricao: "Um soldado mercenário é designado para proteger uma estudante com conhecimento militar secreto em seu subconsciente.",
+      descricaoDetalhes: "Um soldado mercenário é designado para proteger uma estudante com conhecimento militar secreto em seu subconsciente.",
+      fotoDescricao: "/descricao/padrao-fotoDescr.png",
+      fotosBanner: ["/Carroselimg/padrao-car1.png", "/Carroselimg/padrao-car2.png"],
+      episodios: [
+        {
+          titulo: "Soldado Transferido",
+          descr: "Sousuke chega à escola de Kaname.",
+          img: "/episodios/ep1.jpg"
+        },
+        {
+          titulo: "Problema de Adaptação",
+          descr: "Sousuke causa caos com táticas militares na escola.",
+          img: "/episodios/ep4.jpg"
+        },
+        {
+          titulo: "Arbalest Ativa",
+          descr: "O mecha Lambda Driver é revelado.",
+          img: "/episodios/ep8.jpg"
+        },
+        {
+          titulo: "Ameaça do Gato Preto",
+          descr: "Uma assassina infiltra-se na escola.",
+          img: "/episodios/ep6.jpg"
+        },
+        {
+          titulo: "Segredos de Whispered",
+          descr: "Kaname descobre sua habilidade única.",
+          img: "/episodios/ep10.jpg"
+        },
+        {
+          titulo: "Batalha Subaquática",
+          descr: "Sousuke enfrenta um mecha em alto mar.",
+          img: "/episodios/ep3.jpg"
+        },
+        {
+          titulo: "Crise no Campus",
+          descr: "Terroristas tomam a escola como reféns.",
+          img: "/episodios/ep12.jpg"
+        },
+        {
+          titulo: "Confissão à Moda Sousuke",
+          descr: "O soldado tenta expressar seus sentimentos.",
+          img: "/episodios/ep7.jpg"
+        }
+      ]
+    },
+    {
+      id: 97,
+      titulo: "Valvrave the Liberator",
+      foto: "/catalogo/valvrave.jpg",
+      descricao: "Estudantes descobrem e pilotam mechas avançados para defender sua nação escolar de uma superpotência espacial.",
+      descricaoDetalhes: "Estudantes descobrem e pilotam mechas avançados para defender sua nação escolar de uma superpotência espacial.",
+      fotoDescricao: "/descricao/padrao-fotoDescr.png",
+      fotosBanner: ["/Carroselimg/padrao-car1.png", "/Carroselimg/padrao-car2.png"],
+      episodios: [
+        {
+          titulo: "O Pacto de Sangue",
+          descr: "Haruto faz um contrato misterioso com o Valvrave.",
+          img: "/episodios/ep2.jpg"
+        },
+        {
+          titulo: "Preço do Poder",
+          descr: "As consequências de pilotar o Valvrave são reveladas.",
+          img: "/episodios/ep7.jpg"
+        },
+        {
+          titulo: "Nação Estudantil",
+          descr: "Os alunos declaram independência como nação.",
+          img: "/episodios/ep11.jpg"
+        },
+        {
+          titulo: "Traição na Sala de Aula",
+          descr: "Um colega de classe revela-se espião inimigo.",
+          img: "/episodios/ep4.jpg"
+        },
+        {
+          titulo: "Corrida Espacial",
+          descr: "Os Valvraves enfrentam batalha em órbita.",
+          img: "/episodios/ep9.jpg"
+        },
+        {
+          titulo: "Segredos do Passado",
+          descr: "A verdade sobre os criadores dos mechas emerge.",
+          img: "/episodios/ep1.jpg"
+        },
+        {
+          titulo: "Eclipse da Razão",
+          descr: "Haruto perde o controle de seus poderes.",
+          img: "/episodios/ep12.jpg"
+        },
+        {
+          titulo: "Requiem para Amigos",
+          descr: "Uma morte chocante abala o grupo.",
+          img: "/episodios/ep5.jpg"
+        }
+      ]
+    },
+    {
+      id: 98,
+      titulo: "Knights & Magic",
+      foto: "/catalogo/knightsandmagic.jpg",
+      descricao: "Um programador reencarnado em um mundo de magia e mechas usa seu conhecimento para revolucionar o design dos mechas.",
+      descricaoDetalhes: "Um programador reencarnado em um mundo de magia e mechas usa seu conhecimento para revolucionar o design dos mechas.",
+      fotoDescricao: "/descricao/padrao-fotoDescr.png",
+      fotosBanner: ["/Carroselimg/padrao-car1.png", "/Carroselimg/padrao-car2.png"],
+      episodios: [
+        {
+          titulo: "Nascimento de um Gênio",
+          descr: "Ernesti demonstra seu talento com mechas.",
+          img: "/episodios/ep3.jpg"
+        },
+        {
+          titulo: "Projeto Silhouette Knight",
+          descr: "Eru começa a redesenhar os mechas do reino.",
+          img: "/episodios/ep8.jpg"
+        },
+        {
+          titulo: "Primeiro Voo",
+          descr: "O protótipo voador é testado com riscos.",
+          img: "/episodios/ep6.jpg"
+        },
+        {
+          titulo: "Invasão Demoníaca",
+          descr: "Bestas mágicas ameaçam a capital.",
+          img: "/episodios/ep12.jpg"
+        },
+        {
+          titulo: "Arma Secreta",
+          descr: "Eru revela seu mecha personalizado.",
+          img: "/episodios/ep1.jpg"
+        },
+        {
+          titulo: "Torneio Real",
+          descr: "A competição entre pilotos começa.",
+          img: "/episodios/ep4.jpg"
+        },
+        {
+          titulo: "Tecnologia Proibida",
+          descr: "Um antigo mecha é desenterrado.",
+          img: "/episodios/ep10.jpg"
+        },
+        {
+          titulo: "O Preço da Inovação",
+          descr: "As mudanças de Eru causam conflitos políticos.",
+          img: "/episodios/ep7.jpg"
+        }
+      ]
+    },
+    {
+      id: 99,
+      titulo: "Gargantia on the Verdurous Planet",
+      foto: "/catalogo/gargantia.jpg",
+      descricao: "Um soldado espacial cai na Terra pós-apocalíptica e aprende a viver em harmonia com os habitantes locais.",
+      descricaoDetalhes: "Um soldado espacial cai na Terra pós-apocalíptica e aprende a viver em harmonia com os habitantes locais.",
+      fotoDescricao: "/descricao/padrao-fotoDescr.png",
+      fotosBanner: ["/Carroselimg/padrao-car1.png", "/Carroselimg/padrao-car2.png"],
+      episodios: [
+        {
+          titulo: "Náufrago Estelar",
+          descr: "Ledo acorda na frota Gargantia.",
+          img: "/episodios/ep2.jpg"
+        },
+        {
+          titulo: "Choque Cultural",
+          descr: "Ledo tenta se adaptar à vida pacífica.",
+          img: "/episodios/ep5.jpg"
+        },
+        {
+          titulo: "Segredos das Profundezas",
+          descr: "A verdade sobre a Terra é revelada.",
+          img: "/episodios/ep9.jpg"
+        },
+        {
+          titulo: "Ameaça dos Piratas",
+          descr: "A frota é atacada por saqueadores.",
+          img: "/episodios/ep3.jpg"
+        },
+        {
+          titulo: "O Despertar de Chamber",
+          descr: "O mecha de Ledo é reativado.",
+          img: "/episodios/ep7.jpg"
+        },
+        {
+          titulo: "Fuga para o Continente",
+          descr: "A frota descobre terra firme.",
+          img: "/episodios/ep11.jpg"
+        },
+        {
+          titulo: "Herança da Humanidade",
+          descr: "Ledo encontra vestígios da antiga civilização.",
+          img: "/episodios/ep1.jpg"
+        },
+        {
+          titulo: "Sacrifício Final",
+          descr: "Chamber toma uma decisão crucial.",
+          img: "/episodios/ep12.jpg"
+        }
+      ]
+    },
+    {
+      id: 100,
+      titulo: "Suisei no Gargantia",
+      foto: "/catalogo/suisei.jpg",
+      descricao: "Um piloto de mecha militar é transportado para um futuro distante onde a humanidade vive em cidades flutuantes na Terra.",
+      descricaoDetalhes: "Um piloto de mecha militar é transportado para um futuro distante onde a humanidade vive em cidades flutuantes na Terra.",
+      fotoDescricao: "/descricao/padrao-fotoDescr.png",
+      fotosBanner: ["/Carroselimg/padrao-car1.png", "/Carroselimg/padrao-car2.png"],
+      episodios: [
+        {
+          titulo: "Mensageiro das Estrelas",
+          descr: "Ledo chega à frota Gargantia.",
+          img: "/episodios/ep1.jpg"
+        },
+        {
+          titulo: "Língua Desconhecida",
+          descr: "As barreiras de comunicação são superadas.",
+          img: "/episodios/ep6.jpg"
+        },
+        {
+          titulo: "Tesouro Subaquático",
+          descr: "A equipe explora ruínas afundadas.",
+          img: "/episodios/ep4.jpg"
+        },
+        {
+          titulo: "Festa na Frota",
+          descr: "Ledo experimenta a cultura terrestre.",
+          img: "/episodios/ep8.jpg"
+        },
+        {
+          titulo: "Verdade Escondida",
+          descr: "Amy revela segredos sobre a sociedade Gargantia.",
+          img: "/episodios/ep10.jpg"
+        },
+        {
+          titulo: "O Retorno do Passado",
+          descr: "Outro soldado da aliança aparece.",
+          img: "/episodios/ep12.jpg"
+        },
+        {
+          titulo: "Decisão de Ledo",
+          descr: "O protagonista escolhe seu caminho.",
+          img: "/episodios/ep3.jpg"
+        },
+        {
+          titulo: "Conexão Estelar",
+          descr: "O destino de duas humanidades é decidido.",
+          img: "/episodios/ep7.jpg"
+        }
+      ]
+    },
+    
+      {
+        id: 101,
+        titulo: "Serial Experiments Lain",
+        foto: "/catalogo/lain.jpg",
+        descricao: "Uma garota introvertida se envolve em eventos bizarros quando descobre a realidade virtual chamada The Wired.",
+        descricaoDetalhes: "Uma garota introvertida se envolve em eventos bizarros quando descobre a realidade virtual chamada The Wired.",
+        fotoDescricao: "/descricao/padrao-fotoDescr.png",
+        fotosBanner: ["/Carroselimg/padrao-car1.png", "/Carroselimg/padrao-car2.png"],
+        episodios: [
+          { titulo: "Weird", descr: "Lain recebe um e-mail de uma colega morta.", img: "/episodios/ep1.jpg" },
+          { titulo: "Girls", descr: "Lain explora o mundo virtual The Wired.", img: "/episodios/ep5.jpg" },
+          { titulo: "Psyche", descr: "Realidade e virtual se confundem para Lain.", img: "/episodios/ep8.jpg" },
+          { titulo: "Religion", descr: "Culto tecnológico chama atenção de Lain.", img: "/episodios/ep3.jpg" },
+          { titulo: "Distortion", descr: "Memórias de Lain começam a se fragmentar.", img: "/episodios/ep10.jpg" },
+          { titulo: "Kids", descr: "Amigas de escola se afastam de Lain.", img: "/episodios/ep7.jpg" },
+          { titulo: "Society", descr: "O mundo exterior entra em colapso.", img: "/episodios/ep12.jpg" },
+          { titulo: "Reset", descr: "Lain reescreve sua própria existência.", img: "/episodios/ep4.jpg" }
+        ]
+      },
+      {
+        id: 102,
+        titulo: "Ergo Proxy",
+        foto: "/catalogo/ergoproxy.jpg",
+        descricao: "Em uma cidade-domo distópica, uma investigadora descobre segredos sobre androides Autoreivs e seres chamados Proxies.",
+        descricaoDetalhes: "Em uma cidade-domo distópica, uma investigadora descobre segredos sobre androides Autoreivs e seres chamados Proxies.",
+        fotoDescricao: "/descricao/padrao-fotoDescr.png",
+        fotosBanner: ["/Carroselimg/padrao-car1.png", "/Carroselimg/padrao-car2.png"],
+        episodios: [
+          { titulo: "Pulsação", descr: "Re-l investiga Autoreivs infectados.", img: "/episodios/ep2.jpg" },
+          { titulo: "Confiança", descr: "Vicente encontra uma Proxy criança.", img: "/episodios/ep6.jpg" },
+          { titulo: "Salto", descr: "Re-l é atacada por uma criatura misteriosa.", img: "/episodios/ep9.jpg" },
+          { titulo: "Futuro", descr: "Vicente foge da cidade-domo Romdo.", img: "/episodios/ep4.jpg" },
+          { titulo: "Batalha", descr: "Encontro com Proxy Senhor dos Mortos.", img: "/episodios/ep11.jpg" },
+          { titulo: "Órfão", descr: "Pino desenvolve consciência humana.", img: "/episodios/ep3.jpg" },
+          { titulo: "Catástrofe", descr: "Romdo começa a entrar em colapso.", img: "/episodios/ep12.jpg" },
+          { titulo: "Despertar", descr: "Verdade sobre os Proxies é revelada.", img: "/episodios/ep7.jpg" }
+        ]
+      },
+      {
+        id: 103,
+        titulo: "Texhnolyze",
+        foto: "/catalogo/texhnolyze.jpg",
+        descricao: "Em uma cidade subterrânea decadente, um lutador ganha membros cibernéticos e se envolve em uma guerra de facções.",
+        descricaoDetalhes: "Em uma cidade subterrânea decadente, um lutador ganha membros cibernéticos e se envolve em uma guerra de facções.",
+        fotoDescricao: "/descricao/padrao-fotoDescr.png",
+        fotosBanner: ["/Carroselimg/padrao-car1.png", "/Carroselimg/padrao-car2.png"],
+        episodios: [
+          { titulo: "Queda", descr: "Ichise perde membros em uma luta.", img: "/episodios/ep1.jpg" },
+          { titulo: "Texhnolyze", descr: "Ichise recebe membros cibernéticos.", img: "/episodios/ep5.jpg" },
+          { titulo: "Gravador", descr: "Ran prevê o futuro da cidade.", img: "/episodios/ep8.jpg" },
+          { titulo: "Gangues", descr: "Conflito entre Organo e Salvation Union.", img: "/episodios/ep3.jpg" },
+          { titulo: "Traição", descr: "Oonishi é enganado por seus aliados.", img: "/episodios/ep10.jpg" },
+          { titulo: "Exílio", descr: "Ichise é banido para a superfície.", img: "/episodios/ep7.jpg" },
+          { titulo: "Decadência", descr: "Lux começa a entrar em colapso.", img: "/episodios/ep12.jpg" },
+          { titulo: "Fim", descr: "Últimos habitantes enfrentam o destino.", img: "/episodios/ep4.jpg" }
+        ]
+      },
+      {
+        id: 105,
+        titulo: "No Guns Life",
+        foto: "/catalogo/nogunslife.jpg",
+        descricao: "Um ex-soldado cibernético com uma cabeça de arma trabalha como detetive resolvendo casos envolvendo outros modificados.",
+        descricaoDetalhes: "Um ex-soldado cibernético com uma cabeça de arma trabalha como detetive resolvendo casos envolvendo outros modificados.",
+        fotoDescricao: "/descricao/padrao-fotoDescr.png",
+        fotosBanner: ["/Carroselimg/padrao-car1.png", "/Carroselimg/padrao-car2.png"],
+        episodios: [
+          { titulo: "Cabeça de Arma", descr: "Juzo encontra um menino ciborgue.", img: "/episodios/ep2.jpg" },
+          { titulo: "Resgate", descr: "Juzo invade instalação da Berühren.", img: "/episodios/ep6.jpg" },
+          { titulo: "Memórias", descr: "Tetsuro recupera fragmentos do passado.", img: "/episodios/ep9.jpg" },
+          { titulo: "Seven", descr: "Aparece um Extended rival de Juzo.", img: "/episodios/ep4.jpg" },
+          { titulo: "Overdrive", descr: "Juzo ativa seu modo de combate total.", img: "/episodios/ep11.jpg" },
+          { titulo: "Traição", descr: "Mary descobre segredos da empresa.", img: "/episodios/ep3.jpg" },
+          { titulo: "Fuga", descr: "Tetsuro é capturado pela Berühren.", img: "/episodios/ep12.jpg" },
+          { titulo: "Confronto", descr: "Juzo enfrenta o diretor da corporação.", img: "/episodios/ep7.jpg" }
+        ]
+      },
+      {
+        id: 106,
+        titulo: "Battle Angel Alita",
+        foto: "/catalogo/alita.jpg",
+        descricao: "Um cientista encontra os restos de uma ciborgue e a reconstrói, revelando que ela possui habilidades de luta excepcionais.",
+        descricaoDetalhes: "Um cientista encontra os restos de uma ciborgue e a reconstrói, revelando que ela possui habilidades de luta excepcionais.",
+        fotoDescricao: "/descricao/padrao-fotoDescr.png",
+        fotosBanner: ["/Carroselimg/padrao-car1.png", "/Carroselimg/padrao-car2.png"],
+        episodios: [
+          { titulo: "Despertar", descr: "Doutor Ido encontra Alita no lixo.", img: "/episodios/ep1.jpg" },
+          { titulo: "Memórias", descr: "Alita lembra técnicas de Panzer Kunst.", img: "/episodios/ep5.jpg" },
+          { titulo: "Caçador", descr: "Alita se torna caçadora de recompensas.", img: "/episodios/ep8.jpg" },
+          { titulo: "Amor", descr: "Relação com Hugo se desenvolve.", img: "/episodios/ep3.jpg" },
+          { titulo: "Motorball", descr: "Alita entra no esporte mortal.", img: "/episodios/ep10.jpg" },
+          { titulo: "Traição", descr: "Hugo é revelado como ladrão de corpos.", img: "/episodios/ep7.jpg" },
+          { titulo: "Zalem", descr: "Segredos da cidade flutuante.", img: "/episodios/ep12.jpg" },
+          { titulo: "Duelo", descr: "Alita enfrenta Nova pela primeira vez.", img: "/episodios/ep4.jpg" }
+        ]
+      },
+      {
+        id: 107,
+        titulo: "Mardock Scramble",
+        foto: "/catalogo/mardock.jpg",
+        descricao: "Uma prostituta é salva da morte e transformada em ciborgue para testemunhar contra seu assassino em um futuro distópico.",
+        descricaoDetalhes: "Uma prostituta é salva da morte e transformada em ciborgue para testemunhar contra seu assassino em um futuro distópico.",
+        fotoDescricao: "/descricao/padrao-fotoDescr.png",
+        fotosBanner: ["/Carroselimg/padrao-car1.png", "/Carroselimg/padrao-car2.png"],
+        episodios: [
+          { titulo: "Execução", descr: "Balot é queimada viva por Shell.", img: "/episodios/ep2.jpg" },
+          { titulo: "Ressurreição", descr: "Transformada em ciborgue pelo Dr. Easter.", img: "/episodios/ep6.jpg" },
+          { titulo: "Vingança", descr: "Balot caça Shell pelas ruas de Mardock.", img: "/episodios/ep9.jpg" },
+          { titulo: "Jogo", descr: "Confronto em cassino high-tech.", img: "/episodios/ep4.jpg" },
+          { titulo: "Segredos", descr: "Verdade sobre o passado de Balot.", img: "/episodios/ep11.jpg" },
+          { titulo: "Fuga", descr: "Perseguição pela cidade flutuante.", img: "/episodios/ep3.jpg" },
+          { titulo: "Sacrifício", descr: "Ouelet se sacrifica para salvar Balot.", img: "/episodios/ep12.jpg" },
+          { titulo: "Liberdade", descr: "Balot enfrenta Shell pela última vez.", img: "/episodios/ep7.jpg" }
+        ]
+      },
+      {
+        id: 109,
+        titulo: "Cyber City Oedo 808",
+        foto: "/catalogo/oedo808.jpg",
+        descricao: "Três criminosos recebem a chance de reduzir suas sentenças trabalhando como agentes especiais em uma cidade futurista.",
+        descricaoDetalhes: "Três criminosos recebem a chance de reduzir suas sentenças trabalhando como agentes especiais em uma cidade futurista.",
+        fotoDescricao: "/descricao/padrao-fotoDescr.png",
+        fotosBanner: ["/Carroselimg/padrao-car1.png", "/Carroselimg/padrao-car2.png"],
+        episodios: [
+          { titulo: "Sentença", descr: "Criminosos recebem colares explosivos.", img: "/episodios/ep1.jpg" },
+          { titulo: "Hacker", descr: "Benten enfrenta um terrorista digital.", img: "/episodios/ep5.jpg" },
+          { titulo: "Vampiro", descr: "Sen vai atrás de um serial killer.", img: "/episodios/ep8.jpg" },
+          { titulo: "Traição", descr: "Gogul descobre corrupção no governo.", img: "/episodios/ep3.jpg" },
+          { titulo: "Rebelião", descr: "Colares explosivos são hackeados.", img: "/episodios/ep10.jpg" },
+          { titulo: "Fuga", descr: "Trio tenta escapar da cidade.", img: "/episodios/ep7.jpg" },
+          { titulo: "Sacrifício", descr: "Um deles se sacrifica pelos outros.", img: "/episodios/ep12.jpg" },
+          { titulo: "Liberdade", descr: "Sobreviventes ganham nova chance.", img: "/episodios/ep4.jpg" }
+        ]
+      },
+      {
+        id: 110,
+        titulo: "Armitage III",
+        foto: "/catalogo/armitage.jpg",
+        descricao: "Um detetive e uma androide investigam uma série de assassinatos de robôs humanoides em uma colônia marciana.",
+        descricaoDetalhes: "Um detetive e uma androide investigam uma série de assassinatos de robôs humanoides em uma colônia marciana.",
+        fotoDescricao: "/descricao/padrao-fotoDescr.png",
+        fotosBanner: ["/Carroselimg/padrao-car1.png", "/Carroselimg/padrao-car2.png"],
+        episodios: [
+          { titulo: "Assassinatos", descr: "Robôs Terceiros são destruídos.", img: "/episodios/ep2.jpg" },
+          { titulo: "Parceria", descr: "Ross se une a Armitage.", img: "/episodios/ep6.jpg" },
+          { titulo: "Segredos", descr: "Verdade sobre os robôs Thirds.", img: "/episodios/ep9.jpg" },
+          { titulo: "Perseguição", descr: "Caçam o assassino Kelly.", img: "/episodios/ep4.jpg" },
+          { titulo: "Traição", descr: "Governo esconde agenda anti-robôs.", img: "/episodios/ep11.jpg" },
+          { titulo: "Paternidade", descr: "Ross descobre origem de Armitage.", img: "/episodios/ep3.jpg" },
+          { titulo: "Batalha", descr: "Confronto final em Marte.", img: "/episodios/ep12.jpg" },
+          { titulo: "Legado", descr: "Futuro da relação humano-robô.", img: "/episodios/ep7.jpg" }
+        ]
+      },
+    
+      {
+        id: 111,
+        titulo: "Gintama",
+        foto: "/catalogo/gintama.jpg",
+        descricao: "Em um Japão feudal ocupado por alienígenas, um samurai preguiçoso e seus amigos aceitam trabalhos estranhos para sobreviver.",
+        descricaoDetalhes: "Em um Japão feudal ocupado por alienígenas, um samurai preguiçoso e seus amigos aceitam trabalhos estranhos para sobreviver.",
+        fotoDescricao: "/descricao/padrao-fotoDescr.png",
+        fotosBanner: ["/Carroselimg/padrao-car1.png", "/Carroselimg/padrao-car2.png"],
+        episodios: [
+          { titulo: "O Samurai de Prata", descr: "Gintoki conhece Shinpachi e salva sua irmã.", img: "/episodios/ep1.jpg" },
+          { titulo: "Caçada ao Alien", descr: "Yorozuya persegue um alienígena fugitivo.", img: "/episodios/ep5.jpg" },
+          { titulo: "Concurso de Mangá", descr: "Gin e Kagura entram em um concurso de quadrinhos.", img: "/episodios/ep8.jpg" },
+          { titulo: "O Incrível Shinsengumi", descr: "Hijikata e Kondou aparecem pela primeira vez.", img: "/episodios/ep3.jpg" },
+          { titulo: "Batalha de Neve", descr: "Guerra de bolas de neve no bairro.", img: "/episodios/ep10.jpg" },
+          { titulo: "Aparência Importa", descr: "Gintoki fica careca por acidente.", img: "/episodios/ep7.jpg" },
+          { titulo: "Festival de Verão", descr: "Yorozuya monta uma barraca de festival.", img: "/episodios/ep12.jpg" },
+          { titulo: "O Verdadeiro Shogun", descr: "Shogun aparece em situações hilárias.", img: "/episodios/ep4.jpg" }
+        ]
+      },
+      {
+        id: 112,
+        titulo: "Nichijou",
+        foto: "/catalogo/nichijou..jpg",
+        descricao: "A vida cotidiana absurdamente exagerada de um grupo de estudantes do ensino médio e suas interações hilárias.",
+        descricaoDetalhes: "A vida cotidiana absurdamente exagerada de um grupo de estudantes do ensino médio e suas interações hilárias.",
+        fotoDescricao: "/descricao/padrao-fotoDescr.png",
+        fotosBanner: ["/Carroselimg/padrao-car1.png", "/Carroselimg/padrao-car2.png"],
+        episodios: [
+          { titulo: "O Gato Falante", descr: "Mio e Yuuko encontram um gato que fala.", img: "/episodios/ep2.jpg" },
+          { titulo: "A Batalha do Café", descr: "Professor vs. diretora em um duelo de café.", img: "/episodios/ep6.jpg" },
+          { titulo: "Helicóptero de Cabelo", descr: "Hakase inventa máquina voadora para Nano.", img: "/episodios/ep9.jpg" },
+          { titulo: "O Incrível Nakamura", descr: "Nakamura mostra suas habilidades absurdas.", img: "/episodios/ep4.jpg" },
+          { titulo: "Sketch Comédia", descr: "Trio tenta criar uma história em quadrinhos.", img: "/episodios/ep11.jpg" },
+          { titulo: "A Vingança de Sakurai", descr: "Sakurai planeja se vingar de Mio.", img: "/episodios/ep3.jpg" },
+          { titulo: "Festival Escolar", descr: "Preparações para o festival da escola.", img: "/episodios/ep12.jpg" },
+          { titulo: "O Grande Desfile", descr: "Desfile de robôs pela cidade.", img: "/episodios/ep7.jpg" }
+        ]
+      },
+      {
+        id: 113,
+        titulo: "Daily Lives of High School Boys",
+        foto: "/catalogo/danshikoukousei.jpg",
+        descricao: "As travessuras e situações engraçadas de um grupo de garotos do ensino médio em sua vida escolar e familiar.",
+        descricaoDetalhes: "As travessuras e situações engraçadas de um grupo de garotos do ensino médio em sua vida escolar e familiar.",
+        fotoDescricao: "/descricao/padrao-fotoDescr.png",
+        fotosBanner: ["/Carroselimg/padrao-car1.png", "/Carroselimg/padrao-car2.png"],
+        episodios: [
+          { titulo: "O Primeiro Amor", descr: "Tadakuni conhece uma garota misteriosa.", img: "/episodios/ep1.jpg" },
+          { titulo: "Literary Girl", descr: "Hidenori inventa personagens românticos.", img: "/episodios/ep5.jpg" },
+          { titulo: "Batalha de Rap", descr: "Garotos desafiam rivais com rimas ruins.", img: "/episodios/ep8.jpg" },
+          { titulo: "O Irmão Mais Novo", descr: "Yoshitake tenta impressionar o irmão.", img: "/episodios/ep3.jpg" },
+          { titulo: "Dia de Chuva", descr: "Aventuras sob a chuva depois da escola.", img: "/episodios/ep10.jpg" },
+          { titulo: "Festival Cultural", descr: "Trio monta uma peça desastrosa.", img: "/episodios/ep7.jpg" },
+          { titulo: "Inverno Rigoroso", descr: "Problemas para ir à escola no frio.", img: "/episodios/ep12.jpg" },
+          { titulo: "Graduação", descr: "Últimos dias do ensino médio.", img: "/episodios/ep4.jpg" }
+        ]
+      },
+      {
+        id: 114,
+        titulo: "Saiki Kusuo no Psi-nan",
+        foto: "/catalogo/saiki.jpg",
+        descricao: "Um estudante com poderes psíquicos tenta viver uma vida normal, mas suas habilidades sempre causam situações caóticas.",
+        descricaoDetalhes: "Um estudante com poderes psíquicos tenta viver uma vida normal, mas suas habilidades sempre causam situações caóticas.",
+        fotoDescricao: "/descricao/padrao-fotoDescr.png",
+        fotosBanner: ["/Carroselimg/padrao-car1.png", "/Carroselimg/padrao-car2.png"],
+        episodios: [
+          { titulo: "Um Dia Normal", descr: "Saiki tenta evitar atenção indesejada.", img: "/episodios/ep2.jpg" },
+          { titulo: "O Incrível Nendou", descr: "Nendou prova ser imune a poderes.", img: "/episodios/ep6.jpg" },
+          { titulo: "Problemas com Teruhashi", descr: "Garota popular se apaixona por Saiki.", img: "/episodios/ep9.jpg" },
+          { titulo: "Pais Psíquicos", descr: "Pais de Saiki visitam a escola.", img: "/episodios/ep4.jpg" },
+          { titulo: "Batalha de Poderes", descr: "Saiki enfrenta outro psíquico.", img: "/episodios/ep11.jpg" },
+          { titulo: "Sem Poderes", descr: "Saiki perde temporariamente suas habilidades.", img: "/episodios/ep3.jpg" },
+          { titulo: "Festival Escolar", descr: "Caos durante o festival da escola.", img: "/episodios/ep12.jpg" },
+          { titulo: "Ano Novo", descr: "Saiki tenta prever o futuro.", img: "/episodios/ep7.jpg" }
+        ]
+      },
+      {
+        id: 115,
+        titulo: "Asobi Asobase",
+        foto: "/catalogo/asobiasobase.jpg",
+        descricao: "Três garotas do ensino médio formam um clube de jogos que rapidamente se transforma em uma série de situações absurdas.",
+        descricaoDetalhes: "Três garotas do ensino médio formam um clube de jogos que rapidamente se transforma em uma série de situações absurdas.",
+        fotoDescricao: "/descricao/padrao-fotoDescr.png",
+        fotosBanner: ["/Carroselimg/padrao-car1.png", "/Carroselimg/padrao-car2.png"],
+        episodios: [
+          { titulo: "Clube de Jogos", descr: "Hanako, Olivia e Kasumi formam o clube.", img: "/episodios/ep1.jpg" },
+          { titulo: "Batalha de Olhos", descr: "Competição de encarar sem piscar.", img: "/episodios/ep5.jpg" },
+          { titulo: "O Incidente do Banheiro", descr: "Hanako fica trancada no banheiro.", img: "/episodios/ep8.jpg" },
+          { titulo: "Concurso de Beleza", descr: "Kasumi é forçada a participar.", img: "/episodios/ep3.jpg" },
+          { titulo: "Hanako Americana", descr: "Hanako tenta falar inglês fluentemente.", img: "/episodios/ep10.jpg" },
+          { titulo: "Jogo da Garrafa", descr: "Versão escolar do jogo da garrafa.", img: "/episodios/ep7.jpg" },
+          { titulo: "Festival Cultural", descr: "Clube apresenta peça bizarra.", img: "/episodios/ep12.jpg" },
+          { titulo: "Novo Membro", descr: "Presidente do conselho estudantil se junta.", img: "/episodios/ep4.jpg" }
+        ]
+      },
+      {
+        id: 116,
+        titulo: "Hinamatsuri",
+        foto: "/catalogo/hinamatsuri.jpg",
+        descricao: "Um yakuza se torna o guardião de uma garota com poderes psíquicos, levando a situações hilárias e emocionantes.",
+        descricaoDetalhes: "Um yakuza se torna o guardião de uma garota com poderes psíquicos, levando a situações hilárias e emocionantes.",
+        fotoDescricao: "/descricao/padrao-fotoDescr.png",
+        fotosBanner: ["/Carroselimg/padrao-car1.png", "/Carroselimg/padrao-car2.png"],
+        episodios: [
+          { titulo: "A Chegada de Hina", descr: "Hina cai do teto na casa de Nitta.", img: "/episodios/ep2.jpg" },
+          { titulo: "Poderes Descontrolados", descr: "Hina destrói acidentalmente um bar.", img: "/episodios/ep6.jpg" },
+          { titulo: "Anzu Desabrigada", descr: "Outra psíquica vive nas ruas.", img: "/episodios/ep9.jpg" },
+          { titulo: "Hina na Escola", descr: "Hina começa a frequentar a escola.", img: "/episodios/ep4.jpg" },
+          { titulo: "Trabalho de Part-Time", descr: "Nitta arruma emprego para Hina.", img: "/episodios/ep11.jpg" },
+          { titulo: "A Transformação de Anzu", descr: "Anzu aprende o valor do dinheiro.", img: "/episodios/ep3.jpg" },
+          { titulo: "Festival de Verão", descr: "Hina experimenta fogos de artifício.", img: "/episodios/ep12.jpg" },
+          { titulo: "O Verdadeiro Pai", descr: "Origem de Hina é revelada.", img: "/episodios/ep7.jpg" }
+        ]
+      },
+      {
+        id: 117,
+        titulo: "Grand Blue",
+        foto: "/catalogo/grandblue.jpg",
+        descricao: "Um universitário se junta a um clube de mergulho que na verdade passa mais tempo bebendo do que na água.",
+        descricaoDetalhes: "Um universitário se junta a um clube de mergulho que na verdade passa mais tempo bebendo do que na água.",
+        fotoDescricao: "/descricao/padrao-fotoDescr.png",
+        fotosBanner: ["/Carroselimg/padrao-car1.png", "/Carroselimg/padrao-car2.png"],
+        episodios: [
+          { titulo: "Iniciação Alcoólica", descr: "Iori é forçado a beber pelo clube.", img: "/episodios/ep1.jpg" },
+          { titulo: "Treino de Mergulho", descr: "Primeira vez de Iori no mar.", img: "/episodios/ep5.jpg" },
+          { titulo: "Festival da Universidade", descr: "Clube monta barraca de drinks.", img: "/episodios/ep8.jpg" },
+          { titulo: "Visita da Irmã", descr: "Irmã de Iori visita a universidade.", img: "/episodios/ep3.jpg" },
+          { titulo: "Acampamento na Praia", descr: "Viagem desastrosa do clube.", img: "/episodios/ep10.jpg" },
+          { titulo: "Concurso de Bebidas", descr: "Iori vs. Kouhei em desafio alcoólico.", img: "/episodios/ep7.jpg" },
+          { titulo: "Exame Final", descr: "Clube tenta passar nas provas.", img: "/episodios/ep12.jpg" },
+          { titulo: "Férias de Verão", descr: "Aventuras na ilha natal de Iori.", img: "/episodios/ep4.jpg" }
+        ]
+      },
+      {
+        id: 118,
+        titulo: "Prison School",
+        foto: "/catalogo/prisonschool.jpg",
+        descricao: "Cinco garotos são os primeiros estudantes homens em uma escola feminina e acabam presos em uma prisão escolar.",
+        descricaoDetalhes: "Cinco garotos são os primeiros estudantes homens em uma escola feminina e acabam presos em uma prisão escolar.",
+        fotoDescricao: "/descricao/padrao-fotoDescr.png",
+        fotosBanner: ["/Carroselimg/padrao-car1.png", "/Carroselimg/padrao-car2.png"],
+        episodios: [
+          { titulo: "A Prisão", descr: "Garotos são capturados pelas garotas.", img: "/episodios/ep2.jpg" },
+          { titulo: "Plano de Fuga", descr: "Kiyoshi tenta escapar da prisão.", img: "/episodios/ep6.jpg" },
+          { titulo: "O Tribunal", descr: "Conselho estudantil julga os garotos.", img: "/episodios/ep9.jpg" },
+          { titulo: "Prova de Coragem", descr: "Hana e Kiyoshi em situação embaraçosa.", img: "/episodios/ep4.jpg" },
+          { titulo: "Festival Esportivo", descr: "Garotos vs. garotas em competição.", img: "/episodios/ep11.jpg" },
+          { titulo: "Traição", descr: "Um dos garotos vira informante.", img: "/episodios/ep3.jpg" },
+          { titulo: "Batalha Final", descr: "Confronto com o conselho estudantil.", img: "/episodios/ep12.jpg" },
+          { titulo: "Liberdade Condicional", descr: "Garotos conseguem sair da prisão.", img: "/episodios/ep7.jpg" }
+        ]
+      },
+      {
+        id: 119,
+        titulo: "Detroit Metal City",
+        foto: "/catalogo/dmc.jpg",
+        descricao: "Um jovem que sonha em ser músico pop acaba como vocalista de uma banda de death metal extremo contra sua vontade.",
+        descricaoDetalhes: "Um jovem que sonha em ser músico pop acaba como vocalista de uma banda de death metal extremo contra sua vontade.",
+        fotoDescricao: "/descricao/padrao-fotoDescr.png",
+        fotosBanner: ["/Carroselimg/padrao-car1.png", "/Carroselimg/padrao-car2.png"],
+        episodios: [
+          { titulo: "Dualidade", descr: "Johannes vs. Krauser II personalidades.", img: "/episodios/ep1.jpg" },
+          { titulo: "Primeiro Show", descr: "Negishi se apresenta como Krauser II.", img: "/episodios/ep5.jpg" },
+          { titulo: "O Rival", descr: "Jack Ill Dark desafia DMC para um duelo.", img: "/episodios/ep8.jpg" },
+          { titulo: "Amor Proibido", descr: "Negishi tenta impressionar Aikawa.", img: "/episodios/ep3.jpg" },
+          { titulo: "Fama Indesejada", descr: "DMC ganha popularidade nacional.", img: "/episodios/ep10.jpg" },
+          { titulo: "Show na TV", descr: "Banda se apresenta em programa matinal.", img: "/episodios/ep7.jpg" },
+          { titulo: "Batalha de Bandas", descr: "DMC vs. Jack Ill Dark ao vivo.", img: "/episodios/ep12.jpg" },
+          { titulo: "O Legado Continua", descr: "Negishi aceita seu destino como Krauser.", img: "/episodios/ep4.jpg" }
+        ]
+      },
+      {
+        id: 120,
+        titulo: "Cromartie High School",
+        foto: "/catalogo/cromartie.jpg",
+        descricao: "Uma escola cheia de delinquentes excêntricos, incluindo um gorila e um roboto, e um estudante normal que tenta entender tudo.",
+        descricaoDetalhes: "Uma escola cheia de delinquentes excêntricos, incluindo um gorila e um roboto, e um estudante normal que tenta entender tudo.",
+        fotoDescricao: "/descricao/padrao-fotoDescr.png",
+        fotosBanner: ["/Carroselimg/padrao-car1.png", "/Carroselimg/padrao-car2.png"],
+        episodios: [
+          { titulo: "O Primeiro Dia", descr: "Takashi entra na Cromartie.", img: "/episodios/ep2.jpg" },
+          { titulo: "O Gorila", descr: "Estudante gorila causa confusão.", img: "/episodios/ep6.jpg" },
+          { titulo: "Roboto", descr: "Robô estudante se junta à classe.", img: "/episodios/ep9.jpg" },
+          { titulo: "Freddie Mercury", descr: "Réplica do cantor aparece na escola.", img: "/episodios/ep4.jpg" },
+          { titulo: "Batalha de Bandas", descr: "Estudantes formam banda de rock.", img: "/episodios/ep11.jpg" },
+          { titulo: "O Líder", descr: "Mechazawa tenta assumir o controle.", img: "/episodios/ep3.jpg" },
+          { titulo: "Passeio Escolar", descr: "Caos na viagem da escola.", img: "/episodios/ep12.jpg" },
+          { titulo: "Formatura", descr: "Últimos dias na Cromartie.", img: "/episodios/ep7.jpg" }
+        ]
+      },
+    {
+      id: 121,
+      titulo: "Corpse Party",
+      foto: "/catalogo/corpseparty.jpg",
+      descricao: "Estudantes presos em uma escola amaldiçoada tentam escapar enquanto são perseguidos por espíritos vingativos.",
+      descricaoDetalhes: "Estudantes presos em uma escola amaldiçoada tentam escapar enquanto são perseguidos por espíritos vingativos.",
+      fotoDescricao: "/descricao/padrao-fotoDescr.png",
+      fotosBanner: ["/Carroselimg/padrao-car1.png", "/Carroselimg/padrao-car2.png"],
+      episodios: [
+        { titulo: "O Jogo Amaldiçoado", descr: "Os estudantes realizam o ritual sinistro.", img: "/episodios/ep5.jpg" },
+        { titulo: "Vozes do Corredor", descr: "Os primeiros fantasmas aparecem.", img: "/episodios/ep2.jpg" },
+        { titulo: "Sacrifício Inútil", descr: "Um aluno tenta escapar sozinho.", img: "/episodios/ep9.jpg" },
+        { titulo: "A Verdade de Sachiko", descr: "A origem da maldição é revelada.", img: "/episodios/ep11.jpg" },
+        { titulo: "Morte na Sala de Aula", descr: "Uma cena brutal choca o grupo.", img: "/episodios/ep3.jpg" },
+        { titulo: "Fuga Desesperada", descr: "Encontram uma possível saída.", img: "/episodios/ep7.jpg" },
+        { titulo: "O Peso da Culpa", descr: "Segredos do passado surgem.", img: "/episodios/ep12.jpg" },
+        { titulo: "Fim ou Recomeço?", descr: "O destino final dos sobreviventes.", img: "/episodios/ep1.jpg" }
+      ]
+    },
+    {
+      id: 122,
+      titulo: "When They Cry",
+      foto: "/catalogo/higurashi.jpg",
+      descricao: "Um garoto se muda para uma vila rural onde ocorrem assassinatos misteriosos que parecem repetir-se em um ciclo temporal.",
+      descricaoDetalhes: "Um garoto se muda para uma vila rural onde ocorrem assassinatos misteriosos que parecem repetir-se em um ciclo temporal.",
+      fotoDescricao: "/descricao/padrao-fotoDescr.png",
+      fotosBanner: ["/Carroselimg/padrao-car1.png", "/Carroselimg/padrao-car2.png"],
+      episodios: [
+        { titulo: "Bem-vindo a Hinamizawa", descr: "Keiichi chega à vila amaldiçoada.", img: "/episodios/ep1.jpg" },
+        { titulo: "O Primeiro Ciclo", descr: "Os assassinatos começam novamente.", img: "/episodios/ep6.jpg" },
+        { titulo: "Desconfiança", descr: "Keiichi suspeita de seus amigos.", img: "/episodios/ep10.jpg" },
+        { titulo: "Festa Maldita", descr: "O festival Watanagashi revela horrores.", img: "/episodios/ep4.jpg" },
+        { titulo: "Fragmento de Memória", descr: "Rika tenta mudar o destino.", img: "/episodios/ep8.jpg" },
+        { titulo: "Verdade Enterrada", descr: "O segredo da clínica Irie.", img: "/episodios/ep12.jpg" },
+        { titulo: "Fuga do Ciclo", descr: "A batalha final contra o destino.", img: "/episodios/ep3.jpg" },
+        { titulo: "Quando os Gritos Param", descr: "O desfecho da maldição.", img: "/episodios/ep7.jpg" }
+      ]
+    },
+    {
+      id: 123,
+      titulo: "Hell Girl",
+      foto: "/catalogo/hellgirl.jpg",
+      descricao: "Uma garota misteriosa oferece vingança através de um site que envia os alvos direto para o inferno - mas com um preço.",
+      descricaoDetalhes: "Uma garota misteriosa oferece vingança através de um site que envia os alvos direto para o inferno - mas com um preço.",
+      fotoDescricao: "/descricao/padrao-fotoDescr.png",
+      fotosBanner: ["/Carroselimg/padrao-car1.png", "/Carroselimg/padrao-car2.png"],
+      episodios: [
+        { titulo: "Meu Inferno Pessoal", descr: "O primeiro caso de vingança.", img: "/episodios/ep2.jpg" },
+        { titulo: "O Contrato", descr: "As regras do jogo são explicadas.", img: "/episodios/ep5.jpg" },
+        { titulo: "Arrependimento Tardio", descr: "Uma cliente tenta cancelar a maldição.", img: "/episodios/ep9.jpg" },
+        { titulo: "A Assistente", descr: "Uma nova ajudante de Ai Enma aparece.", img: "/episodios/ep11.jpg" },
+        { titulo: "Vingança Cruzada", descr: "Dois alvos se enviam simultaneamente.", img: "/episodios/ep4.jpg" },
+        { titulo: "O Barqueiro", descr: "O passado de Ichimoku Ren é revelado.", img: "/episodios/ep7.jpg" },
+        { titulo: "Conexão Celestial", descr: "Um caso envolvendo uma estrela cadente.", img: "/episodios/ep12.jpg" },
+        { titulo: "Preço da Salvação", descr: "O destino final de Ai Enma.", img: "/episodios/ep1.jpg" }
+      ]
+    },
+    {
+      id: 124,
+      titulo: "Ghost Hunt",
+      foto: "/catalogo/ghosthunt.jpg",
+      descricao: "Um grupo de investigadores paranormais resolve casos de fantasmas e maldições usando métodos científicos e espirituais.",
+      descricaoDetalhes: "Um grupo de investigadores paranormais resolve casos de fantasmas e maldições usando métodos científicos e espirituais.",
+      fotoDescricao: "/descricao/padrao-fotoDescr.png",
+      fotosBanner: ["/Carroselimg/padrao-car1.png", "/Carroselimg/padrao-car2.png"],
+      episodios: [
+        { titulo: "Escola Assombrada", descr: "O primeiro caso da equipe SPR.", img: "/episodios/ep3.jpg" },
+        { titulo: "A Menina do Poço", descr: "Investigação em uma casa mal-assombrada.", img: "/episodios/ep6.jpg" },
+        { titulo: "Doll House", descr: "Bonecas possuídas atacam.", img: "/episodios/ep9.jpg" },
+        { titulo: "Maldição Hereditária", descr: "Uma família perseguida por gerações.", img: "/episodios/ep2.jpg" },
+        { titulo: "Cidade Fantasma", descr: "Caso em uma vila abandonada.", img: "/episodios/ep8.jpg" },
+        { titulo: "O Exorcista", descr: "Mai mostra habilidades inesperadas.", img: "/episodios/ep11.jpg" },
+        { titulo: "O Caso Final", descr: "O passado de Naru é revelado.", img: "/episodios/ep5.jpg" },
+        { titulo: "Sacrifício", descr: "A verdade por trás do incidente.", img: "/episodios/ep12.jpg" }
+      ]
+    },
+    {
+      id: 125,
+      titulo: "Devilman Crybaby",
+      foto: "/catalogo/devilman.jpg",
+      descricao: "Akira Fudo se funde com um demônio para combater uma invasão demoníaca, mas mantém sua compaixão humana.",
+      descricaoDetalhes: "Akira Fudo se funde com um demônio para combater uma invasão demoníaca, mas mantém sua compaixão humana.",
+      fotoDescricao: "/descricao/padrao-fotoDescr.png",
+      fotosBanner: ["/Carroselimg/padrao-car1.png", "/Carroselimg/padrao-car2.png"],
+      episodios: [
+        { titulo: "Fusão Demoníaca", descr: "Akira se torna Devilman.", img: "/episodios/ep1.jpg" },
+        { titulo: "Carniçal", descr: "Os primeiros ataques demoníacos.", img: "/episodios/ep4.jpg" },
+        { titulo: "Amor e Ódio", descr: "Ryo descobre sua verdadeira natureza.", img: "/episodios/ep7.jpg" },
+        { titulo: "Noite dos Demônios", descr: "Tokyo é invadida por criaturas.", img: "/episodios/ep10.jpg" },
+        { titulo: "Morte de Miki", descr: "O incidente chocante.", img: "/episodios/ep12.jpg" },
+        { titulo: "Guerra Santa", descr: "Humanos caçam demoníacos.", img: "/episodios/ep3.jpg" },
+        { titulo: "Vingança de Akira", descr: "O confronto final com Ryo.", img: "/episodios/ep6.jpg" },
+        { titulo: "Fim do Mundo", descr: "O apocalipse bíblico começa.", img: "/episodios/ep9.jpg" }
+      ]
+    },
+    {
+      id: 126,
+      titulo: "Junji Ito Collection",
+      foto: "/catalogo/junjiito.jpg",
+      descricao: "Adaptação de várias histórias de horror do mestre do mangá de terror Junji Ito, com contos surrealistas e aterrorizantes.",
+      descricaoDetalhes: "Adaptação de várias histórias de horror do mestre do mangá de terror Junji Ito, com contos surrealistas e aterrorizantes.",
+      fotoDescricao: "/descricao/padrao-fotoDescr.png",
+      fotosBanner: ["/Carroselimg/padrao-car1.png", "/Carroselimg/padrao-car2.png"],
+      episodios: [
+        { titulo: "O Buraco da Janela", descr: "Um vizinho misterioso observa.", img: "/episodios/ep2.jpg" },
+        { titulo: "Fio Assombrado", descr: "Cabelos que se movem sozinhos.", img: "/episodios/ep5.jpg" },
+        { titulo: "Tomie", descr: "A garota que não pode morrer.", img: "/episodios/ep8.jpg" },
+        { titulo: "Espirais Mortais", descr: "Uma vila obcecada por espirais.", img: "/episodios/ep11.jpg" },
+        { titulo: "Modelo de Gesso", descr: "Esculturas que capturam almas.", img: "/episodios/ep3.jpg" },
+        { titulo: "A Cidade sem Ruas", descr: "Uma arquitetura impossível.", img: "/episodios/ep7.jpg" },
+        { titulo: "Ogro Humanizado", descr: "Experimentos grotescos.", img: "/episodios/ep10.jpg" },
+        { titulo: "O Diário de Souichi", descr: "As travessuras do garoto maligno.", img: "/episodios/ep1.jpg" }
+      ]
+    },
+    {
+      id: 127,
+      titulo: "Another",
+      foto: "/catalogo/another.jpg",
+      descricao: "Estudantes de uma classe amaldiçoada morrem misteriosamente enquanto tentam quebrar a maldição que os assombra.",
+      descricaoDetalhes: "Estudantes de uma classe amaldiçoada morrem misteriosamente enquanto tentam quebrar a maldição que os assombra.",
+      fotoDescricao: "/descricao/padrao-fotoDescr.png",
+      fotosBanner: ["/Carroselimg/padrao-car1.png", "/Carroselimg/padrao-car2.png"],
+      episodios: [
+        { titulo: "A Aluna Fantasma", descr: "Mei Misaki é revelada.", img: "/episodios/ep1.jpg" },
+        { titulo: "Regras da Maldição", descr: "Como evitar as mortes.", img: "/episodios/ep4.jpg" },
+        { titulo: "Morte na Escadaria", descr: "O primeiro acidente fatal.", img: "/episodios/ep7.jpg" },
+        { titulo: "Quebrando Tabus", descr: "Os alunos investigam o passado.", img: "/episodios/ep10.jpg" },
+        { titulo: "Festival Sangrento", descr: "Tragédia durante o evento escolar.", img: "/episodios/ep12.jpg" },
+        { titulo: "O Cadáver Extra", descr: "Identificando o 'outro'.", img: "/episodios/ep3.jpg" },
+        { titulo: "Caçada Humana", descr: "Paranoia toma conta da classe.", img: "/episodios/ep6.jpg" },
+        { titulo: "Fim do Pesadelo", descr: "O desfecho da maldição.", img: "/episodios/ep9.jpg" }
+      ]
+    },
+    {
+      id: 128,
+      titulo: "Yami Shibai",
+      foto: "/catalogo/yamishibai.jpg",
+      descricao: "Uma série de contos de terror tradicionais japoneses narrados por um misterioso contador de histórias em um playground.",
+      descricaoDetalhes: "Uma série de contos de terror tradicionais japoneses narrados por um misterioso contador de histórias em um playground.",
+      fotoDescricao: "/descricao/padrao-fotoDescr.png",
+      fotosBanner: ["/Carroselimg/padrao-car1.png", "/Carroselimg/padrao-car2.png"],
+      episodios: [
+        { titulo: "A Senhora do Banheiro", descr: "Lenda urbana escolar.", img: "/episodios/ep2.jpg" },
+        { titulo: "Câmera Maldita", descr: "Fotos que capturam espíritos.", img: "/episodios/ep5.jpg" },
+        { titulo: "O Boneco de Neve", descr: "Uma criação que ganha vida.", img: "/episodios/ep8.jpg" },
+        { titulo: "Elevador para o Inferno", descr: "Botão secreto no elevador.", img: "/episodios/ep11.jpg" },
+        { titulo: "O Vizinho Noturno", descr: "Batidas misteriosas na porta.", img: "/episodios/ep3.jpg" },
+        { titulo: "Criança Invisível", descr: "Amigo imaginário sinistro.", img: "/episodios/ep7.jpg" },
+        { titulo: "A Mão que Acalma", descr: "Massagem sobrenatural.", img: "/episodios/ep10.jpg" },
+        { titulo: "Última História", descr: "O destino do contador.", img: "/episodios/ep1.jpg" }
+      ]
+    },
+    {
+      id: 129,
+      titulo: "Petshop of Horrors",
+      foto: "/catalogo/petshop.jpg",
+      descricao: "Um misterioso petshop chinês vende animais exóticos que cumprem os desejos de seus donos - com consequências terríveis.",
+      descricaoDetalhes: "Um misterioso petshop chinês vende animais exóticos que cumprem os desejos de seus donos - com consequências terríveis.",
+      fotoDescricao: "/descricao/padrao-fotoDescr.png",
+      fotosBanner: ["/Carroselimg/padrao-car1.png", "/Carroselimg/padrao-car2.png"],
+      episodios: [
+        { titulo: "Contrato de Sangue", descr: "As regras da loja.", img: "/episodios/ep1.jpg" },
+        { titulo: "O Coelho da Sorte", descr: "Fortuna com um preço.", img: "/episodios/ep4.jpg" },
+        { titulo: "Pássaro do Amor", descr: "Obsessão romântica fatal.", img: "/episodios/ep7.jpg" },
+        { titulo: "Cão da Vingança", descr: "Justiça pelas próprias patas.", img: "/episodios/ep10.jpg" },
+        { titulo: "Gato dos Nove Destinos", descr: "Vidas extras com condições.", img: "/episodios/ep12.jpg" },
+        { titulo: "Dragão de Estimação", descr: "Ambição corporativa punida.", img: "/episodios/ep3.jpg" },
+        { titulo: "O Presente do Conde D", descr: "Animal personalizado.", img: "/episodios/ep6.jpg" },
+        { titulo: "Último Cliente", descr: "O destino do detetive Leon.", img: "/episodios/ep9.jpg" }
+      ]
+    },
+    {
+      id: 130,
+      titulo: "Gyo",
+      foto: "/catalogo/gyo.jpg",
+      descricao: "Peixes mortos começam a andar em terra usando pernas mecânicas, espalhando um odor mortal e causando o caos.",
+      descricaoDetalhes: "Peixes mortos começam a andar em terra usando pernas mecânicas, espalhando um odor mortal e causando o caos.",
+      fotoDescricao: "/descricao/padrao-fotoDescr.png",
+      fotosBanner: ["/Carroselimg/padrao-car1.png", "/Carroselimg/padrao-car2.png"],
+      episodios: [
+        { titulo: "Maré Negra", descr: "Os primeiros peixes andantes.", img: "/episodios/ep2.jpg" },
+        { titulo: "Odor da Morte", descr: "O gás tóxico se espalha.", img: "/episodios/ep5.jpg" },
+        { titulo: "Tubarão na Praia", descr: "Ataque em área turística.", img: "/episodios/ep8.jpg" },
+        { titulo: "Máquina da Carnificina", descr: "A verdade por trás das pernas.", img: "/episodios/ep11.jpg" },
+        { titulo: "Fuga de Tokyo", descr: "Caos na capital.", img: "/episodios/ep3.jpg" },
+        { titulo: "Experimento Final", descr: "A cientista e sua criação.", img: "/episodios/ep7.jpg" },
+        { titulo: "Último Refúgio", descr: "Batalha na ilha deserta.", img: "/episodios/ep10.jpg" },
+        { titulo: "Fim da Linha", descr: "O destino da humanidade.", img: "/episodios/ep1.jpg" }
+      ]
+    }, 
+
+    
+      {
+        id: 131,
+        titulo: "March Comes in Like a Lion",
+        foto: "/catalogo/sangatsu.jpg",
+        descricao: "Um jovem profissional de shogi luta contra a depressão enquanto encontra calor humano em uma família acolhedora.",
+        descricaoDetalhes: "Um jovem profissional de shogi luta contra a depressão enquanto encontra calor humano em uma família acolhedora.",
+        fotoDescricao: "/descricao/padrao-fotoDescr.png",
+        fotosBanner: ["/Carroselimg/padrao-car1.png", "/Carroselimg/padrao-car2.png"],
+        episodios: [
+          { titulo: "O Solitário Rei", descr: "Rei conhece as irmãs Kawamoto.", img: "/episodios/ep1.jpg" },
+          { titulo: "Primeira Refeição", descr: "Rei experimenta um jantar caseiro.", img: "/episodios/ep5.jpg" },
+          { titulo: "O Torneio", descr: "Rei enfrenta um oponente formidável.", img: "/episodios/ep8.jpg" },
+          { titulo: "Crise Existencial", descr: "Rei questiona sua carreira no shogi.", img: "/episodios/ep3.jpg" },
+          { titulo: "A Doença de Hinata", descr: "A irmã mais nova fica doente.", img: "/episodios/ep10.jpg" },
+          { titulo: "Confronto com Gotou", descr: "Partida emocionalmente carregada.", img: "/episodios/ep7.jpg" },
+          { titulo: "Neve e Lembranças", descr: "Rei visita seu passado doloroso.", img: "/episodios/ep12.jpg" },
+          { titulo: "Novos Começos", descr: "Rei encontra esperança no futuro.", img: "/episodios/ep4.jpg" }
+        ]
+      },
+      {
+        id: 132,
+        titulo: "Nana",
+        foto: "/catalogo/nana.jpg",
+        descricao: "Duas jovens com o mesmo nome mas personalidades opostas se tornam amigas e enfrentam desafios no amor e na vida adulta.",
+        descricaoDetalhes: "Duas jovens com o mesmo nome mas personalidades opostas se tornam amigas e enfrentam desafios no amor e na vida adulta.",
+        fotoDescricao: "/descricao/padrao-fotoDescr.png",
+        fotosBanner: ["/Carroselimg/padrao-car1.png", "/Carroselimg/padrao-car2.png"],
+        episodios: [
+          { titulo: "Encontro no Trem", descr: "As duas Nanas se conhecem.", img: "/episodios/ep2.jpg" },
+          { titulo: "Apartamento 707", descr: "Começam a morar juntas.", img: "/episodios/ep6.jpg" },
+          { titulo: "Audição", descr: "Nana O. forma a banda Black Stones.", img: "/episodios/ep9.jpg" },
+          { titulo: "Amor Proibido", descr: "Nana K. se envolve com Takumi.", img: "/episodios/ep4.jpg" },
+          { titulo: "Primeiro Show", descr: "Black Stones faz show de estreia.", img: "/episodios/ep11.jpg" },
+          { titulo: "Traição", descr: "Segredos ameaçam a amizade.", img: "/episodios/ep3.jpg" },
+          { titulo: "Gravidez", descr: "Nana K. descobre que está grávida.", img: "/episodios/ep12.jpg" },
+          { titulo: "Separação", descr: "Os caminhos das Nanas se dividem.", img: "/episodios/ep7.jpg" }
+        ]
+      },
+      {
+        id: 133,
+        titulo: "Shouwa Genroku Rakugo Shinjuu",
+        foto: "/catalogo/rakugo.jpg",
+        descricao: "A vida e carreira de um contador de histórias rakugo, explorando tradição, rivalidade e redenção no Japão do século 20.",
+        descricaoDetalhes: "A vida e carreira de um contador de histórias rakugo, explorando tradição, rivalidade e redenção no Japão do século 20.",
+        fotoDescricao: "/descricao/padrao-fotoDescr.png",
+        fotosBanner: ["/Carroselimg/padrao-car1.png", "/Carroselimg/padrao-car2.png"],
+        episodios: [
+          { titulo: "O Ex-Preso", descr: "Yotaro é libertado da prisão.", img: "/episodios/ep1.jpg" },
+          { titulo: "Aprendiz", descr: "Yotaro começa a aprender rakugo.", img: "/episodios/ep5.jpg" },
+          { titulo: "Juventude de Kikuhiko", descr: "Flashback da infância do mestre.", img: "/episodios/ep8.jpg" },
+          { titulo: "Rivalidade", descr: "Kikuhiko e Sukeroku competem.", img: "/episodios/ep3.jpg" },
+          { titulo: "Amor Perdido", descr: "Kikuhiko e Miyokichi se separam.", img: "/episodios/ep10.jpg" },
+          { titulo: "Tragédia", descr: "Eventos que levaram à morte de Sukeroku.", img: "/episodios/ep7.jpg" },
+          { titulo: "Herdeiro", descr: "Yotaro encontra seu próprio estilo.", img: "/episodios/ep12.jpg" },
+          { titulo: "Última Performance", descr: "Kikuhiko faz seu rakugo final.", img: "/episodios/ep4.jpg" }
+        ]
+      },
+      {
+        id: 134,
+        titulo: "Banana Fish",
+        foto: "/catalogo/bananafish.jpg",
+        descricao: "Um jovem líder de gangue investiga uma misteriosa droga chamada Banana Fish enquanto desenvolve um vínculo com um fotógrafo japonês.",
+        descricaoDetalhes: "Um jovem líder de gangue investiga uma misteriosa droga chamada Banana Fish enquanto desenvolve um vínculo com um fotógrafo japonês.",
+        fotoDescricao: "/descricao/padrao-fotoDescr.png",
+        fotosBanner: ["/Carroselimg/padrao-car1.png", "/Carroselimg/padrao-car2.png"],
+        episodios: [
+          { titulo: "Encontro", descr: "Ash salva Eiji de um sequestro.", img: "/episodios/ep2.jpg" },
+          { titulo: "Segredos", descr: "Ash investiga Banana Fish.", img: "/episodios/ep6.jpg" },
+          { titulo: "Traição", descr: "Dino Golzine entra em cena.", img: "/episodios/ep9.jpg" },
+          { titulo: "Fuga", descr: "Ash e Eiji fogem para Los Angeles.", img: "/episodios/ep4.jpg" },
+          { titulo: "Passado Revelado", descr: "História de abuso de Ash é revelada.", img: "/episodios/ep11.jpg" },
+          { titulo: "Batalha", descr: "Confronto com os capangas de Dino.", img: "/episodios/ep3.jpg" },
+          { titulo: "Sacrifício", descr: "Shorter Wong é morto.", img: "/episodios/ep12.jpg" },
+          { titulo: "Despedida", descr: "Eiji volta para o Japão.", img: "/episodios/ep7.jpg" }
+        ]
+      },
+      {
+        id: 135,
+        titulo: "Orange",
+        foto: "/catalogo/orange.jpg",
+        descricao: "Um grupo de amigos recebe cartas de seus futuros eus, tentando evitar que um colega cometa suicídio.",
+        descricaoDetalhes: "Um grupo de amigos recebe cartas de seus futuros eus, tentando evitar que um colega cometa suicídio.",
+        fotoDescricao: "/descricao/padrao-fotoDescr.png",
+        fotosBanner: ["/Carroselimg/padrao-car1.png", "/Carroselimg/padrao-car2.png"],
+        episodios: [
+          { titulo: "A Carta", descr: "Naho recebe a carta do futuro.", img: "/episodios/ep1.jpg" },
+          { titulo: "Novo Colega", descr: "Kakeru se transfere para a escola.", img: "/episodios/ep5.jpg" },
+          { titulo: "Primeiro Aviso", descr: "Grupo tenta evitar primeira tragédia.", img: "/episodios/ep8.jpg" },
+          { titulo: "Culpa", descr: "Kakeru revela seu sentimento de culpa.", img: "/episodios/ep3.jpg" },
+          { titulo: "Confissão", descr: "Naho tenta confessar seus sentimentos.", img: "/episodios/ep10.jpg" },
+          { titulo: "Depressão", descr: "Kakeru começa a se isolar.", img: "/episodios/ep7.jpg" },
+          { titulo: "Intervenção", descr: "Amigos confrontam Kakeru.", img: "/episodios/ep12.jpg" },
+          { titulo: "Futuro Alterado", descr: "Resultado dos esforços do grupo.", img: "/episodios/ep4.jpg" }
+        ]
+      },
+      {
+        id: 136,
+        titulo: "Plastic Memories",
+        foto: "/catalogo/plasticmemories.jpg",
+        descricao: "Em um futuro onde androides têm vida útil limitada, um funcionário de recuperação ajuda a coletar unidades que expiraram.",
+        descricaoDetalhes: "Em um futuro onde androides têm vida útil limitada, um funcionário de recuperação ajuda a coletar unidades que expiraram.",
+        fotoDescricao: "/descricao/padrao-fotoDescr.png",
+        fotosBanner: ["/Carroselimg/padrao-car1.png", "/Carroselimg/padrao-car2.png"],
+        episodios: [
+          { titulo: "Primeiro Dia", descr: "Tsukasa conhece Isla.", img: "/episodios/ep2.jpg" },
+          { titulo: "Recuperação", descr: "Primeira missão de coleta juntos.", img: "/episodios/ep6.jpg" },
+          { titulo: "Memórias", descr: "Isla revela seu medo de expirar.", img: "/episodios/ep9.jpg" },
+          { titulo: "Festa", descr: "Equipe comemora aniversário de Isla.", img: "/episodios/ep4.jpg" },
+          { titulo: "Tempo Limitado", descr: "Isla começa a apresentar falhas.", img: "/episodios/ep11.jpg" },
+          { titulo: "Confissão", descr: "Tsukasa declara seu amor.", img: "/episodios/ep3.jpg" },
+          { titulo: "Último Dia", descr: "Isla enfrenta seu fim iminente.", img: "/episodios/ep12.jpg" },
+          { titulo: "Despedida", descr: "Tsukasa realiza a coleta final.", img: "/episodios/ep7.jpg" }
+        ]
+      },
+      {
+        id: 137,
+        titulo: "I Want to Eat Your Pancreas",
+        foto: "/catalogo/pancreas.jpg",
+        descricao: "Um estudante solitário descobre que sua colega de classe popular está morrendo de uma doença no pâncreas e se aproxima dela.",
+        descricaoDetalhes: "Um estudante solitário descobre que sua colega de classe popular está morrendo de uma doença no pâncreas e se aproxima dela.",
+        fotoDescricao: "/descricao/padrao-fotoDescr.png",
+        fotosBanner: ["/Carroselimg/padrao-car1.png", "/Carroselimg/padrao-car2.png"],
+        episodios: [
+          { titulo: "O Diário", descr: "Haruki encontra o diário de Sakura.", img: "/episodios/ep1.jpg" },
+          { titulo: "Verdade Revelada", descr: "Sakura conta sobre sua doença.", img: "/episodios/ep5.jpg" },
+          { titulo: "Lista de Desejos", descr: "Começam a cumprir os desejos dela.", img: "/episodios/ep8.jpg" },
+          { titulo: "Viagem", descr: "Viajam juntos para a praia.", img: "/episodios/ep3.jpg" },
+          { titulo: "Conflito", descr: "Haruki se afasta temporariamente.", img: "/episodios/ep10.jpg" },
+          { titulo: "Reconciliação", descr: "Haruki percebe seus sentimentos.", img: "/episodios/ep7.jpg" },
+          { titulo: "Acidente", descr: "Sakura sofre um incidente inesperado.", img: "/episodios/ep12.jpg" },
+          { titulo: "Legado", descr: "Haruki lida com o luto.", img: "/episodios/ep4.jpg" }
+        ]
+      },
+      {
+        id: 138,
+        titulo: "Anthem of the Heart",
+        foto: "/catalogo/anthem.jpg",
+        descricao: "Uma garota incapaz de falar devido a um trauma infantil se expressa através da música em um projeto escolar.",
+        descricaoDetalhes: "Uma garota incapaz de falar devido a um trauma infantil se expressa através da música em um projeto escolar.",
+        fotoDescricao: "/descricao/padrao-fotoDescr.png",
+        fotosBanner: ["/Carroselimg/padrao-car1.png", "/Carroselimg/padrao-car2.png"],
+        episodios: [
+          { titulo: "O Ovo", descr: "Jun é amaldiçoada pelo Ovo da Dor.", img: "/episodios/ep2.jpg" },
+          { titulo: "Comitê Musical", descr: "Jun é forçada a participar.", img: "/episodios/ep6.jpg" },
+          { titulo: "Canção", descr: "Jun descobre que pode cantar.", img: "/episodios/ep9.jpg" },
+          { titulo: "Trauma", descr: "Verdade sobre seu mutismo é revelada.", img: "/episodios/ep4.jpg" },
+          { titulo: "Amor", descr: "Jun se apaixona por Takumi.", img: "/episodios/ep11.jpg" },
+          { titulo: "Conflito", descr: "Relacionamento da equipe se desgasta.", img: "/episodios/ep3.jpg" },
+          { titulo: "Performance", descr: "Apresentação do musical escolar.", img: "/episodios/ep12.jpg" },
+          { titulo: "Cura", descr: "Jun enfrenta seu trauma infantil.", img: "/episodios/ep7.jpg" }
+        ]
+      },
+      {
+        id: 139,
+        titulo: "Scum's Wish",
+        foto: "/catalogo/scumswish.jpg",
+        descricao: "Estudantes envolvidos em relacionamentos não correspondidos formam um vínculo complexo baseado em desejo e solidão.",
+        descricaoDetalhes: "Estudantes envolvidos em relacionamentos não correspondidos formam um vínculo complexo baseado em desejo e solidão.",
+        fotoDescricao: "/descricao/padrao-fotoDescr.png",
+        fotosBanner: ["/Carroselimg/padrao-car1.png", "/Carroselimg/padrao-car2.png"],
+        episodios: [
+          { titulo: "Pacto", descr: "Hanabi e Mugi começam seu relacionamento falso.", img: "/episodios/ep1.jpg" },
+          { titulo: "Obsessão", descr: "Hanabi persegue Narumi sensei.", img: "/episodios/ep5.jpg" },
+          { titulo: "Ciúmes", descr: "Mugi se aproxima de Akane.", img: "/episodios/ep8.jpg" },
+          { titulo: "Vergonha", descr: "Hanabi é descoberta por Sanae.", img: "/episodios/ep3.jpg" },
+          { titulo: "Confronto", descr: "Mugi desafia Narumi sensei.", img: "/episodios/ep10.jpg" },
+          { titulo: "Traição", descr: "Akane revela sua verdadeira natureza.", img: "/episodios/ep7.jpg" },
+          { titulo: "Queda", descr: "Hanabi tem crise emocional.", img: "/episodios/ep12.jpg" },
+          { titulo: "Partida", descr: "Hanabi e Mugi seguem caminhos separados.", img: "/episodios/ep4.jpg" }
+        ]
+      },
+      {
+        id: 140,
+        titulo: "5 Centimeters per Second",
+        foto: "/catalogo/5cm.jpg",
+        descricao: "A história de um amor de infância que se desfaz com o tempo e a distância, mostrado em três atos emocionais.",
+        descricaoDetalhes: "A história de um amor de infância que se desfaz com o tempo e a distância, mostrado em três atos emocionais.",
+        fotoDescricao: "/descricao/padrao-fotoDescr.png",
+        fotosBanner: ["/Carroselimg/padrao-car1.png", "/Carroselimg/padrao-car2.png"],
+        episodios: [
+          { titulo: "Flor de Cerejeira", descr: "Takaki e Akari na infância.", img: "/episodios/ep2.jpg" },
+          { titulo: "Trem na Neve", descr: "Takaki viaja para ver Akari.", img: "/episodios/ep6.jpg" },
+          { titulo: "Despedida", descr: "Akari se muda para outra cidade.", img: "/episodios/ep9.jpg" },
+          { titulo: "Novo Amor", descr: "Kanae se apaixona por Takaki.", img: "/episodios/ep4.jpg" },
+          { titulo: "Letras Não Enviadas", descr: "Takaki escreve cartas que nunca manda.", img: "/episodios/ep11.jpg" },
+          { titulo: "Adultos", descr: "Takaki e Akari como adultos.", img: "/episodios/ep3.jpg" },
+          { titulo: "Encontro Casual", descr: "Eles quase se cruzam na rua.", img: "/episodios/ep12.jpg" },
+          { titulo: "Seguir Em Frente", descr: "Takaki finalmente supera o passado.", img: "/episodios/ep7.jpg" }
+        ]
+      },
+    
+    {
+      id: 141,
+      titulo: "Mushishi",
+      foto: "/catalogo/mushishi.jpg",
+      descricao: "Ginko viaja pelo Japão feudal investigando criaturas espirituais chamadas Mushi e ajudando pessoas afetadas por elas.",
+      descricaoDetalhes: "Ginko viaja pelo Japão feudal investigando criaturas espirituais chamadas Mushi e ajudando pessoas afetadas por elas.",
+      fotoDescricao: "/descricao/padrao-fotoDescr.png",
+      fotosBanner: ["/Carroselimg/padrao-car1.png", "/Carroselimg/padrao-car2.png"],
+      episodios: [
+        { titulo: "O Verde dos Olhos", descr: "Ginko ajuda uma vila com mushi que afeta a visão.", img: "/episodios/ep3.jpg" },
+        { titulo: "O Travesseiro de Cabelo", descr: "Uma misteriosa doença capilar se espalha.", img: "/episodios/ep7.jpg" },
+        { titulo: "Ponte dos Sonhos", descr: "Uma ponte que conecta realidades diferentes.", img: "/episodios/ep11.jpg" },
+        { titulo: "O Banho das Serpentes", descr: "Águas termais habitadas por mushi.", img: "/episodios/ep2.jpg" },
+        { titulo: "O Céu da Meia-Noite", descr: "Estrelas que não deveriam existir aparecem.", img: "/episodios/ep9.jpg" },
+        { titulo: "O Caminho das Névoas", descr: "Uma estrada que desaparece com o orvalho.", img: "/episodios/ep5.jpg" },
+        { titulo: "O Jardim das Cócegas", descr: "Plantas que riem ao serem tocadas.", img: "/episodios/ep12.jpg" },
+        { titulo: "A Carta do Passado", descr: "Mensagem de um antigo mushishi.", img: "/episodios/ep1.jpg" }
+      ]
+    },
+    {
+      id: 142,
+      titulo: "The Ancient Magus' Bride",
+      foto: "/catalogo/magusbride..jpg",
+      descricao: "Uma jovem vendida como escrava se torna aprendiz e noiva de um misterioso mago com cabeça de lobo em um mundo de magia.",
+      descricaoDetalhes: "Uma jovem vendida como escrava se torna aprendiz e noiva de um misterioso mago com cabeça de lobo em um mundo de magia.",
+      fotoDescricao: "/descricao/padrao-fotoDescr.png",
+      fotosBanner: ["/Carroselimg/padrao-car1.png", "/Carroselimg/padrao-car2.png"],
+      episodios: [
+        { titulo: "Criança das Sombras", descr: "Chise é comprada por Elias.", img: "/episodios/ep1.jpg" },
+        { titulo: "Balanceamento", descr: "Primeiras lições de magia.", img: "/episodios/ep4.jpg" },
+        { titulo: "O Dragão da Ilha", descr: "Encontro com um dragão ancião.", img: "/episodios/ep8.jpg" },
+        { titulo: "A Fada da Morte", descr: "Visita ao reino das fadas.", img: "/episodios/ep12.jpg" },
+        { titulo: "O Segredo de Elias", descr: "Passado do mago é revelado.", img: "/episodios/ep3.jpg" },
+        { titulo: "Cartomante", descr: "Leitura de tarô com consequências.", img: "/episodios/ep6.jpg" },
+        { titulo: "Cães do Inferno", descr: "Ataque de criaturas sombrias.", img: "/episodios/ep10.jpg" },
+        { titulo: "Escolha de Chise", descr: "Decisão sobre seu futuro mágico.", img: "/episodios/ep7.jpg" }
+      ]
+    },
+    {
+      id: 143,
+      titulo: "Little Witch Academia",
+      foto: "/catalogo/littlewitch.jpg",
+      descricao: "Akomi Kagari entra em uma academia de magia inspirada por sua bruxa favorita e vive aventuras mágicas com suas amigas.",
+      descricaoDetalhes: "Akomi Kagari entra em uma academia de magia inspirada por sua bruxa favorita e vive aventuras mágicas com suas amigas.",
+      fotoDescricao: "/descricao/padrao-fotoDescr.png",
+      fotosBanner: ["/Carroselimg/padrao-car1.png", "/Carroselimg/padrao-car2.png"],
+      episodios: [
+        { titulo: "O Grande Voo", descr: "Atsuko chega à Luna Nova.", img: "/episodios/ep2.jpg" },
+        { titulo: "Vassoura Rebelde", descr: "Problemas na aula de voo.", img: "/episodios/ep5.jpg" },
+        { titulo: "O Torneio de Magia", descr: "Competição entre casas.", img: "/episodios/ep9.jpg" },
+        { titulo: "Segredos da Shiny Rod", descr: "A varinha especial de Akko.", img: "/episodios/ep11.jpg" },
+        { titulo: "A Bruxa da Floresta", descr: "Encontro com uma mestra reclusa.", img: "/episodios/ep3.jpg" },
+        { titulo: "Feitiço do Arco-Íris", descr: "Tentativa de magia avançada.", img: "/episodios/ep7.jpg" },
+        { titulo: "Crise na Academia", descr: "A magia começa a desaparecer.", img: "/episodios/ep12.jpg" },
+        { titulo: "O Retorno de Chariot", descr: "Desfecho da jornada de Akko.", img: "/episodios/ep1.jpg" }
+      ]
+    },
+    {
+      id: 144,
+      titulo: "The Twelve Kingdoms",
+      foto: "/catalogo/12kingdoms.jpg",
+      descricao: "Uma estudante é transportada para um mundo fantástico onde descobre ser a legítima governante de um dos doze reinos.",
+      descricaoDetalhes: "Uma estudante é transportada para um mundo fantástico onde descobre ser a legítima governante de um dos doze reinos.",
+      fotoDescricao: "/descricao/padrao-fotoDescr.png",
+      fotosBanner: ["/Carroselimg/padrao-car1.png", "/Carroselimg/padrao-car2.png"],
+      episodios: [
+        { titulo: "O Mar da Fortuna", descr: "Youko é levada para outro mundo.", img: "/episodios/ep1.jpg" },
+        { titulo: "A Princesa de Kei", descr: "Descoberta de sua verdadeira identidade.", img: "/episodios/ep5.jpg" },
+        { titulo: "Traição no Palácio", descr: "Conselheiros contra a nova rainha.", img: "/episodios/ep8.jpg" },
+        { titulo: "Jornada de Autoconhecimento", descr: "Youko enfrenta seus demônios interiores.", img: "/episodios/ep12.jpg" },
+        { titulo: "O Rei de En", descr: "Encontro com o misterioso rei.", img: "/episodios/ep3.jpg" },
+        { titulo: "Besta de Ouro", descr: "Acompanhante místico de Youko.", img: "/episodios/ep7.jpg" },
+        { titulo: "Guerra de Sucessão", descr: "Conflito pelo trono vazio.", img: "/episodios/ep10.jpg" },
+        { titulo: "Coroa da Virtude", descr: "Youko aceita seu destino.", img: "/episodios/ep4.jpg" }
+      ]
+    },
+    {
+      id: 145,
+      titulo: "Spice and Wolf",
+      foto: "/catalogo/spiceandwolf.jpg",
+      descricao: "Um comerciante viaja com uma deusa lobo em forma humana, misturando economia medieval e romance sobrenatural.",
+      descricaoDetalhes: "Um comerciante viaja com uma deusa lobo em forma humana, misturando economia medieval e romance sobrenatural.",
+      fotoDescricao: "/descricao/padrao-fotoDescr.png",
+      fotosBanner: ["/Carroselimg/padrao-car1.png", "/Carroselimg/padrao-car2.png"],
+      episodios: [
+        { titulo: "Deusa da Colheita", descr: "Lawrence encontra Holo.", img: "/episodios/ep2.jpg" },
+        { titulo: "Negócio de Peles", descr: "Primeira aventura comercial.", img: "/episodios/ep6.jpg" },
+        { titulo: "Crise Monetária", descr: "Golpe com moedas falsas.", img: "/episodios/ep9.jpg" },
+        { titulo: "Cidade dos Mercadores", descr: "Confronto com um antigo rival.", img: "/episodios/ep12.jpg" },
+        { titulo: "Contrato de Companhia", descr: "Acordo comercial arriscado.", img: "/episodios/ep3.jpg" },
+        { titulo: "Festa da Cerveja", descr: "Holo experimenta bebidas alcoólicas.", img: "/episodios/ep7.jpg" },
+        { titulo: "Separação Temporária", descr: "Lawrence e Holo se distanciam.", img: "/episodios/ep11.jpg" },
+        { titulo: "Juramento de Viagem", descr: "Decisão de continuar juntos.", img: "/episodios/ep1.jpg" }
+      ]
+    },
+    {
+      id: 146,
+      titulo: "Maquia: When the Promised Flower Blooms",
+      foto: "/catalogo/maquia.jpg",
+      descricao: "Uma jovem imortal adota um bebê humano e aprende sobre amor materno enquanto o vê crescer e envelhecer.",
+      descricaoDetalhes: "Uma jovem imortal adota um bebê humano e aprende sobre amor materno enquanto o vê crescer e envelhecer.",
+      fotoDescricao: "/descricao/padrao-fotoDescr.png",
+      fotosBanner: ["/Carroselimg/padrao-car1.png", "/Carroselimg/padrao-car2.png"],
+      episodios: [
+        { titulo: "O Último Iorph", descr: "Maquia escapa da invasão.", img: "/episodios/ep1.jpg" },
+        { titulo: "Encontro no Bosque", descr: "Encontra o bebê abandonado.", img: "/episodios/ep3.jpg" },
+        { titulo: "Primeiras Palavras", descr: "Ariel chama Maquia de mãe.", img: "/episodios/ep6.jpg" },
+        { titulo: "Cidade dos Humanos", descr: "Tentativa de vida normal.", img: "/episodios/ep9.jpg" },
+        { titulo: "Adolescência", descr: "Ariel cresce e questiona sua mãe.", img: "/episodios/ep12.jpg" },
+        { titulo: "Guerra e Separação", descr: "Conflitos os afastam.", img: "/episodios/ep4.jpg" },
+        { titulo: "Reencontro", descr: "Maquia encontra Ariel adulto.", img: "/episodios/ep8.jpg" },
+        { titulo: "Flor Prometida", descr: "O ciclo da vida se completa.", img: "/episodios/ep5.jpg" }
+      ]
+    },
+    {
+      id: 148,
+      titulo: "Moribito: Guardian of the Spirit",
+      foto: "/catalogo/moribito..jpg",
+      descricao: "Uma guerreira é contratada para proteger um príncipe possuído por um espírito aquático que pode causar secas ou inundações.",
+      descricaoDetalhes: "Uma guerreira é contratada para proteger um príncipe possuído por um espírito aquático que pode causar secas ou inundações.",
+      fotoDescricao: "/descricao/padrao-fotoDescr.png",
+      fotosBanner: ["/Carroselimg/padrao-car1.png", "/Carroselimg/padrao-car2.png"],
+      episodios: [
+        { titulo: "A Guerreira e o Príncipe", descr: "Balsa aceita a missão.", img: "/episodios/ep2.jpg" },
+        { titulo: "Fuga do Palácio", descr: "Escape com Chagum.", img: "/episodios/ep5.jpg" },
+        { titulo: "Caçadores Reais", descr: "Perseguição implacável.", img: "/episodios/ep8.jpg" },
+        { titulo: "Segredos do Espírito", descr: "Natureza do ovo de água.", img: "/episodios/ep12.jpg" },
+        { titulo: "Inverno Rigoroso", descr: "Sobrevivência na neve.", img: "/episodios/ep3.jpg" },
+        { titulo: "Profecia das Estrelas", descr: "Destino de Chagum.", img: "/episodios/ep7.jpg" },
+        { titulo: "Sacrifício", descr: "Balsa enfrenta seu passado.", img: "/episodios/ep11.jpg" },
+        { titulo: "Ritual Final", descr: "Libertação do espírito.", img: "/episodios/ep1.jpg" }
+      ]
+    },
+    {
+      id: 149,
+      titulo: "Somali and the Forest Spirit",
+      foto: "/catalogo/somali.jpg",
+      descricao: "Um golem protetor e uma pequena humana viajam por um mundo mágico em busca dos parentes desaparecidos da garota.",
+      descricaoDetalhes: "Um golem protetor e uma pequena humana viajam por um mundo mágico em busca dos parentes desaparecidos da garota.",
+      fotoDescricao: "/descricao/padrao-fotoDescr.png",
+      fotosBanner: ["/Carroselimg/padrao-car1.png", "/Carroselimg/padrao-car2.png"],
+      episodios: [
+        { titulo: "Criança da Floresta", descr: "Golem encontra Somali.", img: "/episodios/ep1.jpg" },
+        { titulo: "Cidade dos Minotauros", descr: "Primeira parada na jornada.", img: "/episodios/ep4.jpg" },
+        { titulo: "Feira das Bruxas", descr: "Encontro com vendedores misteriosos.", img: "/episodios/ep7.jpg" },
+        { titulo: "Navio Voador", descr: "Viagem aérea perigosa.", img: "/episodios/ep11.jpg" },
+        { titulo: "Biblioteca Proibida", descr: "Busca por informações.", img: "/episodios/ep3.jpg" },
+        { titulo: "Vila dos Fantasmas", descr: "Encontro com espíritos pacíficos.", img: "/episodios/ep6.jpg" },
+        { titulo: "Relógio de Vida", descr: "Tempo limitado do Golem.", img: "/episodios/ep10.jpg" },
+        { titulo: "Jardim dos Humanos", descr: "Pista final sobre os pais.", img: "/episodios/ep12.jpg" }
+      ]
+    },
+    {
+      id: 150,
+      titulo: "The Dragon Prince",
+      foto: "/catalogo/dragonprince.jpg",
+      descricao: "Dois príncipes humanos e uma elfa assassina se unem para devolver um filhote de dragão e evitar uma guerra entre seus povos.",
+      descricaoDetalhes: "Dois príncipes humanos e uma elfa assassina se unem para devolver um filhote de dragão e evitar uma guerra entre seus povos.",
+      fotoDescricao: "/descricao/padrao-fotoDescr.png",
+      fotosBanner: ["/Carroselimg/padrao-car1.png", "/Carroselimg/padrao-car2.png"],
+      episodios: [
+        { titulo: "O Ovo Perdido", descr: "Descoberta do filhote de dragão.", img: "/episodios/ep2.jpg" },
+        { titulo: "Aliança Improvável", descr: "Rayla junta-se aos príncipes.", img: "/episodios/ep5.jpg" },
+        { titulo: "Floresta Encantada", descr: "Perigos na jornada.", img: "/episodios/ep8.jpg" },
+        { titulo: "Traição", descr: "Conflito no grupo.", img: "/episodios/ep12.jpg" },
+        { titulo: "Magia do Céu", descr: "Callum aprende magia primal.", img: "/episodios/ep3.jpg" },
+        { titulo: "Reino da Lua", descr: "Viagem às terras élficas.", img: "/episodios/ep7.jpg" },
+        { titulo: "Batalha da Tempestade", descr: "Confronto com Viren.", img: "/episodios/ep10.jpg" },
+        { titulo: "Retorno do Príncipe", descr: "O dragão volta para casa.", img: "/episodios/ep1.jpg" }
+      ]
+    }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
 ];
 
 export default catalogo;
